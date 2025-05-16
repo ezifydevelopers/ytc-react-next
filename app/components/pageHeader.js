@@ -3,10 +3,9 @@ import React from 'react';
 const PageHeader = () => {
     return (
         <div className="bg-white rounded-xl overflow-hidden shadow-md">
-            {/* Header Section */}
             <div className="relative h-[300px] md:h-[350px] w-full">
                 <img
-                    src="/homecare.jpg" // Make sure you add this image in /public/homecare.jpg
+                    src="/homecare.jpg"
                     alt="Home Care"
                     className="w-full h-full object-cover"
                 />
@@ -16,7 +15,6 @@ const PageHeader = () => {
                     </h1>
                 </div>
 
-                {/* Breadcrumb */}
                 <div className="absolute bottom-4 right-6 text-white text-sm md:text-base flex items-center space-x-2">
                     <span className="hover:underline cursor-pointer">Home</span>
                     <span>→</span>
@@ -24,7 +22,6 @@ const PageHeader = () => {
                 </div>
             </div>
 
-            {/* Content Section */}
             <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-start justify-between">
                 <div className="md:w-2/3 text-gray-800 text-base md:text-lg leading-relaxed">
                     <p>
@@ -37,7 +34,6 @@ const PageHeader = () => {
                     </p>
                 </div>
 
-                {/* Call Section */}
                 <div className="flex items-center gap-4">
                     <div className="p-4 bg-gray-900 text-white rounded-full">
                         <svg
