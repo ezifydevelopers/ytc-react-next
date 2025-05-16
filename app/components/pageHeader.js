@@ -2,29 +2,33 @@ import React from 'react';
 
 const PageHeader = () => {
     return (
-        <div className="bg-white rounded-xl overflow-hidden shadow-md">
+        <div className="bg-white rounded-xl overflow-hidden shadow-md mx-5">
+            {/* Header Section */}
             <div className="relative h-[300px] md:h-[350px] w-full">
                 <img
-                    src="/homecare.jpg"
+                    src="images/faq1.webp"
                     alt="Home Care"
-                    className="w-full h-full object-cover"
+                    className="w-full object-cover h-full"
                 />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                    <h1 className="text-3xl md:text-5xl text-white font-semibold">
-                        24 Hour Home Care Services
-                    </h1>
-                </div>
+                <div className='container'>
+                    <div className="absolute md:bottom-4 bottom-20 left-5 md:left-40 text-white">
+                        <h1 className="text-3xl md:text-5xl text-white font-semibold">
+                            24 Hour Home Care Services
+                        </h1>
+                    </div>
 
-                <div className="absolute bottom-4 right-6 text-white text-sm md:text-base flex items-center space-x-2">
-                    <span className="hover:underline cursor-pointer">Home</span>
-                    <span>→</span>
-                    <span className="text-green-300">Staff For 24 Hour Home Care</span>
+                    <div className="absolute md:bottom-4 bottom-10 left-5 md:left-300 text-white text-sm md:text-base flex items-center space-x-2">
+                        <span className="hover:underline cursor-pointer">Home</span>
+                        <span>→</span>
+                        <span className="text-green-300">Staff For 24 Hour Home Care</span>
+                    </div>
                 </div>
             </div>
 
-            <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-start justify-between">
-                <div className="md:w-2/3 text-gray-800 text-base md:text-lg leading-relaxed">
-                    <p>
+            {/* Content Section */}
+            <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center justify-between">
+                <div className="md:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
+                    <p className="md:ml-30">
                         YTC Healthcare supports seniors and individuals with complex needs who require
                         reliable, attentive care throughout the day and night. Our 24-hour{' '}
                         <span className="text-green-600">in-home care services</span> are designed to provide
@@ -34,7 +38,8 @@ const PageHeader = () => {
                     </p>
                 </div>
 
-                <div className="flex items-center gap-4">
+                {/* Call Section */}
+                <div className="flex items-center gap-4 md:mr-30">
                     <div className="p-4 bg-gray-900 text-white rounded-full">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
