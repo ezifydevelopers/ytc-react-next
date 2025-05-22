@@ -12,3 +12,18 @@ body {
   background: url('/images/footer-icon.webp') no-repeat;
   background-position: bottom right;
 }
+
+.hero-section {
+  background: url('/images/hero-section-bg.webp') no-repeat;
+}
+
+.staffing-solution {
+    background: url(/images/staffing-image.webp) 100% center / cover no-repeat;
+    background-position: 106px center;
+}
+.salary-guide-inner {
+  background: url('/images/Salary-Guide-banner-05.webp');
+}
+.healthcarebox {
+  box-shadow: 0 5px 0 0px #0000001a;
+}
