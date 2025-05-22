@@ -1,40 +1,41 @@
 import React from 'react';
 
-const PageHeader = () => {
+const PageHeader = ({ img, title, description }) => {
     return (
         <div className="bg-white rounded-xl overflow-hidden shadow-md mx-5">
             {/* Header Section */}
-            <div className="relative h-[300px] md:h-[350px] w-full">
-                <img
-                    src="images/faq1.webp"
+            <div className="relative h-[300px] w-full">
+                <div
+                    // src={img}
                     alt="Home Care"
                     className="w-full object-cover h-full"
+                    style={{
+                        backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 62, 80, 0.9)), url(${img})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                        backgroundRepeat: 'no-repeat',  
+                    }}
                 />
                 <div className='container'>
                     <div className="absolute md:bottom-4 bottom-20 left-5 md:left-40 text-white">
                         <h1 className="text-3xl md:text-5xl text-white font-semibold">
-                            24 Hour Home Care Services
+                            {title}
                         </h1>
                     </div>
 
                     <div className="absolute md:bottom-4 bottom-10 left-5 md:left-300 text-white text-sm md:text-base flex items-center space-x-2">
                         <span className="hover:underline cursor-pointer">Home</span>
                         <span>→</span>
-                        <span className="text-green-300">Staff For 24 Hour Home Care</span>
+                        <span className="text-green-300">{title}</span>
                     </div>
                 </div>
             </div>
 
             {/* Content Section */}
-            <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center justify-between">
+            {description && <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center justify-between">
                 <div className="md:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
                     <p className="md:ml-30">
-                        YTC Healthcare supports seniors and individuals with complex needs who require
-                        reliable, attentive care throughout the day and night. Our 24-hour{' '}
-                        <span className="text-green-600">in-home care services</span> are designed to provide
-                        continuous support, ensuring that every client receives supervision, assistance, and
-                        comfort without interruption. Backed by a skilled team of caregivers, we deliver the
-                        quality of a professional care facility in one place, which matters most, the home.
+                        {description}
                     </p>
                 </div>
 
@@ -63,7 +64,7 @@ const PageHeader = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>}
         </div>
     );
 };

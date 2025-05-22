@@ -12,3 +12,14 @@ body {
   background: url('/images/footer-icon.webp') no-repeat;
   background-position: bottom right;
 }
+
+.checkout-form-list input[type="text"], .checkout-form-list input[type="password"], .checkout-form-list input[type="email"], .checkout-form-list input[type="date"], .checkout-form-list textarea, .checkout-form-list .select {
+  background: #ffffff;
+  border: 1px solid #eaedff;
+  border-radius: 0;
+  height: 45px;
+  padding: 0 10 0 10px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+}

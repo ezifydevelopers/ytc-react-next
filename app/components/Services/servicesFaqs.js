@@ -25,7 +25,7 @@ const faqs = [
   },
 ];
 
-export default function FaqAccordion() {
+export default function FaqAccordion({data}) {
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggle = (index) => {
@@ -34,13 +34,13 @@ export default function FaqAccordion() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-15">
-      <h2 className="text-3xl font-bold mb-4">FAQs About 24-Hours Home Care Services</h2>
+      <h2 className="text-3xl font-bold mb-4">{data.title}</h2>
       <p className="text-gray-600 mb-6">
-        There are many questions about the service, we have selected frequently asked questions about this service. If you do not see your answer, please get in touch with us for more queries.
+        {data.description}
       </p>
 
       <div className="space-y-4">
-        {faqs.map((faq, index) => (
+        {data.faqs.map((faq, index) => (
           <div
             key={index}
             className={`bg-white border border-gray-300 rounded-xl transition-all duration-300 ${
