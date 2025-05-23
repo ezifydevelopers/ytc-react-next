@@ -56,10 +56,10 @@ export default function ClientSatisfactionSection() {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-11">
+            <div className="flex flex-wrap gap-4 md:gap-[4%]">
                 {services.map((item, index) => {
-                    return <div key={index} className="relative w-[48%] bg-white border  border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition healthcarebox">
-                        <div className="flex items-center gap-10">
+                    return <div key={index} className="relative w-[100%] md:w-[48%] md:mb-[45px] bg-white border  border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition healthcarebox">
+                        <div className="flex items-center gap-4 lg:gap-10">
                             <div className="flex-shrink-0">
                                 <Image src={item.icon} width={100} height={100} alt="Icon" className="w-12 h-12" />
                             </div>

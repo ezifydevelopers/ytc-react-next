@@ -22,7 +22,7 @@ const Header = () => {
     }
 
     return (
-        <div className='relative'>
+        <div className='relative w-[100%] flex'>
             {/* Default Header - animates up when sticky */}
             <header className={`w-full flex items-center justify-between px-4 sm:px-6 py-4 bg-white shadow transition-all duration-500 ease-in-out ${isSticky ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`}>
                 <div className="flex items-center space-x-4 w-full md:w-[20%]">
@@ -162,7 +162,7 @@ const Header = () => {
                             </div>
 
                             {/* Careers Dropdown */}
-                            <div className="relative group">
+                            <div className="relative group cursor-pointor">
                                 <button className="flex items-center py-[26px] hover:cursor-pointor hover:text-teal-600 transition-colors">
                                     Careers
                                     <ChevronDown className="h-4 w-4 ml-1" />
