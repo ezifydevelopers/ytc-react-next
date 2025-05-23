@@ -62,43 +62,67 @@ const Header = () => {
                     <div className='flex justify-between'>
                         <nav className="hidden md:flex items-center space-x-6 font-[500] text-[19px] w-[90%] justify-center">
                             <Link href="/" className="text-teal-600">Home</Link>
-                            
+
                             {/* Services Dropdown */}
-                            <div className="relative group">
-                                <button className="flex items-center space-x-1">Services <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
-                                <div className="absolute left-0 mt-2 w-56 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
-                                    <div className="py-1">
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b">Healthcare Workers</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Nurses</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Physicians</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Social Service Workers</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Support Workers (PSWs)</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Development Support Workers (DSWs)</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Child Care Workers</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Homecare Services</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">24 hours home care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">In-Home Nursing Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Senior Care</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Special Care Services</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Alzheimer's Care Services</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dementia Care Services</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Acquired Brain Injury Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ALS Patient</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Healthcare Facilities</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Hospitals</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Clinics</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Child Care Centers</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dental Facilities</Link>
+                            <div className="group">
+                                <button className="flex items-center space-x-1 mt-[26px] pb-[26px]">Services <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
+                                {/* <div className="absolute top-full left-0 w-full h-[10px] pointer-events-none"></div> */}
+                                <div className="absolute left-0 mt-[-7px] flex w-full origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
+                                    {/* group-hover:opacity-100 */}
+                                    <div className="w-full grid grid-cols-4">
+                                        <div className="m-0 md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3>
+                                            {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3>
+                                            {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3>
+                                            {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md font-semibold text-gray-700">Healthcare Facilities</h3>
+                                            {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center  gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <Link href="/about">About Us</Link>
-                            
+
                             {/* Resources Dropdown */}
                             <div className="relative group">
                                 <button className="flex items-center space-x-1">Resources <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
@@ -109,7 +133,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             {/* Careers Dropdown */}
                             <div className="relative group">
                                 <button className="flex items-center space-x-1">Careers <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
@@ -122,7 +146,7 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <Link href="/contact">Contact Us</Link>
                         </nav>
 
@@ -152,41 +176,65 @@ const Header = () => {
                     <div className='flex justify-between'>
                         <nav className="hidden md:flex items-center space-x-6 font-[500] text-[19px] w-[90%] justify-center">
                             <Link href="/">Home</Link>
-                            
+
                             {/* Only Services dropdown in sticky header */}
-                            <div className="relative group">
-                                <button className="flex items-center space-x-1">Services <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
-                                <div className="absolute left-0 mt-2 w-56 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
-                                    <div className="py-1">
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b">Healthcare Workers</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Nurses</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Physicians</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Social Service Workers</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Support Workers (PSWs)</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Development Support Workers (DSWs)</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Child Care Workers</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Homecare Services</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">24 hours home care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">In-Home Nursing Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Personal Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Senior Care</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Special Care Services</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Alzheimer's Care Services</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dementia Care Services</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Acquired Brain Injury Care</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ALS Patient</Link>
-                                        
-                                        <h3 className="px-4 py-2 text-sm font-semibold text-gray-700 border-b border-t mt-2">Healthcare Facilities</h3>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Hospitals</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Clinics</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Child Care Centers</Link>
-                                        <Link href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Dental Facilities</Link>
+                            <div className="group">
+                                <button className="flex items-center space-x-1 mt-[26px] pb-[26px]">Services <span><svg className='w-[14px] ml-[7px]' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" /></svg></span></button>
+                                {/* <div className="absolute top-full left-0 w-full h-[10px] pointer-events-none"></div> */}
+                                <div className="absolute left-0 mt-[-7px] flex w-full origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
+                                    {/* group-hover:opacity-100 */}
+                                    <div className="w-full grid grid-cols-4">
+                                        <div className="m-0 md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3>
+                                            {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3>
+                                            {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md border-r border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3>
+                                            {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
+
+                                        <div className="md:p-10">
+                                            <h3 className="px-4 py-2 text-md font-semibold text-gray-700">Healthcare Facilities</h3>
+                                            {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
+                                                <Link href="#" key={item} className="flex items-center  gap-4 px-4 py-2 text-[17px] text-gray-700 hover:bg-gray-100">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                                    </svg>
+                                                    <span>{item}</span>
+                                                </Link>
+                                            ))}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <Link href="/about">About Us</Link>
                             <Link href="/blogs">Blogs</Link>
                             <Link href="/career">Career</Link>
@@ -206,3 +254,6 @@ const Header = () => {
 }
 
 export default Header
+
+
+

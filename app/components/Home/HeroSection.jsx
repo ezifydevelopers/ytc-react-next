@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroSection() {
     return (
         <div className="block pt-[50px] pb-[30px] px-[10px]">
-            <section className="hero-section bg-teal-700 text-white py-[85px] pb-[30px] px-[35px] relative overflow-hidden rounded-3xl flex flex-col md:flex-row items-center justify-between">
+            <section className="hero-section bg-teal-700 text-white py-[85px] pb-[30px] px-[35px] relative overflow-hidden rounded-3xl flex flex-col md:flex-row items-center justify-between z-[-1]">
                 <div className="max-w-2xl z-10">
                     <p className="text-sm font-semibold uppercase mb-2 tracking-wide">
                         Short on staff? <br />
