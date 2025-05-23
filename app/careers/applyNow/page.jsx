@@ -5,6 +5,7 @@ import * as Yup from "yup";
 import PageHeader from '@/app/components/pageHeader';
 import Header from '@/app/components/header';
 import Footer from '@/app/components/footer';
+import ResumeUpload from '@/app/components/ApplyNow/uploadResume';
 
 const countryOptions = [
     { value: "Afghanistan", label: "Afghanistan" },
@@ -658,27 +659,27 @@ const ApplyNow = () => {
                                     </Field>
                                     <ErrorMessage name="HowWillYouGetToWork" component="div" className="text-red-500 text-sm mt-1" />
                                 </div>
-                               
-                                <div className="checkout-form-list">
-                                    <label>
-                                        Additional Comments <span className="required">*</span>
-                                    </label>
-                                    <Field
-                                        as="textarea"
-                                        name="Message"
-                                        placeholder="Write Message"
-                                        style={{ height: "150px", padding: "10px" }}
-                                    />
-                                    <ErrorMessage name="Message" component="div" className="text-red-500 text-sm mt-1" />
-                                </div>
-
                             </div>
-                            <div className="">
-                                    {/* <ResumeUpload onFileUpload={handleFileUpload} resumeFile={resumeFile} /> */}
-                                </div>
-                            <button type="submit" className="tp-btn" disabled={isSubmitting} >
-                                {isSubmitting ? 'Sending...' : `Submit`} {!isSubmitting && <i className="fa-solid fa-arrow-right-long ms-1" />}
-                            </button>
+                            <div className="checkout-form-list my-5">
+                                <label>
+                                    Additional Comments <span className="required">*</span>
+                                </label>
+                                <Field
+                                    as="textarea"
+                                    name="Message"
+                                    placeholder="Write Message"
+                                    style={{ height: "150px", padding: "10px" }}
+                                />
+                                <ErrorMessage name="Message" component="div" className="text-red-500 text-sm mt-1" />
+                            </div>
+                            <div >
+                                <ResumeUpload onFileUpload={handleFileUpload} resumeFile={resumeFile} />
+                            </div>
+                            <div className='my-5'>
+                                <button type="submit" className="bg-teal-600 text-white px-6 py-4 rounded-2xl hover:bg-teal-700 transition w-fit" disabled={isSubmitting} >
+                                    {isSubmitting ? 'Sending...' : `Submit`} {!isSubmitting && <i className="fa-solid fa-arrow-right-long ms-1" />}
+                                </button>
+                            </div>
                         </Form>
                     )}
                 </Formik>
