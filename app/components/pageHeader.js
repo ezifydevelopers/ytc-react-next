@@ -13,7 +13,7 @@ const PageHeader = ({ img, title, description }) => {
                         backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 62, 80, 0.9)), url(${img})`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat',  
+                        backgroundRepeat: 'no-repeat',
                     }}
                 />
                 <div className='container'>
@@ -40,22 +40,12 @@ const PageHeader = ({ img, title, description }) => {
                 </div>
 
                 {/* Call Section */}
-                <div className="flex items-center gap-4 md:mr-30">
+                <div className="flex items-center gap-4 md:mr-40">
                     <div className="p-4 bg-gray-900 text-white rounded-full">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M15.05 5.05a7 7 0 011.414 1.414m3.536 3.536A7 7 0 0118.95 18.95m-3.536-3.536A7 7 0 015.05 5.05m13.9 0a9.969 9.969 0 01-3.414 7.778m0 0A9.969 9.969 0 015.05 18.95M12 4v1m0 14v1m8-8h1M4 12H3"
-                            />
-                        </svg>
+                        <div class="pxl-item--icon">
+                            <a href="tel:+1 365 737 4000" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M152,96V56a8,8,0,0,1,16,0V76.69l34.34-34.35a8,8,0,0,1,11.32,11.32L179.32,88H200a8,8,0,0,1,0,16H160A8,8,0,0,1,152,96Zm79.88,79.08A56.26,56.26,0,0,1,176,224C96.6,224,32,159.4,32,80A56.24,56.24,0,0,1,80.92,24.13a16,16,0,0,1,16.62,9.51l21.12,47.15,0,.12A16,16,0,0,1,117.39,96c-.18.27-.37.52-.57.77L96,121.45c7.49,15.22,23.41,31,38.83,38.51l24.34-20.71a8.12,8.12,0,0,1,.75-.56,16,16,0,0,1,15.17-1.4l.13.06,47.11,21.11A16,16,0,0,1,231.88,175.08Zm-15.88-2s-.07,0-.11,0h0l-47-21.05-24.35,20.71a6.84,6.84,0,0,1-.74.56,16,16,0,0,1-15.75,1.14c-18.73-9.05-37.4-27.58-46.46-46.11a16,16,0,0,1,1-15.7,6.13,6.13,0,0,1,.57-.77L104,87.15l-21-47a.61.61,0,0,1,0-.12A40.2,40.2,0,0,0,48,80,128.14,128.14,0,0,0,176,208,40.21,40.21,0,0,0,216,173.07Z"></path></svg>                                        </a>
+                        </div>
                     </div>
                     <div>
                         <p className="text-sm text-gray-600">Call Us When You Need Help!</p>

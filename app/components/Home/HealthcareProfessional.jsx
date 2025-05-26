@@ -44,7 +44,7 @@ const HealthcareProfessional = () => {
     ];
 
     return (
-        <section className="w-[75%] mx-auto px-4 py-10 md:pb-16 md:pt-4 bg-white">
+        <section className="md:w-[75%] mx-auto px-4 py-10 md:pb-16 md:pt-4 bg-white">
             <div className="px-4 pb-10 md:pb-16 bg-white text-center">
                 <div className="flex justify-center mb-4">
                     <Image src="/images/ic2.png" width={20} height={20} />

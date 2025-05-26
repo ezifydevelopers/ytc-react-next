@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function FAQCard() {
     return (
-        <div className="flex gap-8 px-12 py-10">
+        <div className="flex flex-col md:flex-row gap-8 px-5 md:px-12 md:py-10">
             <div className="bg-gradient-to-b from-[#359C8FA6] py-30 px-15 to-[#359C8F] text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">Frequently<br />Asked Questions.</h2>
                 <p className="text-sm md:text-base text-black mb-6">

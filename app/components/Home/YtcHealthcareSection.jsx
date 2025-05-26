@@ -26,21 +26,21 @@ export default function YtcHealthcareSection() {
         <section className="py-16 px-6 md:px-20 bg-white">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 {/* Left Content */}
-                <div className="md:col-span-2 flex bg-gray-100 p-24 rounded-2xl shadow-md gap-8">
-                    <div className="w-[50%] flex flex-col gap-[23px]">
+                <div className="md:col-span-2 flex flex-col md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8">
+                    <div className="md:w-[50%] w-[100%] flex flex-col gap-[23px] ">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
                             <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} /></span> Welcome to YTC Healthcare
                         </p>
-                        <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-6 mr-10">
+                        <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-6">
                             Filling Healthcare Staffing Shortages<br />
                             With Extensive Talent Pool
-                        </h2>
+                        </h2> 
 
                         <button className="bg-teal-600 text-white px-6 py-4 rounded-2xl hover:bg-teal-700 transition w-fit">
                             View More About Us
                         </button>
                     </div>
-                    <div className="w-[50%] flex items-center justify-center">
+                    <div className="md:w-[50%] w-[100%] flex items-center justify-center">
                         <p className="text-gray-600 text-justify">
                             We provide healthcare professionals who are skilled and ready to work. As a healthcare recruiting partner, we are meticulous about the candidates we choose to send to your facility. From locum tenens nurse practitioners to skilled travel nurses, we supply professionals who are smart, efficient, and focused on delivering patient-centered care, especially in underserved communities.
                         </p>
