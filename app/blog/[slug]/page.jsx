@@ -2,18 +2,20 @@
 
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import posts from "@/app/components/post.json";
+import blogs from "@/app/components/blogs.json";
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import BlogPageHeader from "@/app/components/blogs/BlogPageHeader";
 import RelativePosts from "@/app/components/blogs/RelativePosts";
 import Image from "next/image";
+import { motion, AnimatePresence } from 'framer-motion';
 
 const PostComponent = () => {
   const params = useParams();
   const slug = params.slug;
 
   const [post, setPost] = useState(null);
+  const [activeQuestion, setActiveQuestion] = useState(null);
 
   useEffect(() => {
     const content = posts[slug];
@@ -27,24 +29,29 @@ const PostComponent = () => {
     return <div className="text-center text-red-600">Service Not Found</div>;
   }
 
-  // Helper function to safely render content that might be string or object
+  
+
+  const toggleQuestion = (index) => {
+    setActiveQuestion(activeQuestion === index ? null : index);
+  };
+
   const renderContent = (content) => {
     if (typeof content === 'string') return content;
-    if (content?.text) return content.text; 
-    if (content?.title) return content.title; 
-    return JSON.stringify(content); 
+    if (content?.text) return content.text;
+    if (content?.title) return content.title;
+    return JSON.stringify(content);
   };
 
   return (
     <>
       <Header />
       <div className="mx-auto px-8 py-8">
-        <div className="max-w-[1360px] mx-auto px-7 mt-[50px]">
+        <div className="mt-[0px]">
           <div className="mb-8">
             <BlogPageHeader src="/images/post-1.webp" title={post.title || ''} />
           </div>
 
-          <div className="flex flex-wrap justify-between gap-8">
+          <div className="flex flex-wrap justify-between gap-8 max-w-[1360px] mx-auto ">
             <div className="w-full md:w-[840px]">
               <div className="mb-5">
                 <div className="flex gap-14 items-center text-[16px] text-[#051B2E]">
@@ -71,17 +78,17 @@ const PostComponent = () => {
                         {renderContent(section.section)}
                       </h2>
                     )}
-                    
+
                     {section.image && (
-                      <Image 
-                        src={section.image} 
-                        width={840} 
-                        height={517} 
+                      <Image
+                        src={section.image}
+                        width={840}
+                        height={517}
                         alt={section.imageAlt || `Section ${index + 1} image`}
                         className="my-4"
                       />
                     )}
-                    
+
                     {section.text && (
                       <p className="text-[15px] text-[#68747A]">
                         {renderContent(section.text)}
@@ -95,23 +102,41 @@ const PostComponent = () => {
                             {renderContent(subsection.section)}
                           </p>
                         )}
-                        
+
                         {subsection.text && (
                           <p className="text-[15px] text-[#68747A] mt-2">
                             {renderContent(subsection.text)}
                           </p>
                         )}
-                        
+
                         {subsection.image && (
-                          <Image 
-                            src={subsection.image} 
-                            width={840} 
-                            height={517} 
+                          <Image
+                            src={subsection.image}
+                            width={840}
+                            height={517}
                             alt={subsection.imageAlt || `Subsection ${subIndex + 1} image`}
                             className="md:p-8 my-4"
                           />
                         )}
-                        
+
+                        {subsection.title && (
+                          <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                            {renderContent(subsection.title)}
+                          </h2>
+                        )}
+
+                        {subsection.description && (
+                          <p className="text-[15px] text-[#68747A] mt-2">
+                            {renderContent(subsection.description)}
+                          </p>
+                        )}
+
+                        {subsection.description && (
+                          <p className="text-[15px] text-[#68747A] mt-2">
+                            {renderContent(subsection.text)}
+                          </p>
+                        )}
+
                         {subsection.list_title && (
                           <div className="my-4">
                             <p className="text-[15px] text-[#68747A] font-medium">
@@ -126,7 +151,89 @@ const PostComponent = () => {
                             </ul>
                           </div>
                         )}
+
+                        {subsection.list_title && (
+                          <div className="my-4">
+                            <p className="text-[15px] text-[#68747A] font-medium">
+                              {renderContent(subsection.list_title)}
+                            </p>
+                            <ul className="list-disc pl-6 space-y-2 mt-2">
+                              {subsection.list_items?.map((item, itemIndex) => (
+                                <li className="text-[15px] text-[#68747A]" key={itemIndex}>
+                                  {renderContent(item)}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
+
+                        {/* <div className="">
+                          {subsection.question && (
+                            <h4 className="text-[20px] font-semibold text-[#202838] mt-2">
+                              {renderContent(subsection.question)}
+                            </h4>
+                          )}
+                          {subsection.answer && (
+                            <p className="text-[15px] text-[#68747A] mt-2">
+                              {renderContent(subsection.answer)}
+                            </p>
+                          )}
+                        </div> */}
+
+
+                        {subsection.question && (
+                          <div className="border border-[#DADEE2] px-8 py-5 rounded-2xl mt-8">
+                            <h4
+                              className="text-[20px] font-semibold text-[#202838] cursor-pointer flex justify-between items-center"
+                              onClick={() => toggleQuestion(subIndex)}
+                            >
+                              {subsection.question}
+                              <span className="text-2xl font-normal">
+                                {activeQuestion === subIndex ? '−' : '+'}
+                              </span>
+                            </h4>
+                            <AnimatePresence>
+                              {activeQuestion === subIndex && (
+                                <motion.div
+                                  initial={{ opacity: 0, height: 0 }}
+                                  animate={{ opacity: 1, height: 'auto' }}
+                                  exit={{ opacity: 0, height: 0 }}
+                                  transition={{ duration: 0.3 }}
+                                  className="overflow-hidden"
+                                >
+                                  <p className="text-[15px] text-[#68747A] py-2">
+                                    {subsection.answer}
+                                  </p>
+                                </motion.div>
+                              )}
+                            </AnimatePresence>
+                          </div>
+                        )}
+
                         
+
+
+                        {/* {subsection.section === "Frequently Asked Questions" && (
+                          <div className="my-4">
+                            <h2 className="text-[15px] text-[#68747A] font-medium">
+                              {subsection.section}
+                            </h2>
+                            <div className="space-y-4 mt-2">
+                              {subsection.subsections?.map((faq, faqIndex) => (
+                                <div key={faqIndex} className="pl-4">
+                                  <h3 className="text-[15px] text-[#68747A] font-semibold">
+                                    {faq.question}
+                                  </h3>
+                                  <p className="text-[15px] text-[#68747A] mt-1">
+                                    {faq.answer}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )} */}
+
                         {subsection.quote && (
                           <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-[15px] text-[#68747A]">
                             {renderContent(subsection.quote)}
@@ -136,6 +243,8 @@ const PostComponent = () => {
                     ))}
                   </section>
                 ))}
+
+
 
                 {post.citations && post.citations.length > 0 && (
                   <div className="text-sm text-gray-500 mt-12 pt-4 border-t">
@@ -158,7 +267,7 @@ const PostComponent = () => {
                 )}
               </article>
             </div>
-            
+
             <div className="w-full md:w-[390px]">
               <RelativePosts />
             </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PageHeader = ({ img, title, description }) => {
+const PageHeader = ({ img, title, description, className }) => {
     return (
-        <div className="bg-white rounded-xl overflow-hidden shadow-md mx-5">
+        <div className={`${className} bg-white rounded-xl overflow-hidden shadow-md mx-5`}>
             {/* Header Section */}
             <div className="relative h-[300px] w-full">
                 <div
