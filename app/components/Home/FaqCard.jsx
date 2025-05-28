@@ -14,7 +14,7 @@ export default function FAQCard() {
                 <div className="">
                     <div className="bg-[#0b2239] p-7 rounded-2xl inline-flex items-center justify-center">
                         <span className="text-white text-2xl">
-                            <Image src="/icons/faq-1.svg" width={50} height={50} />
+                            <Image src="/icons/faq-1.svg" width={50} height={50} alt="Ytc healthcare" />
                         </span>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ export default function FAQCard() {
                 <div className="">
                     <div className="bg-[#0b2239] p-7 rounded-2xl inline-flex items-center justify-center">
                         <span className="text-white text-2xl">
-                            <Image src="/icons/faq-2.svg" width={50} height={50} />
+                            <Image src="/icons/faq-2.svg" width={50} height={50} alt="Ytc healthcare" />
                         </span>
                     </div>
                 </div>

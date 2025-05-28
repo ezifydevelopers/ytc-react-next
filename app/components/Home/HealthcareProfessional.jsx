@@ -47,7 +47,7 @@ const HealthcareProfessional = () => {
         <section className="md:w-[75%] mx-auto px-4 py-10 md:pb-16 md:pt-4 bg-white">
             <div className="px-4 pb-10 md:pb-16 bg-white text-center">
                 <div className="flex justify-center mb-4">
-                    <Image src="/images/ic2.png" width={20} height={20} />
+                    <Image src="/images/ic2.png" width={20} height={20} alt="Health Care" />
                 </div>
 
                 <p className="text-sm md:text-base text-gray-500 mb-3">
@@ -66,8 +66,8 @@ const HealthcareProfessional = () => {
 
             <div className="px-4 py-10 md:px-12 lg:px-20 bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {services.map((service) => (
-                        <Link href={`/services/${service.id}`}>
+                    {services.map((service, index) => (
+                        <Link key={index} href={`/services/${service.id}`}>
                             <div
                                 key={service.id}
                                 className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"

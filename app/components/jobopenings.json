@@ -1,0 +1,111 @@
+[
+    {
+        "title": "Occupational Therapist",
+        "dueDate": "1st June 2025",
+        "description": "We are seeking a dedicated and compassionate Occupational Therapist to join our healthcare team...",
+        "responsibilities": [
+            "Conduct comprehensive assessments of patients to determine their occupational therapy needs.",
+            "Develop and implement personalized treatment plans based on individual patient evaluations.",
+            "Provide therapeutic interventions to enhance patients' physical, cognitive, and emotional well-being.",
+            "Collaborate with multidisciplinary teams, including physicians, nurses, and other healthcare professionals, to ensure coordinated patient care.",
+            "Educate patients and their families about treatment options and strategies for improving daily living skills.",
+            "Document patient progress and modify treatment plans as necessary based on ongoing evaluations.",
+            "Stay current with best practices in occupational therapy and participate in professional development opportunities."
+        ],
+        "requirements": [
+            "Valid Occupational Therapist license in the state of practice.",
+            "Experience in patient care, particularly in pediatrics or acute care settings is preferred.",
+            "Strong knowledge of medical terminology and case management practices.",
+            "Excellent communication skills to effectively interact with patients, families, and healthcare team members.",
+            "Ability to work collaboratively within a team-oriented environment.",
+            "Compassionate demeanor with a genuine desire to help others improve their quality of life."
+        ],
+        "jobTypeAndPay": "Full-time, Permanent & Pay: $52.95-$58.96 per hour"
+    },
+    {
+        "title": "Pharmacist",
+        "dueDate": "1st June 2025",
+        "description": "We are seeking a dedicated and knowledgeable Pharmacist to join our healthcare team...",
+        "responsibilities": [
+            "Review and interpret medication orders for accuracy and appropriateness.",
+            "Prepare and dispense medications in accordance with established protocols.",
+            "Provide clinical support in acute care environments, ensuring optimal medication administration.",
+            "Counsel patients on proper medication usage, potential side effects, and interactions.",
+            "Collaborate with physicians, nurses, and other healthcare staff to develop patient care plans.",
+            "Maintain accurate records of medication dispensation and patient profiles.",
+            "Stay updated on medical terminology and advancements in pharmacotherapy.",
+            "Participate in quality improvement initiatives related to medication safety and efficacy."
+        ],
+        "requirements": [
+            "Strong knowledge of hospital pharmacy operations, particularly in acute care settings.",
+            "Proficiency in medication administration techniques.",
+            "Experience or training in pediatrics is highly desirable.",
+            "Familiarity with medical terminology relevant to patient care.",
+            "Excellent communication skills for effective patient counseling and collaboration with healthcare teams.",
+            "Strong analytical skills to assess medication regimens and identify potential issues.",
+            "Ability to work efficiently under pressure while maintaining attention to detail."
+        ],
+        "jobTypeAndPay": "Full-time, Permanent & $35.00-$40.00 per hour"
+    },
+    {
+        "title": "Registered Nurse (RN)",
+        "dueDate": "1st June 2025",
+        "description": "Registered Nurse (RN)",
+        "responsibilities": [
+            "Provide comprehensive patient assessments and develop individualized care plans based on patient needs.",
+            "Administer medications and treatments as prescribed, ensuring adherence to safety protocols.",
+            "Monitor patients' vital signs and health status, documenting changes and communicating with the healthcare team.",
+            "Deliver direct patient care in various settings including pediatrics, senior care, and home health environments.",
+            "Collaborate with interdisciplinary teams to coordinate patient care and case management.",
+            "Educate patients and families on health management, medication administration, and preventive care practices.",
+            "Perform phlebotomy procedures as required for diagnostic testing.",
+            "Maintain accurate medical records in compliance with healthcare regulations."
+        ],
+        "requirements": [
+            "Current Registered Nurse (RN) license in good standing.",
+            "Experience in patient care settings; prior experience in senior care or assisted living is preferred.",
+            "Strong clinical skills in acute care and pediatrics are advantageous.",
+            "Proficiency in medication administration and familiarity with medical office procedures.",
+            "Excellent communication skills with the ability to work collaboratively within a team environment.",
+            "Strong organizational skills and attention to detail for effective case management.",
+            "Ability to handle multiple tasks efficiently while maintaining a compassionate approach to patient care."
+        ],
+        "jobTypeAndPay": "Full-time, Permanent & $30.00-$35.00 per hour"
+    },
+    {
+        "title": "Family Physician",
+        "dueDate": "1st June 2025",
+        "description": "We are seeking a dedicated and compassionate Family Medicine Physician to join our healthcare team...",
+        "responsibilities": [
+            "Conduct thorough patient assessments and evaluations to determine medical history and current health status.",
+            "Develop and implement individualized treatment plans based on patient needs, including pain management strategies.",
+            "Administer medications as prescribed and monitor patient responses to treatments.",
+            "Utilize electronic health record systems (Cerner, Epic) for accurate data collection and documentation.",
+            "Provide preventive care services, including vaccinations and health screenings for patients across all age groups, including pediatrics.",
+            "Collaborate with specialists and other healthcare providers to coordinate comprehensive care for patients.",
+            "Educate patients and their families about health conditions, treatment options, and preventive measures.",
+            "Maintain a clean and organized medical office environment, ensuring compliance with safety regulations."
+        ],
+        "requirements": [
+            "Board certification in Family Medicine or eligibility for board certification.",
+            "Proven experience in patient care within a hospital or medical office setting is preferred.",
+            "Familiarity with medical terminology and clinical practices relevant to family medicine.",
+            "Experience with electronic health record systems (Cerner, Epic) is highly desirable.",
+            "Strong communication skills to effectively interact with patients, families, and healthcare team members.",
+            "Ability to manage multiple tasks efficiently while providing high-quality patient care."
+        ],
+        "jobTypeAndPay": "Full-time, Permanent"
+    },
+    {
+        "title": "Family Physician",
+        "dueDate": "1st June 2025",
+        "description": "We are seeking a compassionate and dedicated Visiting Nurse to provide high-quality patient care in the comfort of their homes. The ideal candidate will possess strong nursing skills and a thorough understanding of medical terminology, ensuring that patients receive the best possible care tailored to their individual needs. As a Visiting Nurse, you will play a crucial role in promoting health and wellness while supporting patients and their families during recovery.",
+        "responsibilities": [
+            "Conduct comprehensive assessments of patients’ health status and needs in their home environment. Develop and implement individualized care plans based on patient assessments and medical history. Administer medications, treatments, and therapies as prescribed by physicians. Educate patients and their families on health management, medication adherence, and lifestyle modifications. Monitor patient progress and adjust care plans as necessary to achieve optimal health outcomes. Collaborate with healthcare teams to coordinate care and ensure continuity of services. Maintain accurate documentation of patient interactions, assessments, and care provided. Adhere to all safety protocols and infection control measures while delivering care."
+        ],
+        "requirements": [
+            "Valid nursing license (RN or LPN) in the state of practice. Proven experience in patient care, preferably in home health or community settings. Strong knowledge of medical terminology and nursing best practices. Excellent communication skills with the ability to build rapport with patients and families. Ability to work independently while managing time effectively. Compassionate demeanor with a commitment to providing high-quality patient-centered care. Must possess reliable transportation for travel between patient homes. Join our team as a Visiting Nurse and make a meaningful difference in the lives of those you serve!"
+        ],
+        "jobTypeAndPay": "Full-time, Permanent"
+    }
+]

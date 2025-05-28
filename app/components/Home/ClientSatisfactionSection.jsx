@@ -36,7 +36,7 @@ export default function ClientSatisfactionSection() {
                 {/* Text Section */}
                 <div className="md:max-w-4xl pr-18">
                     <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
-                        <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} /></span> Your Health is Our Top Goal
+                        <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Your Health is Our Top Goal
                     </p>
                     <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-4">
                         Here’s Why We Maintain 100% Client Satisfaction
