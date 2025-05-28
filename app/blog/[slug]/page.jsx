@@ -18,7 +18,7 @@ const PostComponent = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
 
   useEffect(() => {
-    const content = posts[slug];
+    const content = blogs[slug];
     if (!content) {
       console.warn("Content not found for slug:", slug);
     }
@@ -43,7 +43,7 @@ const PostComponent = () => {
   };
 
   return (
-    <>
+    <div className="single-post">
       <Header />
       <div className="mx-auto px-8 py-8">
         <div className="mt-[0px]">
@@ -275,7 +275,7 @@ const PostComponent = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

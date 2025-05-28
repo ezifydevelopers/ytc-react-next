@@ -29,7 +29,7 @@ export default function YtcHealthcareSection() {
                 <div className="md:col-span-2 flex flex-col md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8">
                     <div className="md:w-[50%] w-[100%] flex flex-col gap-[23px] ">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
-                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} /></span> Welcome to YTC Healthcare
+                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Welcome to YTC Healthcare
                         </p>
                         <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-6">
                             Filling Healthcare Staffing Shortages<br />
@@ -50,7 +50,7 @@ export default function YtcHealthcareSection() {
                 {/* Right Card */}
                 <div className="bg-teal-600 text-white pt-20 pb-30 px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out">
                     <p className="text-lg font-semibold flex items-center gap-2 mb-4 text-black">
-                        <span className="text-xl"><Image src="/images/ic1-golden.png" width={20} height={20} /></span> Our Mission
+                        <span className="text-xl"><Image src="/images/ic1-golden.png" width={20} height={20} alt="YTC Healthcare" /></span> Our Mission
                     </p>
                     <p className="leading-9 font-[600] text-lg min-h-[252px]">
                         {paragraphs[current]}
