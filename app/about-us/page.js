@@ -194,7 +194,7 @@ const AboutUs = () => {
                     </div>
                 </section>
             </div>
-            <div className="grid grid-cols-3 gap-4 items-center p-4 mb-5">
+            <div className="grid md:grid-cols-3 gap-4 items-center p-4 mb-5">
                 {/* First Empty Section */}
                 <div></div>
 
@@ -331,7 +331,7 @@ const AboutUs = () => {
                                 backgroundPosition: 'center',
                             }}
                         >
-                            <h2 className="absolute bottom-0 left-15 text-7xl font-extrabold text-white">Meet Medical Specialists</h2>
+                            <h2 className="absolute bottom-0 md:left-15 text-7xl font-extrabold text-white">Meet Medical Specialists</h2>
                         </div>
                         <div className="p-6">
                             <p className="text-lg text-[#051B2E] mb-4">
