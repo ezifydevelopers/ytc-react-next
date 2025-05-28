@@ -23,7 +23,7 @@ const PageHeader = ({ img, title, description }) => {
                         </h1>
                     </div>
 
-                    <div className="absolute md:bottom-4 bottom-10 left-5 md:left-300 text-white text-sm md:text-base flex items-center space-x-2">
+                    <div className="absolute md:bottom-4 bottom-10 right-40 md:right-30 text-white text-sm md:text-base flex items-center space-x-2">
                         <span className="hover:underline cursor-pointer">Home</span>
                         <span>→</span>
                         <span className="text-green-300">{title}</span>
@@ -32,15 +32,15 @@ const PageHeader = ({ img, title, description }) => {
             </div>
 
             {/* Content Section */}
-            {description && <div className="p-6 md:p-10 flex flex-col md:flex-row gap-6 items-center justify-between">
-                <div className="md:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
-                    <p className="md:ml-30">
+            {description && <div className="p-6 md:p-10 flex flex-col xl:flex-row gap-6 xl:items-center xl:justify-between">
+                <div className="xl:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
+                    <p className="xl:ml-30">
                         {description}
                     </p>
                 </div>
 
                 {/* Call Section */}
-                <div className="flex items-center gap-4 md:mr-40">
+                <div className="flex items-center gap-4 lg:mr-40">
                     <div className="p-4 bg-gray-900 text-white rounded-full">
                         <div class="pxl-item--icon">
                             <a href="tel:+1 365 737 4000" >
