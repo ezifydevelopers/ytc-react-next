@@ -39,7 +39,7 @@ export default function JobDetailCard() {
                 <div className="border border-[#D5D8DC] rounded-md">
                   <button
                     onClick={() => toggleSection('responsibilities')}
-                    className="w-full flex justify-between items-center border-b border-[#D5D8DC] px-4 py-3 text-left font-medium text-gray-800 hover:bg-gray-50"
+                    className="w-full flex justify-between items-center border-b border-[#D5D8DC] px-4 py-3 text-left font-medium text-gray-800 cursor-pointer hover:bg-gray-50"
                   >
                     <span>Responsibilities</span>
                     {openSection === 'responsibilities' ? <ChevronUp /> : <ChevronDown />}
@@ -54,7 +54,7 @@ export default function JobDetailCard() {
                 <div className="border border-[#D5D8DC] rounded-md">
                   <button
                     onClick={() => toggleSection('requirements')}
-                    className="w-full flex justify-between items-center border-b border-[#D5D8DC] px-4 py-3 text-left font-medium text-gray-800 hover:bg-gray-50"
+                    className="w-full flex justify-between items-center border-b border-[#D5D8DC] px-4 py-3 text-left font-medium text-gray-800 cursor-pointer hover:bg-gray-50"
                   >
                     <span>Requirements</span>
                     {openSection === 'requirements' ? <ChevronUp /> : <ChevronDown />}
@@ -69,7 +69,7 @@ export default function JobDetailCard() {
                 <div className="border border-[#D5D8DC] rounded-md">
                   <button
                     onClick={() => toggleSection('pay')}
-                    className="w-full flex justify-between items-center px-4 py-3 border-b border-[#D5D8DC] text-left font-medium text-gray-800 hover:bg-gray-50"
+                    className="w-full flex justify-between items-center px-4 py-3 border-b border-[#D5D8DC] text-left font-medium text-gray-800 cursor-pointer hover:bg-gray-50"
                   >
                     <span>Job Types & Pay</span>
                     {openSection === 'pay' ? <ChevronUp /> : <ChevronDown />}
