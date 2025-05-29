@@ -48,7 +48,7 @@ const features = [
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><path d="M192,116a12,12,0,1,1-12-12A12,12,0,0,1,192,116ZM152,64H112a8,8,0,0,0,0,16h40a8,8,0,0,0,0-16Zm96,48v32a24,24,0,0,1-24,24h-2.36l-16.21,45.38A16,16,0,0,1,190.36,224H177.64a16,16,0,0,1-15.07-10.62L160.65,208h-57.3l-1.92,5.38A16,16,0,0,1,86.36,224H73.64a16,16,0,0,1-15.07-10.62L46,178.22a87.69,87.69,0,0,1-21.44-48.38A16,16,0,0,0,16,144a8,8,0,0,1-16,0,32,32,0,0,1,24.28-31A88.12,88.12,0,0,1,112,32H216a8,8,0,0,1,0,16H194.61a87.93,87.93,0,0,1,30.17,37c.43,1,.85,2,1.25,3A24,24,0,0,1,248,112Zm-16,0a8,8,0,0,0-8-8h-3.66a8,8,0,0,1-7.64-5.6A71.9,71.9,0,0,0,144,48H112A72,72,0,0,0,58.91,168.64a8,8,0,0,1,1.64,2.71L73.64,208H86.36l3.82-10.69A8,8,0,0,1,97.71,192h68.58a8,8,0,0,1,7.53,5.31L177.64,208h12.72l18.11-50.69A8,8,0,0,1,216,152h8a8,8,0,0,0,8-8Z"></path></svg>,
         title: 'Saving Costs',
         description:
-            'We provide customizable plans according to the client’s specific medical needs, which helps both save money and effort in sourcing medical staff individually.',
+            'We provide customizable plans according to the client&apos;s specific medical needs, which helps both save money and effort in sourcing medical staff individually.',
     },
     {
         icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000000" viewBox="0 0 256 256"><path d="M240,126.63A112.44,112.44,0,0,0,51.75,53.75a111.56,111.56,0,0,0-35.7,72.88A16,16,0,0,0,32,144h88v56a32,32,0,0,0,64,0,8,8,0,0,0-16,0,16,16,0,0,1-32,0V144h88a16,16,0,0,0,16-17.37ZM32,128l0,0A96.43,96.43,0,0,1,193.4,65.52,95.32,95.32,0,0,1,224,128Z"></path></svg>,
@@ -90,7 +90,7 @@ const AboutUs = () => {
     ]
 
     const paragraphs = [
-        "YTC Healthcare supports healthcare facilities by having medical specialists on duty round the clock for seamless medical services. We are on a mission in the healthcare industry to provide reliable, caring staff who prioritize patient\'s well-being. We strive to enhance everyone's accessibility to basic healthcare and provide seamless staffing support to healthcare facilities.",
+        "YTC Healthcare supports healthcare facilities by having medical specialists on duty round the clock for seamless medical services. We are on a mission in the healthcare industry to provide reliable, caring staff who prioritize patient&apos;s well-being. We strive to enhance everyone&apos;s accessibility to basic healthcare and provide seamless staffing support to healthcare facilities.",
         "We are on a mission to fill the gaps in healthcare staffing by connecting skilled professionals with underserved facilities and individuals in need. We are committed to a transparent medical workplace where everyone collaborates to deliver high-quality care and promote healthier lives. We ensure no patient is deprived of the medical attention they deserve, whether in hospitals or their homes."
     ];
 
@@ -105,7 +105,7 @@ const AboutUs = () => {
     return (
         <div>
             <Header />
-            <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={"Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don’t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches."} />
+            <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={`Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don&apos;t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches.`} />
             <div className='pt-5 px-5 rounded'>
                 <section className="w-full bg-gradient-to-b from-white to-[#f5fafd] pt-16  relative overflow-hidden" style={{ borderRadius: '20px' }}>
                     {/* Gradient overlay at the bottom */}
@@ -192,7 +192,7 @@ const AboutUs = () => {
                                 </li>
                             </ul>
                             <button className="mt-4 bg-[#359C8F] text-white px-6 py-3 rounded text-sm font-medium shadow-md transition duration-200">
-                                Let's Cover Staffing Shortages →
+                                Let&apos;s Cover Staffing Shortages →
                             </button>
                         </div>
                     </div>
@@ -263,7 +263,7 @@ const AboutUs = () => {
                             <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt='ic2.png'/></span> Working for Better Healthcare for Everyone
                         </p>
                         <h2 className="text-4xl font-bold mb-4 text-[#051b2e]">
-                            A Patient-First Culture That’s <br /> Safer, Smarter, and Simply Better
+                            A Patient-First Culture That&apos;s <br /> Safer, Smarter, and Simply Better
                         </h2>
                         <p className="text-gray-500 mb-6 text-sm">
                             If you are looking for medical staffing solutions for your healthcare facilities, look no further than YTC Healthcare. We provide professionally certified staff for your facilities and loved ones who are passionate and always put patients first.

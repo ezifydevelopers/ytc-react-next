@@ -8,7 +8,7 @@ import { useState } from 'react';
 export default function CustomerTestimonial() {
   const testimonials = [
     {
-      text: `They\'ve got amazing people with amazing work ethics, I talked to one of their people, she\'s called Simran... she has a very nice personality that should be what makes them deserve my 5 stars. Excellent customer service.`,
+      text: `They&apos;ve got amazing people with amazing work ethics, I talked to one of their people, she&apos;s called Simran... she has a very nice personality that should be what makes them deserve my 5 stars. Excellent customer service.`,
       name: 'Victor Kyeremateng',
       image: '/images/testimonial-google.png'
     },
