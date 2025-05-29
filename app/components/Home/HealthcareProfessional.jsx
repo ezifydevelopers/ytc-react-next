@@ -74,7 +74,7 @@ const HealthcareProfessional = () => {
                             >
                                 <div className="flex gap-4 items-center justify-between">
                                     <div className="w-[82px] h-[82px] bg-teal-700 flex items-center justify-center rounded-[13px]">
-                                        <img src={service.icon} alt={service.title} className="w-[48px] h-[48px]" />
+                                        <Image src={service.icon} alt={service.title} className="w-[48px] h-[48px]" width={48} height={48} />
                                     </div>
                                     <div className="w-[50px] h-[50px] border border-gray-300 rounded-full flex items-center justify-center text-sm text-gray-500 font-medium transition-colors duration-300 group-hover:bg-[#00786F] group-hover:text-white">
                                         {service.id}
@@ -88,10 +88,11 @@ const HealthcareProfessional = () => {
 
                     {/* Last Column CTA */}
                     <div className="rounded-xl overflow-hidden bg-gray-100 relative">
-                        <img
+                        <Image
                             src="/images/doctor-cta.webp"
                             alt="Doctor"
                             className="w-full h-full object-cover opacity-80"
+                            fill
                         />
                         <div className="absolute inset-0 p-6 flex flex-col justify-center">
                             <h3 className="text-[32px] font-semibold text-gray-800 mb-4">Looking for The Right Talent?</h3>

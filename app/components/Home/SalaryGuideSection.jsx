@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function SalaryGuideSection() {
     return (
       <section className="bg-white pt-4 pb-16 px-6 md:px-16">
@@ -50,10 +52,11 @@ export default function SalaryGuideSection() {
   
           {/* Image */}
           <div className="flex justify-center">
-            <img
+            <Image
               src="/images/Salary-Guide-banner-06.webp" 
               alt="2025 Healthcare Salary Guide"
-            //   className="w-full max-w-xl shadow-xl rounded-md"
+              className="rounded-md"
+              width={450} height={50}
             />
           </div>
         </div>

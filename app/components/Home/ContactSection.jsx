@@ -1,14 +1,17 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import Image from "next/image";
+
 
 export default function ContactSection() {
     return (
         <section className="flex flex-col lg:flex-row bg-white rounded-2xl overflow-hidden shadow-xl my-10 mb-5 md:mx-12 mx-5">
             {/* Left Side - Image with Overlay */}
             <div className="relative md:w-[61.11%] w-[100%] border">
-                <img
+                <Image
                     src="/images/contact-section.webp" 
                     alt="Contact Banner"
                     className="object-cover w-full md:h-full h-[600px]"
+                    fill
                 />
                 <div className="absolute inset-0 bg-opacity-50 text-white p-10 flex flex-col justify-end">
                     <div>
