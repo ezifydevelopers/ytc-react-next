@@ -169,7 +169,7 @@ const Header = () => {
                                 </div>
                             </div>
 
-                            <Link href="/about" className="hover:text-teal-600 transition-colors">About Us</Link>
+                            <Link href="/about-us" className="hover:text-teal-600 transition-colors">About Us</Link>
 
                             {/* Resources Dropdown */}
                             <div className="relative group">
@@ -179,7 +179,7 @@ const Header = () => {
                                 </button>
                                 <div className="absolute left-0 flex w-[300px] mt-[-10px] ml-[-80px] py-5 px-10 origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
                                     <div className="py-1 w-full">
-                                        <Link href="/blogs" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                        <Link href="/blog" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                                         </svg>Blogs</Link>
                                         <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -422,7 +422,7 @@ const Header = () => {
                             </div>
 
                             <Link href="/about" className="hover:text-teal-600 transition-colors">About Us</Link>
-                            <Link href="/blogs" className="hover:text-teal-600 transition-colors">Blogs</Link>
+                            <Link href="/blog" className="hover:text-teal-600 transition-colors">Blogs</Link>
                             <Link href="/career" className="hover:text-teal-600 transition-colors">Career</Link>
                             <Link href="/contact" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                         </nav>

@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import PageHeader from '@/app/components/pageHeader';
@@ -293,6 +293,18 @@ const positionOptions = [
 const ApplyNow = () => {
     const [resumeFile, setResumeFile] = useState(null);
 
+    useEffect(() => {
+        // Prevent injecting script if already present
+        if (document.getElementById("jotform-script")) return;
+
+        const script = document.createElement("script");
+        script.src = "https://form.jotform.com/jsform/251134442771452";
+        script.id = "jotform-script"; // Unique ID to prevent duplicates
+        script.type = "text/javascript";
+        script.async = true;
+        document.getElementById("jotform-container")?.appendChild(script);
+    }, []);
+
     const handleFileUpload = (file) => {
         setResumeFile(file);
     };
@@ -414,11 +426,11 @@ const ApplyNow = () => {
             <Header />
             <PageHeader
                 img={'/images/01-Career.jpg'}
-                title={'Apply Now'}
+                title={'Healthcare Careers'}
                 description={''}
             />
             <div className='py-15 container mx-auto'>
-                <Formik
+                {/* <Formik
                     initialValues={initialValues}
                     validationSchema={validationSchema}
                     onSubmit={sendMail}
@@ -682,7 +694,8 @@ const ApplyNow = () => {
                             </div>
                         </Form>
                     )}
-                </Formik>
+                </Formik> */}
+                <div id="jotform-container" />
             </div>
             <Footer />
         </div>
