@@ -20,7 +20,7 @@ const linkMap = {
     'Senior Care': '/services/senior-care-staffing',
   
     // Special Care Services
-    "Alzheimer's Care Services": '/services/alzheimers-care-staffing',
+    "Alzheimers Care Services": '/services/alzheimers-care-staffing',
     'Dementia Care Services': '/services/dementia-care',
     'Acquired Brain Injury Care': '/services/acquired-brain-injury-care',
     'ALS Patient': '/services/expert-staff-for-als-care',
@@ -144,7 +144,7 @@ const Header = () => {
 
                                         <div className="p-4 lg:p-10">
                                             <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3>
-                                            {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
+                                            {['Alzheimers Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
                                                 <Link href={linkMap[item]} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                                         <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
