@@ -11,7 +11,7 @@ const HealthcareProfessional = () => {
             icon: '/icons/heart-icon.svg',
             title: 'Social Service Worker',
             description:
-                'Social service workers are the heart of community support, helping individuals and families navigate life’s challenges.',
+                'Social service workers are the heart of community support, helping individuals and families navigate life challenges.',
         },
         {
             id: '02',
@@ -39,7 +39,7 @@ const HealthcareProfessional = () => {
             icon: '/icons/childcare-icon.svg',
             title: 'Child Care Staffing Services',
             description:
-                'Your Talent Consultancy Healthcare doesn’t overlook child care; we have certified childcare workers in our talent pool.',
+                'Your Talent Consultancy Healthcare does not overlook child care; we have certified childcare workers in our talent pool.',
         },
     ];
 
@@ -51,7 +51,7 @@ const HealthcareProfessional = () => {
                 </div>
 
                 <p className="text-sm md:text-base text-gray-500 mb-3">
-                    We deliver the healthcare staff you’re short of
+                    We deliver the healthcare staff you&apos;re short of
                 </p>
 
                 <h2 className="text-2xl md:text-4xl font-extrabold text-[#0B2338] leading-tight mb-4">
@@ -96,7 +96,7 @@ const HealthcareProfessional = () => {
                         <div className="absolute inset-0 p-6 flex flex-col justify-center">
                             <h3 className="text-[32px] font-semibold text-gray-800 mb-4">Looking for The Right Talent?</h3>
                             <button className="inline-flex h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
-                                Let’s Discuss →
+                                Let&apos;s Discuss →
                             </button>
                         </div>
                     </div>

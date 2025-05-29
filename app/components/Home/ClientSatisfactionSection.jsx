@@ -13,13 +13,13 @@ export default function ClientSatisfactionSection() {
             icon: '/icons/sat-2.svg',
             title: 'Exceptional Talent Pool',
             description:
-                'Our professionals don’t just meet qualifications, they always exceed clients’ expectations. They are Certified and skilled professionals with extensive years of experience in the healthcare industry.',
+                'Our professionals don\’t just meet qualifications, they always exceed clients\’ expectations. They are Certified and skilled professionals with extensive years of experience in the healthcare industry.',
         },
         {
             icon: '/icons/sat-3.svg',
             title: 'Clear and Honest Partnership',
             description:
-                'Say goodbye to hidden fees and unclear commitments. YTC Healthcare offers transparent processes and works with the clients at every step of the process. You’ll always be aware of the process and the outcomes. Our transparency is to develop trust every step of the way with you.',
+                'Say goodbye to hidden fees and unclear commitments. YTC Healthcare offers transparent processes and works with the clients at every step of the process. You\’ll always be aware of the process and the outcomes. Our transparency is to develop trust every step of the way with you.',
         },
         {
             icon: '/icons/sat-4.svg',
@@ -39,7 +39,7 @@ export default function ClientSatisfactionSection() {
                         <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Your Health is Our Top Goal
                     </p>
                     <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-4">
-                        Here’s Why We Maintain 100% Client Satisfaction
+                        Here&apos;s Why We Maintain 100% Client Satisfaction
                     </h2>
                     <p className="text-gray-600 leading-relaxed">
                         YTC Healthcare understands your need for highly skilled and certified healthcare professionals.

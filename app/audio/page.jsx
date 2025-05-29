@@ -40,9 +40,9 @@ export default function Audio() {
       </div>
 
       <div id="content" ref={contentRef}>
-        <h1 className="text-3xl font-bold mb-4">Love you Fayyaz</h1>
+        <h1 className="text-3xl font-bold mb-4">Tesing</h1>
         <p className="mb-2">
-          We’re committed to providing you with the best care. You can book appointments,
+          We are committed to providing you with the best care. You can book appointments,
           consult with doctors, and access your reports directly through this website.
         </p>
         <p>

@@ -56,7 +56,7 @@ const Contact = () => {
                         <div>
                             <h1 className="text-4xl font-bold text-[#1b1b3a] mb-2">Send Us Your Query!</h1>
                             <p className="text-md font-semibold text-[#68747a] mb-4">
-                                We are always ready to help, let’s solve staffing shortages together.
+                                We are always ready to help, lets solve staffing shortages together.
                             </p>
                             <p className="text-[#68747a] text-md leading-relaxed mb-6">
                                 YTC Healthcare stands prominent in the healthcare staffing industry. Our primary mission is to bridge the gap between healthcare professionals and employers. Need Nurses, PSWs, Cooks/Dietary Aides, Physicians, or other healthcare staffing support? YTC Healthcare offers reliable, cost-effective assistance with 24/7 support and immediate fill. We are here to meet all of your staffing needs.
