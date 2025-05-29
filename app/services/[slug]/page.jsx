@@ -15,7 +15,7 @@ import data from '@/app/components/Services/services.json'
 export default function Service() {
     const params = useParams();
     const slug = params.slug;
-    console.log(slug,'slug');
+    console.log(slug, 'slug');
     const content = data[slug];
 
     if (!content) {
@@ -26,10 +26,10 @@ export default function Service() {
     return (
         <div>
             <Header />
-            <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription}/>
+            <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription} />
             <ServiceAvalibality data={content.avalibalitySection} />
             <ServiceCard data={content.cardSection} />
-            <ServiceList data={content.listSection} />
+            {content.listSection && <ServiceList data={content.listSection} />}
             <ServiceWhyChoose data={content.whyChooseSection} />
             <ServiceCareProcess data={content.processSection} />
             <Faqs data={content.faqsSection} />

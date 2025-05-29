@@ -309,7 +309,7 @@
         }
     },
     "social-service-workers": {
-        "pageimage" : "/images/01-4 (1).jpg",
+        "pageimage" : "/images/social-service-workers.jpg",
         "pagetitle": "Social Service Worker",
         "pagedescription" : "Social service workers are central to building stronger communities. They support individuals and families through moments of crisis, transition, and recovery—often when care is needed most. From addressing mental health concerns to coordinating critical resources, their presence improves lives and strengthens systems. YTC Healthcare provides social work staffing solutions that help organizations deliver meaningful, people-first care across a wide range of social service environments.",
         "avalibalitySection": {
@@ -335,13 +335,13 @@
             ]
         },
         "cardSection": {
-            "image": {
+            "image": { 
                 "src": "/images/02-Social-Service-Worker.webp",
                 "alt": "Home Care"
             },
             "headingSection": {
                 "title": "Supporting Healthcare Communities with Professional Care",
-                "description": "YTC Healthcare views social service workers as essential agents of change. Their work ensures access, advocacy, and dignity for individuals across healthcare and community systems. Through our behavioral health staffing services, we place professionals who bring clinical awareness and social responsibility to nonprofit organizations, medical teams, and public programs alike. <p>Our workforce includes specialists in child welfare, addiction recovery, crisis stabilization, and senior support. Each social worker is equipped to respond with empathy, consistency, and clinical skill. With strong mental health counselor staffing, we help communities maintain both emotional resilience and structural support where it is needed most.</p>"
+                "description": "YTC Healthcare views social service workers as essential agents of change. Their work ensures access, advocacy, and dignity for individuals across healthcare and community systems. Through our behavioral health staffing services, we place professionals who bring clinical awareness and social responsibility to nonprofit organizations, medical teams, and public programs alike. <p> Our workforce includes specialists in child welfare, addiction recovery, crisis stabilization, and senior support. Each social worker is equipped to respond with empathy, consistency, and clinical skill. With strong mental health counselor staffing, we help communities maintain both emotional resilience and structural support where it is needed most. </p>"
             },
             "cards": [
                 {
@@ -433,7 +433,7 @@
         }
     },
     "personal-support-workers": {
-        "pageimage" : "/images/01-6 (1).jpg",
+        "pageimage" : "/images/personal-support-workers.jpg",
         "pagetitle": "Personal Support Worker Staffing",
         "pagedescription" : "Personal Support Workers offer essential, hands-on care to individuals requiring daily living assistance. Every PSW in our network brings clinical reliability and emotional understanding, ensuring that seniors and individuals with disabilities feel respected, safe, and supported. YTC Healthcare provides personal support worker staffing services to healthcare facilities, private homes, and long-term care communities, strengthening day-to-day care while improving patient quality of life.",
         "avalibalitySection": {
@@ -577,7 +577,7 @@
         }
     },
     "developmental-support-workers": {
-        "pageimage" : "/images/01 (1).jpg",
+        "pageimage" : "/images/developmental-support-workers.jpg",
         "pagetitle": "Developmental Support Worker Staffing",
         "pagedescription" : "YTC Healthcare continues to respond to workforce gaps across healthcare and community-based care. Our commitment to consistent, person-centered service extends to organizations supporting individuals with developmental disabilities. Developmental Support Workers play a vital role in enhancing day-to-day life, offering both emotional guidance and physical support. Through our developmental support worker staffing services, we assist group homes, community programs, and private residences in building dependable care teams that improve outcomes and preserve dignity.",
         "avalibalitySection": {
@@ -719,7 +719,7 @@
         }
     },
     "child-care-solutions": {
-        "pageimage" : "/images/01 (2).jpg",
+        "pageimage" : "/images/child-care-solutions.jpg",
         "pagetitle": "Child Care Staffing Services",
         "pagedescription" : "YTC Healthcare recognizes the importance of qualified professionals in early childhood care. Our network includes certified staff ready to support children in safe, nurturing environments where learning and development come first. From guiding toddlers through new experiences to assisting school-aged children with daily routines, each placement is made with purpose. Through our child care staffing services, we assist daycare centers and private families in finding dependable care providers who contribute to a child’s well-being and growth.",
         "avalibalitySection": {
@@ -1147,7 +1147,7 @@
         }
     },
     "personal-care": {
-        "pageimage" : "/images/01-3 (1).jpg",
+        "pageimage" : "/images/personal-care.jpg",
         "pagetitle": "Personal Care Services",
         "pagedescription" : "YTC Healthcare recognizes the importance of hygiene, dignity, and daily self-care, especially for individuals managing illness, disability, or the challenges of aging. Our personal care services for seniors are designed to support those who struggle with grooming, mobility, or hygiene-related tasks. Whether recovering from surgery or living with a long-term condition, each client receives attentive care that respects comfort, health, and independence.",
         "avalibalitySection": {
@@ -1282,7 +1282,7 @@
         }
     },
     "senior-care-staffing": {
-        "pageimage" : "/images/01-5 (1).jpg",
+        "pageimage" : "/images/social-service-workers.jpg",
         "pagetitle": "Senior Care Staffing Solutions",
         "pagedescription" : "Growing older presents new challenges, but it should never mean sacrificing independence, dignity, or comfort. YTC Healthcare delivers senior care staffing services that ensure older adults receive daily living assistance, clinical oversight, and emotional presence—all within familiar environments. Our professional caregivers are trained to support both physical and emotional well-being, offering more than help—they offer consistency, conversation, and care that respects every individual’s story. We believe every senior deserves to live with purpose, safety, and human connection.",
         "avalibalitySection": {
@@ -2265,7 +2265,7 @@
         }
     },
     "staff-for-childcare-centers": {
-        "pageimage" : "/images/01-3 (2).jpg",
+        "pageimage" : "/images/staff-for-childcare-centers.jpg",
         "pagetitle": "Childcare Centers Staffing Services",
         "pagedescription" : "Children deserve a nurturing environment where they can thrive, explore, and grow with confidence. YTC Healthcare helps your center achieve this by connecting you with certified childcare providers who understand the unique developmental, emotional, and safety needs of young learners. Through our childcare center staffing services, we supply early childhood educators, teaching assistants, and specialized caregivers prepared to make a real difference. Whether your facility is a daycare, preschool, or after-school program, we support you with qualified professionals who uplift both the children and families you serve.",
         "avalibalitySection": {

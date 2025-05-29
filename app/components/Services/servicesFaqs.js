@@ -2,30 +2,8 @@
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
-const faqs = [
-  {
-    question: "What Services Are Delivered Under 24 Hours Home Care?",
-    answer:
-      "Our services include but are not limited to, bathing, feeding, medication timely administration, and cleaning among other services.",
-  },
-  {
-    question: "Are The Caregivers Qualified And Experienced?",
-    answer:
-      "Yes, all caregivers are carefully vetted, trained, and experienced to provide professional, compassionate care.",
-  },
-  {
-    question: "How Does One Go About Arranging For A Caregiver To Take Up A Full-Time Position?",
-    answer:
-      "You can contact our team directly. We’ll guide you through a consultation and help you match with a suitable full-time caregiver.",
-  },
-  {
-    question: "What Happens When I Have Concerns Or A Problem With The Caregiver?",
-    answer:
-      "You can reach out to our support team any time. We take concerns seriously and will work to resolve them promptly.",
-  },
-];
 
-export default function FaqAccordion({data}) {
+export default function FaqAccordion({ data }) {
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggle = (index) => {
@@ -43,9 +21,8 @@ export default function FaqAccordion({data}) {
         {data.faqs.map((faq, index) => (
           <div
             key={index}
-            className={`bg-white border border-gray-300 rounded-xl transition-all duration-300 ${
-              openIndex === index ? 'shadow-md' : ''
-            }`}
+            className={`bg-white border border-gray-300 rounded-xl transition-all duration-300 ${openIndex === index ? 'shadow-md' : ''
+              }`}
           >
             <button
               onClick={() => toggle(index)}
@@ -59,9 +36,10 @@ export default function FaqAccordion({data}) {
               )}
             </button>
             {openIndex === index && (
-              <div className="px-6 pb-5 pt-0 text-gray-600 text-sm">
-                {faq.answer}
-              </div>
+              <div
+                className="px-6 pb-5 pt-0 text-gray-600 text-sm"
+                dangerouslySetInnerHTML={{ __html: faq.answer }}
+              />
             )}
           </div>
         ))}

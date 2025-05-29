@@ -18,11 +18,9 @@ export default function serviceWhychoose({data}) {
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
                    {data.title}
                 </h2>
-                <p className="text-gray-500 mb-10"
+                <div className="text-gray-500 mb-10"
                  dangerouslySetInnerHTML={{ __html: data.description }}
-                >
-                    
-                </p>
+                />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {data.features.map((item, index) => (

@@ -127,7 +127,7 @@ const AboutUs = () => {
                             </div>
                             <div>
                                 <div className="flex gap-4 pb-4">
-                                    <Image src="/images/ic2.png" width={20} height={20} />
+                                    <Image src="/images/ic2.png" width={20} height={20} alt='ic2.png'/>
                                     <p className="text-md text-[#68747A]">
                                         Welcome to <span className="font-bold ">Your Talent Consultancy Healthcare</span>
                                     </p>
@@ -143,15 +143,19 @@ const AboutUs = () => {
 
                         {/* Middle Image Layered */}
                         <div className="col-span-1 flex justify-center relative">
-                            <img
+                            <Image
                                 src="/images/ab2.png"
                                 alt="Background Shape"
                                 className="relative w-full z-0"
+                                width={500}
+                                height={500}
                             />
-                            <img
+                            <Image
                                 src="/images/ab3.png"
                                 alt="Doctor"
                                 className="absolute z-10 bottom-0 right-13"
+                                width={500}
+                                height={500}
                             />
                         </div>
 
@@ -223,11 +227,13 @@ const AboutUs = () => {
 
                 {/* Third Section - Image */}
                 <div className="flex justify-center">
-                    <img
+                    <Image
                         src="/images/ab5.jpg"
                         alt="Healthcare Professionals"
                         className="rounded-lg object-cover h-full"
                         style={{ height: '500px' }}
+                        width={500}
+                        height={500}
                     />
                 </div>
             </div>
@@ -236,11 +242,13 @@ const AboutUs = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
                     {/* Left - Image with play button */}
                     <div className="relative rounded-xl overflow-hidden max-w-xl mx-auto shadow-lg">
-                        <img
+                        <Image
                             src="/images/ab6.jpg"
                             alt="Doctor and patient discussion"
                             className=" object-cover"
                             style={{ height: '500px' }}
+                            width={500}
+                            height={500}
                         />
                         {/* <button className="absolute inset-0 flex items-center justify-center">
                         <div className="bg-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition-transform">
@@ -252,7 +260,7 @@ const AboutUs = () => {
                     {/* Right - Text & Bars */}
                     <div className="grid max-w-xl py-10 gap-3">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
-                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} /></span> Working for Better Healthcare for Everyone
+                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt='ic2.png'/></span> Working for Better Healthcare for Everyone
                         </p>
                         <h2 className="text-4xl font-bold mb-4 text-[#051b2e]">
                             A Patient-First Culture That’s <br /> Safer, Smarter, and Simply Better

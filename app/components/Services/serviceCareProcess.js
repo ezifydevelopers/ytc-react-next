@@ -35,11 +35,10 @@ export default function serviceCareProcess({data}) {
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                     {data.title}
                 </h2>
-                <p className="text-gray-500 mb-10"
+                <div className="text-gray-500 mb-10"
                  dangerouslySetInnerHTML={{ __html: data.description }}
-                >
+                />
                    
-                </p>
 
                 <div className="grid md:grid-cols-2 gap-12 items-start">
                     {/* Left image */}
@@ -65,9 +64,7 @@ export default function serviceCareProcess({data}) {
                                     <h2 className="text-lg font-bold mb-1">
                                         {step.title}
                                     </h2>
-                                    <p className="text-sm text-gray-500 leading-relaxed mt-3" style={{fontSize:'15px',lineHeight:'25px'}}>
-                                        {step.description}
-                                    </p>
+                                    <div className="text-sm text-gray-500 leading-relaxed mt-3" style={{fontSize:'15px',lineHeight:'25px'}}  dangerouslySetInnerHTML={{ __html: step.description }}/>
                                 </div>
                             </div>
                         ))}

@@ -20,13 +20,11 @@ export default function serviceCard({ data }) {
                 {/* Heading Section */}
                 <div className="mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                        {data.headingSection.title}
+                        {data?.headingSection?.title}
                     </h2>
-                    <p className="text-gray-500 "
-                     dangerouslySetInnerHTML={{ __html: data.headingSection.description }}
-                    >
-
-                    </p>
+                    <div className="text-gray-500 "
+                     dangerouslySetInnerHTML={{ __html: data?.headingSection?.description }}
+                    />
                 </div>
 
                 {/* Card Section */}
@@ -59,7 +57,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed"> 
                 {text}
             </p>
         </div>
