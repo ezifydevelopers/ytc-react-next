@@ -167,21 +167,6 @@ const PostComponent = () => {
                           </div>
                         )}
 
-
-                        {/* <div className="">
-                          {subsection.question && (
-                            <h4 className="text-[20px] font-semibold text-[#202838] mt-2">
-                              {renderContent(subsection.question)}
-                            </h4>
-                          )}
-                          {subsection.answer && (
-                            <p className="text-[15px] text-[#68747A] mt-2">
-                              {renderContent(subsection.answer)}
-                            </p>
-                          )}
-                        </div> */}
-
-
                         {subsection.question && (
                           <div className="border border-[#DADEE2] px-8 py-5 rounded-2xl mt-8">
                             <h4
@@ -210,29 +195,6 @@ const PostComponent = () => {
                             </AnimatePresence>
                           </div>
                         )}
-
-                        
-
-
-                        {/* {subsection.section === "Frequently Asked Questions" && (
-                          <div className="my-4">
-                            <h2 className="text-[15px] text-[#68747A] font-medium">
-                              {subsection.section}
-                            </h2>
-                            <div className="space-y-4 mt-2">
-                              {subsection.subsections?.map((faq, faqIndex) => (
-                                <div key={faqIndex} className="pl-4">
-                                  <h3 className="text-[15px] text-[#68747A] font-semibold">
-                                    {faq.question}
-                                  </h3>
-                                  <p className="text-[15px] text-[#68747A] mt-1">
-                                    {faq.answer}
-                                  </p>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-                        )} */}
 
                         {subsection.quote && (
                           <blockquote className="border-l-4 border-blue-500 pl-4 italic my-4 text-[15px] text-[#68747A]">
