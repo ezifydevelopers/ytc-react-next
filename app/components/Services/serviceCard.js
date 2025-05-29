@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaUser, FaAsterisk, FaClock } from "react-icons/fa";
+import Image from "next/image";
 
 export default function serviceCard({ data }) {
 
@@ -12,10 +13,12 @@ export default function serviceCard({ data }) {
     return (
         <div>
             <div className="px-6 md:px-0 pb-10 max-w-7xl mx-auto my-10">
-                <img
+                <Image
                     src={data.image.src}
                     alt="Home Care"
                     className="w-full object-cover h-full rounded-2xl mb-20"
+                    width={500}
+                    height={500}
                 />
                 {/* Heading Section */}
                 <div className="mb-12">

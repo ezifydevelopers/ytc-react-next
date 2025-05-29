@@ -90,7 +90,7 @@ const AboutUs = () => {
     ]
 
     const paragraphs = [
-        "YTC Healthcare supports healthcare facilities by having medical specialists on duty round the clock for seamless medical services. We are on a mission in the healthcare industry to provide reliable, caring staff who prioritize patient's well-being. We strive to enhance everyone's accessibility to basic healthcare and provide seamless staffing support to healthcare facilities.",
+        "YTC Healthcare supports healthcare facilities by having medical specialists on duty round the clock for seamless medical services. We are on a mission in the healthcare industry to provide reliable, caring staff who prioritize patient\'s well-being. We strive to enhance everyone's accessibility to basic healthcare and provide seamless staffing support to healthcare facilities.",
         "We are on a mission to fill the gaps in healthcare staffing by connecting skilled professionals with underserved facilities and individuals in need. We are committed to a transparent medical workplace where everyone collaborates to deliver high-quality care and promote healthier lives. We ensure no patient is deprived of the medical attention they deserve, whether in hospitals or their homes."
     ];
 

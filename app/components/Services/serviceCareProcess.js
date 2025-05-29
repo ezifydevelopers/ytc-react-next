@@ -43,10 +43,12 @@ export default function serviceCareProcess({data}) {
                 <div className="grid md:grid-cols-2 gap-12 items-start">
                     {/* Left image */}
                     <div className="rounded-xl overflow-hidden shadow-md">
-                        <img
+                        <Image
                             src={data.image.src}
                             alt="Care Process"
                             className="rounded-2xl w-full object-cover"
+                            width={500}
+                            height={500}
                         />
                     </div>
 
