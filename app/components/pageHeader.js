@@ -17,13 +17,13 @@ const PageHeader = ({ img, title, description, className }) => {
                     }}
                 />
                 <div className='container'>
-                    <div className="absolute md:bottom-4 bottom-20 left-5 md:left-40 text-white">
+                    <div className="absolute md:bottom-4 bottom-20 left-5 md:left-40 text-white md:w-3xl">
                         <h1 className="text-3xl md:text-5xl text-white font-semibold">
                             {title}
                         </h1>
                     </div>
 
-                    <div className="absolute md:bottom-4 bottom-10 right-40 md:right-30 text-white text-sm md:text-base flex items-center space-x-2">
+                    <div className="absolute md:bottom-4 bottom-10 left-5 md:left-300 text-white text-sm md:text-base flex items-center space-x-2">
                         <span className="hover:underline cursor-pointer">Home</span>
                         <span>→</span>
                         <span className="text-green-300">{title}</span>

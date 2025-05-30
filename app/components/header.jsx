@@ -6,31 +6,31 @@ import { Menu, X, ChevronDown, CreditCard, PlusCircle } from 'lucide-react'
 
 const linkMap = {
     // Healthcare Workers
-    'Nurses': '/services/nurses',
-    'Physicians': '/services/physician',
-    'Social Service Workers': '/services/social-service-workers',
-    'Personal Support Workers (PSWs)': '/services/personal-support-workers',
-    'Development Support Workers (DSWs)': '/services/developmental-support-workers',
-    'Child Care Workers': '/services/child-care-solutions',
-  
+    'Nurses': '/service/nurses',
+    'Physicians': '/service/physician',
+    'Social Service Workers': '/service/social-service-workers',
+    'Personal Support Workers (PSWs)': '/service/personal-support-workers',
+    'Development Support Workers (DSWs)': '/service/developmental-support-workers',
+    'Child Care Workers': '/service/child-care-solutions',
+
     // Homecare Services
-    '24 hours home care': '/services/24-hour-home-care',
-    'In-Home Nursing Care': '/services/in-home-nursing-care',
-    'Personal Care': '/services/personal-care',
-    'Senior Care': '/services/senior-care-staffing',
-  
+    '24 hours home care': '/service/24-hour-home-care',
+    'In-Home Nursing Care': '/service/in-home-nursing-care',
+    'Personal Care': '/service/personal-care',
+    'Senior Care': '/service/senior-care-staffing',
+
     // Special Care Services
-    "Alzheimers Care Services": '/services/alzheimers-care-staffing',
-    'Dementia Care Services': '/services/dementia-care',
-    'Acquired Brain Injury Care': '/services/acquired-brain-injury-care',
-    'ALS Patient': '/services/expert-staff-for-als-care',
-  
+    "Alzheimer's Care Services": '/service/alzheimers-care-staffing',
+    'Dementia Care Services': '/service/dementia-care',
+    'Acquired Brain Injury Care': '/service/acquired-brain-injury-care',
+    'ALS Patient': '/service/expert-staff-for-als-care',
+
     // Healthcare Facilities
-    'Hospitals': '/services/healthcare-staff-for-hospitals',
-    'Clinics': '/services/staff-for-clinics',
-    'Child Care Centers': '/services/staff-for-childcare-centers',
-    'Dental Facilities': '/services/staff-for-dental-facilities',
-  };
+    'Hospitals': '/service/healthcare-staff-for-hospitals',
+    'Clinics': '/service/staff-for-clinics',
+    'Child Care Centers': '/service/staff-for-childcare-centers',
+    'Dental Facilities': '/service/staff-for-dental-facilities',
+};
 
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false)
@@ -119,7 +119,7 @@ const Header = () => {
                                 <div className="absolute left-0 mt-[-7px] w-full origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
                                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3>
+                                            <a href={'/healthcare-staffing/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3></a>
                                             {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -131,7 +131,7 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3>
+                                            <a href={'/homecare-staffing-services/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3></a>
                                             {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -143,9 +143,9 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3>
-                                            {['Alzheimers Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
-                                                <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
+                                            <a href={'/special-care-staffing-services/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3></a>
+                                            {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
+                                                <Link href={linkMap[item]} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                                         <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                                                     </svg>
@@ -155,7 +155,7 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md font-semibold text-gray-700 border-b md:border-b-0">Healthcare Facilities</h3>
+                                            <a href={'/healthcare-facilities/'}><h3 className="px-4 py-2 text-md font-semibold text-gray-700 border-b md:border-b-0">Healthcare Facilities</h3></a>
                                             {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -182,7 +182,7 @@ const Header = () => {
                                         <Link href="/blog" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                                         </svg>Blogs</Link>
-                                        <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                        <Link href="/salary-guide/" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                                         </svg>Salary Guide</Link>
                                     </div>
@@ -247,7 +247,7 @@ const Header = () => {
                     <div className="py-3 border-b border-gray-100">
                         <MobileAccordion title="Services">
                             <div className="pl-4 py-2">
-                                <h3 className="font-semibold text-gray-700 mb-2">Healthcare Workers</h3>
+                                <a href={'/healthcare-staffing/'}><h3 className="font-semibold text-gray-700 mb-2">Healthcare Workers</h3></a>
                                 {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
                                     <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                         {item}
@@ -255,7 +255,7 @@ const Header = () => {
                                 ))}
                             </div>
                             <div className="pl-4 py-2">
-                                <h3 className="font-semibold text-gray-700 mb-2">Homecare Services</h3>
+                                <a href={'/homecare-staffing-services/'}><h3 className="font-semibold text-gray-700 mb-2">Homecare Services</h3></a>
                                 {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
                                     <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                         {item}
@@ -263,7 +263,7 @@ const Header = () => {
                                 ))}
                             </div>
                             <div className="pl-4 py-2">
-                                <h3 className="font-semibold text-gray-700 mb-2">Special Care Services</h3>
+                                <a href={'/special-care-staffing-services/'}> <h3 className="font-semibold text-gray-700 mb-2">Special Care Services</h3></a>
                                 {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
                                     <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                         {item}
@@ -271,7 +271,7 @@ const Header = () => {
                                 ))}
                             </div>
                             <div className="pl-4 py-2">
-                                <h3 className="font-semibold text-gray-700 mb-2">Healthcare Facilities</h3>
+                                <a href={'/healthcare-facilities/'}><h3 className="font-semibold text-gray-700 mb-2">Healthcare Facilities</h3></a>
                                 {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
                                     <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                         {item}
@@ -287,7 +287,7 @@ const Header = () => {
                     <div className="py-3 border-b border-gray-100">
                         <MobileAccordion title="Resources">
                             <Link href="/blogs" className="block py-2 pl-4 text-gray-700">Blogs</Link>
-                            <Link href="#" className="block py-2 pl-4 text-gray-700">Salary Guide</Link>
+                            <Link href="/salary-guide/" className="block py-2 pl-4 text-gray-700">Salary Guide</Link>
                         </MobileAccordion>
                     </div>
 
@@ -363,7 +363,7 @@ const Header = () => {
                                 <div className="absolute left-0 mt-[-7px] flex w-full origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
                                     <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3>
+                                            <a href={'/healthcare-staffing/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Healthcare Workers</h3></a>
                                             {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -375,7 +375,7 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3>
+                                            <a href={'/homecare-staffing-services/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Homecare Services</h3></a>
                                             {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -387,7 +387,7 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3>
+                                            <a href={'/special-care-staffing-services/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3></a>
                                             {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center md:border-r border-[#DBDFE2] gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -399,7 +399,7 @@ const Header = () => {
                                         </div>
 
                                         <div className="p-4 lg:p-10">
-                                            <h3 className="px-4 py-2 text-md font-semibold text-gray-700 border-b md:border-b-0">Healthcare Facilities</h3>
+                                            <a href={'/healthcare-facilities/'}><h3 className="px-4 py-2 text-md font-semibold text-gray-700 border-b md:border-b-0">Healthcare Facilities</h3></a>
                                             {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
                                                 <Link href={linkMap[item] || '/'} key={item} className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
@@ -419,7 +419,7 @@ const Header = () => {
                             <Link href="/contact-us/" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                         </nav>
 
-                        <Link href="/quote" className='hidden md:block md:w-[10%]'>
+                        <Link href="/contact-us" className='hidden md:block md:w-[10%]'>
                             <button className="bg-[#09243C] font-[700] w-full flex justify-center items-center gap-2 h-[51px] hover:bg-[#0a2e4d] text-white text-sm px-4 py-2 rounded-md transition-colors">
                                 Free Quote
                                 <svg fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">

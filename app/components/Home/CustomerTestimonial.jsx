@@ -35,18 +35,20 @@ export default function CustomerTestimonial() {
   };
 
   return (
-    <Card className="flex flex-col md:flex-row items-center justify-between p-5 mt-20 lg:mt-0 lg:py-10 lg:pl-[250px] lg:pr-10 rounded-2xl healthcarebox mx-12 border-[#DADEE2] lg:mb-[102px]">
+    <Card className="flex flex-col md:flex-row items-center justify-between p-6 md:py-10 md:pl-[155px] md:pr-10 rounded-2xl healthcarebox mx-5 md:mx-12 border-[#DADEE2] mb-[102px]">
       {/* Left side - Text Content */}
-      <div className="md:w-2/3 space-y-4 lg:py-10">
-        <p className="text-sm text-gray-500 font-medium">Customer Testimonials</p>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">What Our Customers Say?</h2>
-        <div className="flex items-center gap-2 mb-12">
+      <div className="md:w-2/3 space-y-4 md:py-10">
+        <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
+          <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Customer Testimonials
+        </p>
+        <h2 className="text-3xl md:text-5xl font-bold text-gray-900">What Our Customers Say?</h2>
+        <div className="flex flex-col md:flex-row md:items-center gap-2 md:mb-12">
           <div className="text-yellow-500 text-lg">★★★★★</div>
           <p className="text-sm text-gray-600">Overall Rating 4.7 / 3285 reviews on Zocdoc {'>'}</p>
         </div>
 
         {/* Dynamic Quote */}
-        <div className="mr-20 space-y-4 min-h-[180px] transition-all duration-300 ease-in-out">
+        <div className="md:mr-20 space-y-4 min-h-[180px] transition-all duration-300 ease-in-out ">
           <blockquote className="text-gray-700 text-base leading-relaxed italic text-[20px] font-medium border-b border-[#DFE3E6] min-h-[150px]">
             "{testimonials[current].text}"
           </blockquote>
@@ -82,7 +84,7 @@ export default function CustomerTestimonial() {
       </div>
 
       {/* Right side - Static Image */}
-      <div className="relative mt-8 md:mt-0 md:w-1/3">
+      <div className="relative mt-8 md:mt-0 md:w-1/3 hidden md:block">
         <div className="w-full h-120 rounded-xl overflow-hidden relative">
           <Image
             src="/images/testimonial.webp"

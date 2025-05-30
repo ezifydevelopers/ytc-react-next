@@ -1,20 +1,10 @@
 import React from 'react'
 
 export default function serviceWhychoose({data}) {
-    const features = [
-        "Skilled Caring Staff",
-        "Personalized Care Plans",
-        "Rapid and Reliable Support",
-        "24/7 Availability",
-        "Low Turnover, High Stability",
-        "Clear Communication, No Surprises",
-        "Specialized Expertise at Your Fingertips",
-        "Proactive Client Engagement"
-    ];
 
     return (
         <div>
-            <section className="max-w-7xl mx-auto my-13 ">
+            <section className="md:max-w-7xl mx-auto my-13 ">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
                    {data.title}
                 </h2>

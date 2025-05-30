@@ -106,13 +106,15 @@ const AboutUs = () => {
     return (
         <div>
             <Header />
-            <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={`Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don&apos;t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches.`} />
+            <div className='mx-3 sm:mx-4 md:mx-5'>
+                <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={"Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don’t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches."} />
+            </div>
             <div className='pt-5 px-5 rounded'>
                 <section className="w-full bg-gradient-to-b from-white to-[#f5fafd] pt-16  relative overflow-hidden" style={{ borderRadius: '20px' }}>
                     {/* Gradient overlay at the bottom */}
                     <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#cde6e5] z-0" />
 
-                    <div className=" mx-5 px-6 grid xl:grid-cols-3 gap-10 items-center relative z-10">
+                    <div className=" md:mx-5 md:px-6 grid xl:grid-cols-3 gap-10 items-center relative z-10">
                         {/* Left Content */}
                         <div className="col-span-1 space-y-15">
                             <div className=" rounded-full ">
@@ -154,14 +156,14 @@ const AboutUs = () => {
                             <Image
                                 src="/images/ab3.png"
                                 alt="Doctor"
-                                className="absolute z-10 bottom-0 right-13"
+                                className="absolute z-10 bottom-0 md:right-13"
                                 width={500}
                                 height={500}
                             />
                         </div>
 
                         {/* Right Content */}
-                        <div className="col-span-1 text-gray-700 space-y-6 px-5 mx-3 pb-5">
+                        <div className="col-span-1 text-gray-700 space-y-6 md:px-5 mx-3 pb-5">
                             <p className='text-[#68747A]'>
                                 When we talk about premium healthcare, bridging healthcare
                                 staffing gaps becomes more than just filling positions. YTC

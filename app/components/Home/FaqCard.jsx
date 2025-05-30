@@ -20,7 +20,7 @@ export default function FAQCard() {
                 </div>
             </div>
 
-            <div className="bg-[#06273D] text-white rounded-2xl  p-8 w-full max-w-lg md:max-w-xl lg:max-w-2xl flex flex-col justify-center gap-5">
+            <div className="bg-[#06273D] text-white rounded-2xl  p-8 w-full max-w-lg md:max-w-xl lg:max-w-2xl flex flex-col justify-center gap-5 ">
                 <h2 className="text-2xl md:text-3xl font-bold leading-tight mb-4">
                     Connect With Our <br /> Support Team
                 </h2>

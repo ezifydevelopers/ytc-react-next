@@ -55,3 +55,6 @@ body {
     background: url('/images/Salary-Guide-banner-05.webp') no-repeat;
   }
 }
+.items-inherit{
+  align-items: inherit;
+}

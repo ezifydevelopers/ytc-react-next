@@ -40,10 +40,10 @@ const Footer = () => {
                         <div>
                             <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Services</h3>
                             <ul className="space-y-3 text-gray-300">
-                                <li><Link href="#">Healthcare Workers</Link></li>
-                                <li><Link href="#">Home Care Services</Link></li>
-                                <li><Link href="#">Special Care Services</Link></li>
-                                <li><Link href="#">Healthcare Facilities</Link></li>
+                                <li><Link href="/healthcare-staffing/">Healthcare Workers</Link></li>
+                                <li><Link href="/homecare-staffing-services/">Home Care Services</Link></li>
+                                <li><Link href="/special-care-staffing-services/">Special Care Services</Link></li>
+                                <li><Link href="/healthcare-facilities/">Healthcare Facilities</Link></li>
                             </ul>
                         </div>
 
