@@ -8,6 +8,7 @@ const HealthcareProfessional = () => {
     const services = [
         {
             id: '01',
+            url: '/social-service-workers/',
             icon: '/icons/heart-icon.svg',
             title: 'Social Service Worker',
             description:
@@ -15,6 +16,7 @@ const HealthcareProfessional = () => {
         },
         {
             id: '02',
+            url: '/personal-support-workers/',
             icon: '/icons/support-icon.svg',
             title: 'Personal Support Worker Staffing',
             description:
@@ -22,6 +24,7 @@ const HealthcareProfessional = () => {
         },
         {
             id: '03',
+            url: '/physician/',
             icon: '/icons/doctor-icon.svg',
             title: 'Hire Qualified Doctors & Specialists',
             description:
@@ -29,6 +32,7 @@ const HealthcareProfessional = () => {
         },
         {
             id: '04',
+            url: '/nurses/',
             icon: '/icons/tooth-icon.svg',
             title: 'Nurse Staffing Solutions',
             description:
@@ -36,6 +40,7 @@ const HealthcareProfessional = () => {
         },
         {
             id: '05',
+            url: '/child-care-solutions/',
             icon: '/icons/childcare-icon.svg',
             title: 'Child Care Staffing Services',
             description:
@@ -67,7 +72,7 @@ const HealthcareProfessional = () => {
             <div className="px-0 xl:px-20 bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {services.map((service, index) => (
-                        <Link key={index} href={`/services/${service.id}`}>
+                        <Link key={index} href={`/services${service.url}`}>
                             <div
                                 key={service.id}
                                 className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"

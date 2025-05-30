@@ -5,6 +5,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 
 export default function HeroSection() {
+    
     const settings = {
         dots: false,
         infinite: true,
