@@ -26,13 +26,15 @@ export default function Service() {
     return (
         <div>
             <Header />
-            <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription} />
-            <ServiceAvalibality data={content.avalibalitySection} />
-            <ServiceCard data={content.cardSection} />
-            {content.listSection && <ServiceList data={content.listSection} />}
-            <ServiceWhyChoose data={content.whyChooseSection} />
-            <ServiceCareProcess data={content.processSection} />
-            <Faqs data={content.faqsSection} />
+            <div className="px-5 lg:px-0">
+                <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription} />
+                <ServiceAvalibality data={content.avalibalitySection} />
+                <ServiceCard data={content.cardSection} />
+                {content.listSection && <ServiceList data={content.listSection} />}
+                <ServiceWhyChoose data={content.whyChooseSection} />
+                <ServiceCareProcess data={content.processSection} />
+                <Faqs data={content.faqsSection} />
+            </div>
             <Footer />
         </div>
     )

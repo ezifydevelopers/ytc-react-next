@@ -6,7 +6,7 @@ export default function ContactSection() {
     return (
         <section className="flex flex-col lg:flex-row bg-white rounded-2xl overflow-hidden shadow-xl my-10 mb-5 md:mx-12 mx-5">
             {/* Left Side - Image with Overlay */}
-            <div className="relative md:w-[61.11%] w-[100%] border">
+            <div className="relative hidden lg:block md:w-[61.11%] w-[100%] border">
                 <Image
                     src="/images/contact-section.webp" 
                     alt="Contact Banner"
@@ -50,7 +50,7 @@ export default function ContactSection() {
             </div>
 
             {/* Right Side - Form */}
-            <div className="bg-[#062d4d] md:w-[38.89%] w-[100%] text-white p-10 flex flex-col justify-center">
+            <div className="bg-[#062d4d] lg:w-[38.89%] w-[100%] text-white p-10 flex flex-col justify-center">
                 <div className="mx-auto w-full text-center">
                     <h2 className="text-2xl font-bold mb-2">We Are Ready When You Are!</h2>
                     <p className="text-sm text-white mb-6">

@@ -30,9 +30,11 @@ const Footer = () => {
                                 <span className="font-semibold">Emergency 24h: +1 365 737 4000</span>
                             </div>
 
-                            <button className="bg-teal-600 hover:bg-teal-700 px-16 py-5 mt-5 rounded-md text-sm text-white">
-                                Request An Appointment →
-                            </button>
+                            <Link href="/contact-us/">
+                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-16 py-5 mt-5 rounded-md text-sm text-white">
+                                    Request An Appointment →
+                                </button>
+                            </Link>
                         </div>
 
                         <div>
@@ -49,9 +51,9 @@ const Footer = () => {
                             <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Quick Links</h3>
                             <ul className="space-y-3 text-gray-300">
                                 <li><Link href="/">Home</Link></li>
-                                <li><Link href="/about">About Us</Link></li>
+                                <li><Link href="/about-us/">About Us</Link></li>
                                 <li><Link href="/blog">Blog</Link></li>
-                                <li><Link href="/contact">Contact Us</Link></li>
+                                <li><Link href="/contact-us/">Contact Us</Link></li>
                             </ul>
 
                             <div className="flex gap-4 mt-6">

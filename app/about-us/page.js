@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { FaMapMarkerAlt, FaHeartbeat, FaAward, FaUserMd } from 'react-icons/fa';
 import { ArrowRight } from "lucide-react";
+import Link from 'next/link';
 
 const features = [
     {
@@ -127,7 +128,7 @@ const AboutUs = () => {
                             </div>
                             <div>
                                 <div className="flex gap-4 pb-4">
-                                    <Image src="/images/ic2.png" width={20} height={20} alt='ic2.png'/>
+                                    <Image src="/images/ic2.png" width={20} height={20} alt='ic2.png' />
                                     <p className="text-md text-[#68747A]">
                                         Welcome to <span className="font-bold ">Your Talent Consultancy Healthcare</span>
                                     </p>
@@ -191,9 +192,11 @@ const AboutUs = () => {
                                     <span>Customizable care plans designed to the unique needs of each healthcare facility and individual</span>
                                 </li>
                             </ul>
-                            <button className="mt-4 bg-[#359C8F] text-white px-6 py-3 rounded text-sm font-medium shadow-md transition duration-200">
-                                Let&apos;s Cover Staffing Shortages →
-                            </button>
+                            <Link href="/contact-us/">
+                                <button className="mt-4 cursor-pointer bg-[#359C8F] text-white px-6 py-3 rounded text-sm font-medium shadow-md transition duration-200">
+                                    Let&apos;s Cover Staffing Shortages →
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </section>
@@ -260,7 +263,7 @@ const AboutUs = () => {
                     {/* Right - Text & Bars */}
                     <div className="grid max-w-xl py-10 gap-3">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
-                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt='ic2.png'/></span> Working for Better Healthcare for Everyone
+                            <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt='ic2.png' /></span> Working for Better Healthcare for Everyone
                         </p>
                         <h2 className="text-4xl font-bold mb-4 text-[#051b2e]">
                             A Patient-First Culture That&apos;s <br /> Safer, Smarter, and Simply Better
@@ -362,9 +365,9 @@ const AboutUs = () => {
                         }}>
                         <div className="p-6 flex flex-col items-center justify-center gap-4">
                             <div className='mb-20'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-17 h-17 " fill='#09233c'>
-                                <path d="M488.5 119.5c-4.3-4.3-10.7-6.4-14.9-2.1l-110.9 78.9V106.7c0-12.8-8.5-21.3-21.3-21.3H42.7c-12.8 0-21.3 8.5-21.3 21.3v298.7c0 12.8 8.5 21.3 21.3 21.3h298.7c12.8 0 21.3-8.5 21.3-21.3v-89.6l110.9 76.8c2.1 2.1 4.3 2.1 6.4 2.1 6.4 0 10.7-4.3 10.7-10.7V128c0-2.1 0-4.3-2.2-8.5zM112.6 236.8c31.1-.2 56.2-25 56.1-55.3 0-1.1 0-2.3-.1-3.4l46.3-.2c0 1.1.1 2.3.1 3.4.3 55.9-45.4 101.5-102.1 101.8l-.3-46.3zM269.9 274.2c-31.1 0-56.3 24.7-56.3 55 0 1.1 0 2.3.1 3.4h-46.3c0-1.1-.1-2.3-.1-3.4 0-55.9 45.9-101.3 102.6-101.3v46.3z" />
-                            </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-17 h-17 " fill='#09233c'>
+                                    <path d="M488.5 119.5c-4.3-4.3-10.7-6.4-14.9-2.1l-110.9 78.9V106.7c0-12.8-8.5-21.3-21.3-21.3H42.7c-12.8 0-21.3 8.5-21.3 21.3v298.7c0 12.8 8.5 21.3 21.3 21.3h298.7c12.8 0 21.3-8.5 21.3-21.3v-89.6l110.9 76.8c2.1 2.1 4.3 2.1 6.4 2.1 6.4 0 10.7-4.3 10.7-10.7V128c0-2.1 0-4.3-2.2-8.5zM112.6 236.8c31.1-.2 56.2-25 56.1-55.3 0-1.1 0-2.3-.1-3.4l46.3-.2c0 1.1.1 2.3.1 3.4.3 55.9-45.4 101.5-102.1 101.8l-.3-46.3zM269.9 274.2c-31.1 0-56.3 24.7-56.3 55 0 1.1 0 2.3.1 3.4h-46.3c0-1.1-.1-2.3-.1-3.4 0-55.9 45.9-101.3 102.6-101.3v46.3z" />
+                                </svg>
                             </div>
                             <div className="text-center">
                                 <p className="text-md text-[#051B2E] mb-5">Virtual Consultation</p>
@@ -376,10 +379,12 @@ const AboutUs = () => {
                                 </p>
 
                             </div>
-                            <button className="w-full sm:w-auto mt-12 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200">
-                                <span>  Stay Tuned for More Updates</span>
-                                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-                            </button>
+                            <Link href="/contact-us/">
+                                <button className="w-full cursor-pointer sm:w-auto mt-12 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200">
+                                    <span>  Stay Tuned for More Updates</span>
+                                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                                </button>
+                            </Link>
                         </div>
 
                     </div>
@@ -388,15 +393,15 @@ const AboutUs = () => {
                     <div className="bg-[#0a1c36] text-white rounded-xl shadow-md flex flex-col justify-between p-6 md:w-xl">
                         <div className="p-6 flex flex-col items-center justify-center ">
                             <div className='mb-7'>
-                            <svg  className="w-17 h-17 " fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Layer_2" data-name="Layer 2"><path d="m20.38 4.9a5.52 5.52 0 0 0 -6.85-.77l2.22 2.26a1 1 0 0 1 -.08 1.42 1 1 0 0 1 -.67.25 1 1 0 0 1 -.75-.33l-2.82-2.83a5.42 5.42 0 0 0 -1.38-1 5.54 5.54 0 0 0 -6.43 1 6.66 6.66 0 0 0 0 8.68c1.86 2 6.38 6.63 8.41 6.63 1.58 0 4.68-2.81 6.83-5 .54-.54 1-1 1.4-1.45l.15-.16a6.66 6.66 0 0 0 -.03-8.7zm-6.38 8.6h-1v1a1 1 0 0 1 -2 0v-1h-1a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2z"></path></g></svg>
+                                <svg className="w-17 h-17 " fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Layer_2" data-name="Layer 2"><path d="m20.38 4.9a5.52 5.52 0 0 0 -6.85-.77l2.22 2.26a1 1 0 0 1 -.08 1.42 1 1 0 0 1 -.67.25 1 1 0 0 1 -.75-.33l-2.82-2.83a5.42 5.42 0 0 0 -1.38-1 5.54 5.54 0 0 0 -6.43 1 6.66 6.66 0 0 0 0 8.68c1.86 2 6.38 6.63 8.41 6.63 1.58 0 4.68-2.81 6.83-5 .54-.54 1-1 1.4-1.45l.15-.16a6.66 6.66 0 0 0 -.03-8.7zm-6.38 8.6h-1v1a1 1 0 0 1 -2 0v-1h-1a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2z"></path></g></svg>
                             </div>
                             <div className="text-center">
                                 <p className="text-md text-white mb-5">Become a Part of YTC Healthcare</p>
                                 <h3 className="text-4xl font-semibold text-white mb-5">
-                                Start Your Journey with YTC Healthcare
+                                    Start Your Journey with YTC Healthcare
                                 </h3>
                                 <p className="text-md text-white">
-                                Join our team of sought-after healthcare professionals. We offer unrivaled job stability, attractive pay incentives,  and superior options compared to our competitors. With us, your search for a perfect employer and staffing provider ends here. 
+                                    Join our team of sought-after healthcare professionals. We offer unrivaled job stability, attractive pay incentives,  and superior options compared to our competitors. With us, your search for a perfect employer and staffing provider ends here.
                                 </p>
 
                             </div>

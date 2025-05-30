@@ -44,7 +44,7 @@ const HealthcareProfessional = () => {
     ];
 
     return (
-        <section className="md:w-[75%] mx-auto px-4 py-10 md:pb-16 md:pt-4 bg-white">
+        <section className="w-[90%] 2xl:w-[75%] mx-auto px-4 py-10 md:pb-16 md:pt-4 bg-white">
             <div className="px-4 pb-10 md:pb-16 bg-white text-center">
                 <div className="flex justify-center mb-4">
                     <Image src="/images/ic2.png" width={20} height={20} alt="Health Care" />
@@ -64,7 +64,7 @@ const HealthcareProfessional = () => {
                 </p>
             </div>
 
-            <div className="px-4 py-10 md:px-12 lg:px-20 bg-white">
+            <div className="px-0 xl:px-20 bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {services.map((service, index) => (
                         <Link key={index} href={`/services/${service.id}`}>
@@ -96,9 +96,11 @@ const HealthcareProfessional = () => {
                         />
                         <div className="absolute inset-0 p-6 flex flex-col justify-center">
                             <h3 className="text-[32px] font-semibold text-gray-800 mb-4">Looking for The Right Talent?</h3>
-                            <button className="inline-flex h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
-                                Let&apos;s Discuss →
-                            </button>
+                            <Link href="/contact-us/">
+                                <button className="inline-flex cursor-pointer h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
+                                    Let&apos;s Discuss →
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

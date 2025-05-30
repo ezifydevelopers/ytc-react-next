@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  p, b, span {
+    font-family: "Inter", sans-serif;
+  }
+}
 
 body {
   background: var(--background);
@@ -31,10 +42,16 @@ body {
     background: url(/images/staffing-image.webp) 100% center / cover no-repeat;
     background-position: 106px center;
 }
-.salary-guide-inner {
-  background: url('/images/Salary-Guide-banner-05.webp');
-}
+
 .healthcarebox {
   box-shadow: 0 5px 0 0px #0000001a;
 }
-.single-post {}
+
+@media only screen and (min-width: 1024px) {
+  .items-inherit {
+    align-items: inherit;
+  }
+  .salary-guide-inner {
+    background: url('/images/Salary-Guide-banner-05.webp') no-repeat;
+  }
+}

@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function StaffingSolutions() {
     return (
@@ -10,7 +11,7 @@ export default function StaffingSolutions() {
                         <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 bg-gray-800 rounded-sm"></span>
                         <span>Professional and Reliable Healthcare Staffing Provider</span>
                     </p>
-                    
+
                     <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight text-gray-900">
                         Comprehensive Healthcare
                         <br className="hidden sm:block" />
@@ -43,10 +44,12 @@ export default function StaffingSolutions() {
                             <p className="text-sm sm:text-base mb-4 sm:mb-6">
                                 We touch thousands of lives daily through our specialized healthcare staffing services. We provide targeted healthcare staffing solutions to help facilities stay fully equipped, even during shortages. As a nurse staffing agency, we specialize in placing certified professionals where they are needed most, whether for temporary, permanent, or bulk roles. With YTC Healthcare, you will never scramble to cover a shift again.
                             </p>
-                            <button className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200">
-                                <span>Get Expert Medical Staff</span>
-                                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-                            </button>
+                            <Link href="/contact-us/">
+                                <button className="w-full sm:w-auto cursor-pointer mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200">
+                                    <span>Get Expert Medical Staff</span>
+                                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

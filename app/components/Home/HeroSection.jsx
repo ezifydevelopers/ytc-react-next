@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
     return (
@@ -11,25 +12,27 @@ export default function HeroSection() {
 
                 <div className="relative sm:max-w-lg md:max-w-2xl z-10 md:text-left">
                     <p className="text-xs sm:text-sm font-semibold uppercase mb-3 sm:mb-4 tracking-wide text-teal-100">
-                        Short on staff? 
+                        Short on staff?
                         <span className="hidden sm:inline"> We&apos;ve got you covered in minutes!</span>
                         <span className="sm:hidden block mt-1">We&apos;ve got you covered!</span>
                     </p>
-                    
+
                     <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 sm:mb-6">
-                        YTC HealthCare: 
-                        <span className="block mt-2">Your Healthcare 
+                        YTC HealthCare:
+                        <span className="block mt-2">Your Healthcare
                             <span className="text-white font-bold"> Staffing Provider</span>
                         </span>
                     </h1>
-                    
+
                     <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">
                         Don&apos;t let staffing shortages impact your patient&apos;s well-being. YTC Healthcare delivers certified healthcare professionals ready to step in immediately. From locum nurse practitioners to long-term medical oncology nurses, we provide every healthcare professional to fill your staffing shortages.
                     </p>
-                    
-                    <button className="bg-[#071b2f] mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
-                        Fill Staffing Shortage Now
-                    </button>
+
+                    <Link href="/contact-us/">
+                        <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
+                            Fill Staffing Shortage Now
+                        </button>
+                    </Link>
                 </div>
 
                 {/* Optional: Add a decorative element for larger screens */}

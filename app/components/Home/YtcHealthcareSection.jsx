@@ -3,6 +3,7 @@
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Image from "next/image";
 import { useState } from 'react';
+import Link from "next/link";
 
 export default function YtcHealthcareSection() {
 
@@ -24,9 +25,9 @@ export default function YtcHealthcareSection() {
 
     return (
         <section className="py-16 px-6 md:px-20 bg-white">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="lg:grid grid-cols-1 lg:grid-cols-3 gap-18">
                 {/* Left Content */}
-                <div className="md:col-span-2 flex flex-col md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8">
+                <div className="md:col-span-2 flex flex-col mb-10 lg:mb-0 md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8 p-8">
                     <div className="md:w-[50%] w-[100%] flex flex-col gap-[23px] ">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
                             <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Welcome to YTC Healthcare
@@ -34,11 +35,13 @@ export default function YtcHealthcareSection() {
                         <h2 className="text-4xl font-bold text-slate-900 leading-tight mb-6">
                             Filling Healthcare Staffing Shortages<br />
                             With Extensive Talent Pool
-                        </h2> 
+                        </h2>
 
-                        <button className="bg-teal-600 text-white px-6 py-4 rounded-2xl hover:bg-teal-700 transition w-fit">
-                            View More About Us
-                        </button>
+                        <Link href="/about-us/">
+                            <button className="bg-teal-600 cursor-pointer text-white px-6 py-4 rounded-2xl hover:bg-teal-700 transition w-fit">
+                                View More About Us
+                            </button>
+                        </Link>
                     </div>
                     <div className="md:w-[50%] w-[100%] flex items-center justify-center">
                         <p className="text-gray-600 text-justify">
@@ -48,11 +51,11 @@ export default function YtcHealthcareSection() {
                 </div>
 
                 {/* Right Card */}
-                <div className="bg-teal-600 text-white pt-20 pb-30 px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out">
+                <div className="bg-teal-600 text-white pt-20 md:pb-30 pb-16 px-5 lg:px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out">
                     <p className="text-lg font-semibold flex items-center gap-2 mb-4 text-black">
                         <span className="text-xl"><Image src="/images/ic1-golden.png" width={20} height={20} alt="YTC Healthcare" /></span> Our Mission
                     </p>
-                    <p className="leading-9 font-[600] text-lg min-h-[252px]">
+                    <p className="leading-9 font-[600] text-lg lg:min-h-[252px]">
                         {paragraphs[current]}
                     </p>
 

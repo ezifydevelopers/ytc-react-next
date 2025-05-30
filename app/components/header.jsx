@@ -197,27 +197,21 @@ const Header = () => {
                                 </button>
                                 <div className="absolute left-0 flex w-[400px] mt-[-10px] ml-[-80px] py-5 px-10 origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
                                     <div className="py-1">
+                                        <Link href="/job-openings/" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                            <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                        </svg>Jobs Openings</Link>
                                         <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                                        </svg>Healthcare Workers</Link>
-                                        <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
-                                            <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                                        </svg>Homecare Services</Link>
-                                        <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
-                                            <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                                        </svg>Special Care Services</Link>
-                                        <Link href="#" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
-                                            <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                                        </svg>Healthcare Facilities</Link>
+                                        </svg>Apply Now</Link>
                                     </div>
                                 </div>
                             </div>
 
-                            <Link href="/contact" className="hover:text-teal-600 transition-colors">Contact Us</Link>
+                            <Link href="/contact-us/" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                         </nav>
 
-                        <Link href="/quote" className='hidden md:block md:w-[10%]'>
-                            <button className="bg-teal-600 font-[700] w-full flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white text-sm px-4 py-2 rounded-md transition-colors">
+                        <Link href="/contact-us/" className='hidden md:block md:w-[10%]'>
+                            <button className="bg-teal-600 font-[700] w-full cursor-pointer flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white text-sm px-4 py-2 rounded-md transition-colors">
                                 Free Guide
                                 <svg fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
                                     <path d="M23.12,9.91,19.25,6a1,1,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41L21.39,11H1a1,1,0,0,0-1,1H0a1,1,0,0,0,1,1H21.45l-3.62,3.61a1,1,0,0,0,0,1.42h0a1,1,0,0,0,1.42,0l3.87-3.88A3,3,0,0,0,23.12,9.91Z" />
@@ -232,7 +226,7 @@ const Header = () => {
             <div className={`md:hidden fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`} onClick={toggleMobileMenu}></div>
 
             {/* Mobile Menu Drawer */}
-            <div className={`md:hidden fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-xl z-50 transform transition-transform duration-300 ease-in-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={`md:hidden fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-xl z-50 transform transition-transform duration-300 ease-in-out  overflow-y-auto max-h-[calc(100vh-0px)] ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-between items-center p-4 border-b">
                     <Image
                         src="/images/logo.webp"
@@ -300,18 +294,16 @@ const Header = () => {
                     {/* Mobile Accordion for Careers */}
                     <div className="py-3 border-b border-gray-100">
                         <MobileAccordion title="Careers">
-                            <Link href="#" className="block py-2 pl-4 text-gray-700">Healthcare Workers</Link>
-                            <Link href="#" className="block py-2 pl-4 text-gray-700">Homecare Services</Link>
-                            <Link href="#" className="block py-2 pl-4 text-gray-700">Special Care Services</Link>
-                            <Link href="#" className="block py-2 pl-4 text-gray-700">Healthcare Facilities</Link>
+                            <Link href="/job-openings/" className="block py-2 pl-4 text-gray-700">Jobs Openings</Link>
+                            <Link href="#" className="block py-2 pl-4 text-gray-700">Apply Now</Link>
                         </MobileAccordion>
                     </div>
 
-                    <Link href="/contact" className="block py-3 text-lg font-medium border-b border-gray-100">Contact Us</Link>
+                    <Link href="/contact-us/" className="block py-3 text-lg font-medium border-b border-gray-100">Contact Us</Link>
 
                     <div className="mt-6">
-                        <Link href="/quote">
-                            <button className="w-full bg-teal-600 font-bold flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white px-4 py-2 rounded-md transition-colors">
+                        <Link href="/contact-us/">
+                            <button className="w-full bg-teal-600 font-bold cursor-pointer flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white px-4 py-2 rounded-md transition-colors">
                                 Free Guide
                                 <svg fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
                                     <path d="M23.12,9.91,19.25,6a1,1,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41L21.39,11H1a1,1,0,0,0-1,1H0a1,1,0,0,0,1,1H21.45l-3.62,3.61a1,1,0,0,0,0,1.42h0a1,1,0,0,0,1.42,0l3.87-3.88A3,3,0,0,0,23.12,9.91Z" />
@@ -424,7 +416,7 @@ const Header = () => {
                             <Link href="/about-us" className="hover:text-teal-600 transition-colors">About Us</Link>
                             <Link href="/blog" className="hover:text-teal-600 transition-colors">Blogs</Link>
                             <Link href="/career" className="hover:text-teal-600 transition-colors">Career</Link>
-                            <Link href="/contact" className="hover:text-teal-600 transition-colors">Contact Us</Link>
+                            <Link href="/contact-us/" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                         </nav>
 
                         <Link href="/quote" className='hidden md:block md:w-[10%]'>

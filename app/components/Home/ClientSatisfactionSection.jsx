@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ClientSatisfactionSection() {
 
@@ -31,7 +32,7 @@ export default function ClientSatisfactionSection() {
 
 
     return (
-        <section className="max-w-[1320px] mx-auto py-16 px-6 md:px-20 bg-white flex gap-20 flex-col">
+        <section className="max-w-[1320px] mx-auto mb-16 lg:mb-0 lg:py-16 px-6 md:px-20 bg-white flex gap-20 flex-col">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                 {/* Text Section */}
                 <div className="md:max-w-4xl pr-18">
@@ -51,9 +52,11 @@ export default function ClientSatisfactionSection() {
 
                 {/* Button */}
                 <div className="flex-shrink-0">
-                    <button className="bg-teal-600 text-white px-6 py-3 rounded-md hover:bg-teal-700 transition">
-                        Why Choose Us
-                    </button>
+                    <Link href="/about-us/">
+                        <button className="bg-teal-600 cursor-pointer text-white px-6 py-3 rounded-md hover:bg-teal-700 transition">
+                            Why Choose Us
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className="flex flex-wrap gap-4 md:gap-[4%]">
