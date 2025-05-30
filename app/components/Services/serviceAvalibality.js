@@ -7,7 +7,7 @@ export default function serviceAvalibality({ data }) {
         FaStethoscope: FaStethoscope,
         FaClipboardList: FaClipboardList,
         FaUserMd: FaUserMd,
-        FaDollarSign: FaDollarSign,
+        FaDollarSign: FaDollarSign, 
     };
 
     const IconButton = ({ icon: Icon, label }) => (

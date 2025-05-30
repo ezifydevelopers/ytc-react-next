@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function serviceList({data}) {
     return ( 
-        <div>
+        <div className='mx-3 sm:mx-4 md:mx-5'>
             <div className=" shadow-md rounded-2xl p-6 max-w-7xl mx-auto mb-15 border border-gray-300">
                 <h2 className="text-lg font-semibold text-gray-900 mb-2">
                     {data?.title}
