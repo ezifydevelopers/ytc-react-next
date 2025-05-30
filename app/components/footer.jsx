@@ -57,13 +57,13 @@ const Footer = () => {
                             </ul>
 
                             <div className="flex gap-4 mt-6">
-                                <a href="#" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
+                                <a href="https://www.facebook.com/ytchealthcare" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
                                     <FaFacebookF />
                                 </a>
-                                <a href="#" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
+                                <a href="https://www.instagram.com/ytchealthcare/" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
                                     <FaInstagram />
                                 </a>
-                                <a href="#" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
+                                <a href="https://www.linkedin.com/company/ytchealthcare/" className="bg-gray-700 p-3 rounded-full hover:bg-teal-600">
                                     <FaLinkedinIn />
                                 </a>
                             </div>
