@@ -4,6 +4,8 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 
 export default function FaqAccordion({ data }) {
+  console.log(data, 'data........');
+
   const [openIndex, setOpenIndex] = useState(0);
 
   const toggle = (index) => {
@@ -17,8 +19,8 @@ export default function FaqAccordion({ data }) {
         {data.description}
       </p>
 
-      <div className="space-y-4">
-        {data.faqs.map((faq, index) => (
+      {data?.faqs && <div className="space-y-4">
+        {data?.faqs?.map((faq, index) => (
           <div
             key={index}
             className={`bg-white border border-gray-300 rounded-xl transition-all duration-300 ${openIndex === index ? 'shadow-md' : ''
@@ -43,7 +45,8 @@ export default function FaqAccordion({ data }) {
             )}
           </div>
         ))}
-      </div>
+
+      </div>}
     </div>
   );
 }

@@ -1,4 +1,4 @@
-'use client';
+
 import React from 'react'
 import PageHeader from '../../components/pageHeader'
 import ServiceAvalibality from '../../components/Services/serviceAvalibality'
@@ -9,12 +9,16 @@ import ServiceCareProcess from '../../components/Services/serviceCareProcess'
 import Faqs from '../../components/Services/servicesFaqs'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import { useParams } from 'next/navigation';
 import data from '@/app/components/Services/services.json'
 import Head from 'next/head';
 
-export default function Service() {
-    const params = useParams();
+export async function generateStaticParams() {
+    const slugs = Object.keys(data);
+  
+    return slugs.map((slug) => ({ slug }));
+  }
+
+export default function Service({ params }) {
     const slug = params.slug;
     console.log(slug, 'slug');
     const content = data[slug];
