@@ -6,24 +6,24 @@ import { Menu, X, ChevronDown, CreditCard, PlusCircle } from 'lucide-react'
 
 const linkMap = {
     // Healthcare Workers
-    'Nurses': '/service/nurses',
-    'Physicians': '/service/physician',
-    'Social Service Workers': '/service/social-service-workers',
-    'Personal Support Workers (PSWs)': '/service/personal-support-workers',
-    'Development Support Workers (DSWs)': '/service/developmental-support-workers',
-    'Child Care Workers': '/service/child-care-solutions',
+    'Nurses': '/service/nurses/',
+    'Physicians': '/service/physician/',
+    'Social Service Workers': '/service/social-service-workers/',
+    'Personal Support Workers (PSWs)': '/service/personal-support-workers/',
+    'Development Support Workers (DSWs)': '/service/developmental-support-workers/',
+    'Child Care Workers': '/service/child-care-solutions/',
 
     // Homecare Services
-    '24 hours home care': '/service/24-hour-home-care',
-    'In-Home Nursing Care': '/service/in-home-nursing-care',
-    'Personal Care': '/service/personal-care',
-    'Senior Care': '/service/senior-care-staffing',
+    '24 hours home care': '/service/24-hour-home-care/',
+    'In-Home Nursing Care': '/service/in-home-nursing-care/',
+    'Personal Care': '/service/personal-care/',
+    'Senior Care': '/service/senior-care-staffing/',
 
     // Special Care Services
-    "Alzheimer's Care Services": '/service/alzheimers-care-staffing',
-    'Dementia Care Services': '/service/dementia-care',
-    'Acquired Brain Injury Care': '/service/acquired-brain-injury-care',
-    'ALS Patient': '/service/expert-staff-for-als-care',
+    "Alzheimer's Care Services": '/service/alzheimers-care-staffing/',
+    'Dementia Care Services': '/service/dementia-care/',
+    'Acquired Brain Injury Care': '/service/acquired-brain-injury-care/',
+    'ALS Patient': '/service/expert-staff-for-als-care/',
 
     // Healthcare Facilities
     'Hospitals': '/service/healthcare-staff-for-hospitals',
