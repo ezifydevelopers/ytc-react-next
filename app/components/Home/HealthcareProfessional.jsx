@@ -72,7 +72,7 @@ const HealthcareProfessional = () => {
             <div className="px-0 xl:px-20 bg-white">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {services.map((service, index) => (
-                         <Link key={index} href={`/services${service.url}`}>
+                        <Link key={index} href={`/services${service.url}`}>
                             <div
                                 key={service.id}
                                 className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
@@ -100,7 +100,13 @@ const HealthcareProfessional = () => {
                             fill
                         />
                         <div className="absolute inset-0 p-6 flex flex-col justify-center">
-                            <h3 className="text-[32px] font-semibold text-gray-800 mb-4">Looking for The Right Talent?</h3>
+                            <h3 className="text-2xl font-semibold text-gray-800">Our Certifications</h3>
+                            <ul class="text-sm list-none p-0 mb my-4 pb-5">
+                                <li className='text-md'><span class="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
+                                <li className='text-md my-3'><span class="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
+                                <li className='text-md'><span class="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
+                            </ul>
+
                             <Link href="/contact-us/">
                                 <button className="inline-flex cursor-pointer h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
                                     Let&apos;s Discuss →

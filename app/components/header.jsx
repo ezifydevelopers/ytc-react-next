@@ -6,30 +6,30 @@ import { Menu, X, ChevronDown, CreditCard, PlusCircle } from 'lucide-react'
 
 const linkMap = {
     // Healthcare Workers
-    'Nurses': '/service/nurses',
-    'Physicians': '/service/physician',
-    'Social Service Workers': '/service/social-service-workers',
-    'Personal Support Workers (PSWs)': '/service/personal-support-workers',
-    'Development Support Workers (DSWs)': '/service/developmental-support-workers',
-    'Child Care Workers': '/service/child-care-solutions',
+    'Nurses': '/service/nurses/',
+    'Physicians': '/service/physician/',
+    'Social Service Workers': '/service/social-service-workers/',
+    'Personal Support Workers (PSWs)': '/service/personal-support-workers/',
+    'Development Support Workers (DSWs)': '/service/developmental-support-workers/',
+    'Child Care Workers': '/service/child-care-solutions/',
 
     // Homecare Services
-    '24 hours home care': '/service/24-hour-home-care',
-    'In-Home Nursing Care': '/service/in-home-nursing-care',
-    'Personal Care': '/service/personal-care',
-    'Senior Care': '/service/senior-care-staffing',
+    '24 hours home care': '/service/24-hour-home-care/',
+    'In-Home Nursing Care': '/service/in-home-nursing-care/',
+    'Personal Care': '/service/personal-care/',
+    'Senior Care': '/service/senior-care-staffing/',
 
     // Special Care Services
-    "Alzheimer's Care Services": '/service/alzheimers-care-staffing',
-    'Dementia Care Services': '/service/dementia-care',
-    'Acquired Brain Injury Care': '/service/acquired-brain-injury-care',
-    'ALS Patient': '/service/expert-staff-for-als-care',
+    "Alzheimer's Care Services": '/service/alzheimers-care-staffing/',
+    'Dementia Care Services': '/service/dementia-care/',
+    'Acquired Brain Injury Care': '/service/acquired-brain-injury-care/',
+    'ALS Patient': '/service/expert-staff-for-als-care/',
 
     // Healthcare Facilities
-    'Hospitals': '/service/healthcare-staff-for-hospitals',
-    'Clinics': '/service/staff-for-clinics',
-    'Child Care Centers': '/service/staff-for-childcare-centers',
-    'Dental Facilities': '/service/staff-for-dental-facilities',
+    'Hospitals': '/service/healthcare-staff-for-hospitals/',
+    'Clinics': '/service/staff-for-clinics/',
+    'Child Care Centers': '/service/staff-for-childcare-centers/',
+    'Dental Facilities': '/service/staff-for-dental-facilities/',
 };
 
 const Header = () => {
@@ -80,7 +80,7 @@ const Header = () => {
                 </div>
 
                 <div className='hidden md:flex md:w-[80%] md:flex-col md:gap-[30px]'>
-                    <div className="hidden md:flex justify-end gap-4 lg:gap-[40px] text-sm text-gray-600">
+                    {/* <div className="hidden md:flex justify-end gap-4 lg:gap-[40px] text-sm text-gray-600">
                         <div className="flex items-center">
                             <span className="inline-flex text-[13px] lg:text-[15px] items-center gap-2 lg:gap-3">
                                 <span>
@@ -104,7 +104,7 @@ const Header = () => {
                                 <PlusCircle className="h-6 w-6" />
                             </button>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='flex justify-between'>
                         <nav className="hidden md:flex items-center space-x-3 lg:space-x-6 font-[500] text-[16px] lg:text-[19px] w-[90%] justify-center">
@@ -210,7 +210,7 @@ const Header = () => {
                             <Link href="/contact-us/" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                         </nav>
 
-                        <Link href="/contact-us/" className='hidden md:block md:w-[10%]'>
+                        <Link href="/contact-us/" className='hidden md:block md:w-[15%] mt-5'>
                             <button className="bg-teal-600 font-[700] w-full cursor-pointer flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white text-sm px-4 py-2 rounded-md transition-colors">
                                 Free Guide
                                 <svg fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
