@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import Header from "../components/header";
 import PageHeader from "../components/pageHeader";
 import blogs from "@/app/components/blogs.json"
-
+import Head from 'next/head';
 
 export default function Blog() {
 
@@ -14,6 +14,9 @@ export default function Blog() {
 
     return (
         <div className="">
+            <Head>
+                <link rel="canonical" href="https://ytchealthcare.com/blog/" />
+            </Head>
             <Header />
             <div className="mt-5 px-7">
                 <PageHeader img="/images/blog-bg.webp" title="Blogs" description="Here, you’ll discover all the insights into YTC Healthcare Staffing Services and explore career opportunities in healthcare across the industry!" />

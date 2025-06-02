@@ -6,6 +6,7 @@ import PageHeader from '@/app/components/pageHeader';
 import Header from '@/app/components/header';
 import Footer from '@/app/components/footer';
 import ResumeUpload from '@/app/components/ApplyNow/uploadResume';
+import Head from 'next/head';
 
 const countryOptions = [
     { value: "Afghanistan", label: "Afghanistan" },
@@ -423,6 +424,9 @@ const ApplyNow = () => {
 
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://ytchealthcare.com/healthcare-careers/" />
+            </Head>
             <Header />
             <PageHeader
                 img={'/images/01-Career.jpg'}

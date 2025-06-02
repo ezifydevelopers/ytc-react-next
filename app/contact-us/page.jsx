@@ -6,6 +6,7 @@ import PageHeader from '../components/pageHeader';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { FaPhone, FaUserMd, FaGraduationCap } from 'react-icons/fa';
+import Head from 'next/head';
 
 const Contact = () => {
 
@@ -47,6 +48,9 @@ const Contact = () => {
 
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://ytchealthcare.com/contact-us/" />
+            </Head>
             <Header />
             <PageHeader title="Contact Us" img="/images/ct1.webp" description={"Contact us if you are struggling with healthcare staffing shortages in your medical facilities or if you need medical staff for your loved ones. We provide professional and reliable medical professionals who are ready to be on your side in no time. Plus, they are certified and background-checked individuals passionate about serving in the healthcare industry to make a real difference. If you are a caregiver or clinician looking to apply for a healthcare role, we welcome you to explore opportunities with YTC Healthcare."} />
             <div className='p-5 my-5'>

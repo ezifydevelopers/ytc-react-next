@@ -7,6 +7,7 @@ import { ArrowRight } from "lucide-react";
 import { FaStarOfLife } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const SpecialcareStaffing = () => {
 
@@ -93,6 +94,9 @@ const SpecialcareStaffing = () => {
 
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://ytchealthcare.com/special-care-staffing-services/" />
+            </Head>
             <Header />
             <div className=' mx-3 sm:mx-4 md:mx-6'>
                 <PageHeader

@@ -11,6 +11,7 @@ import Header from '../../components/header'
 import Footer from '../../components/footer'
 import { useParams } from 'next/navigation';
 import data from '@/app/components/Services/services.json'
+import Head from 'next/head';
 
 export default function Service() {
     const params = useParams();
@@ -25,6 +26,9 @@ export default function Service() {
 
     return (
         <div>
+            <Head>
+                <link rel="canonical" href={`https://ytchealthcare.com/service/${slug}`} />
+            </Head>
             <Header />
             <div className='mx-3 sm:mx-4 md:mx-5'>
                 <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription} />

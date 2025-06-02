@@ -10,21 +10,26 @@ import FAQCard from './components/Home/FaqCard';
 import NewsSection from './components/Home/NewsSection';
 import ContactSection from './components/Home/ContactSection';
 import CustomerTestimonial from './components/Home/CustomerTestimonial';
+import Head from 'next/head';
+
 export default function Home() {
   return (
-      <div>
-          <Header />
-          <HeroSection />
-          <StaffingSolutions />
-          <SalaryGuideSection />
-          <HealthcareProfessional />
-          <YtcHealthcareSection />
-          <ClientSatisfactionSection />
-          <FAQCard />
-          <NewsSection />
-          <ContactSection />
-          <CustomerTestimonial />
-          <Footer />
-      </div>
+    <div>
+      <Head>
+        <link rel="canonical" href="https://ytchealthcare.com/" />
+      </Head>
+      <Header />
+      <HeroSection />
+      <StaffingSolutions />
+      <SalaryGuideSection />
+      <HealthcareProfessional />
+      <YtcHealthcareSection />
+      <ClientSatisfactionSection />
+      <FAQCard />
+      <NewsSection />
+      <ContactSection />
+      <CustomerTestimonial />
+      <Footer />
+    </div>
   );
 }

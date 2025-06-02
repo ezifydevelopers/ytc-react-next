@@ -9,6 +9,8 @@ import BlogPageHeader from "@/app/components/blogs/BlogPageHeader";
 import RelativePosts from "@/app/components/blogs/RelativePosts";
 import Image from "next/image";
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from "next/link";
+import Head from 'next/head';
 
 const PostComponent = () => {
   const params = useParams();
@@ -44,6 +46,9 @@ const PostComponent = () => {
 
   return (
     <div className="single-post">
+      <Head>
+        <link rel="canonical" href={`https://ytchealthcare.com/blog/${slug}`} />
+      </Head>
       <Header />
       <div className="mx-auto px-8 py-8">
         <div className="mt-[0px]">

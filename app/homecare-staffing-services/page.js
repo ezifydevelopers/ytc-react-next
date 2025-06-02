@@ -90,6 +90,9 @@ const HomecareStaffing = () => {
 
     return (
         <div>
+            <Head>
+                <link rel="canonical" href="https://ytchealthcare.com/homecare-staffing-services/" />
+            </Head>
             <Header />
             <div className=' mx-3 sm:mx-4 md:mx-6'>
                 <PageHeader
