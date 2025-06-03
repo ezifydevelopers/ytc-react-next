@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "YTC HealthCare",
   description: "YTC HealthCare: Your Healthcare Staffing Provider",
+  icons: {
+    icon: "/favicon.ico", // or "/favicon.png"
+  },
 };
 
 export default function RootLayout({ children }) {
