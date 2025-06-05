@@ -101,10 +101,10 @@ const HealthcareProfessional = () => {
                         />
                         <div className="absolute inset-0 p-6 flex flex-col justify-center">
                             <h3 className="text-2xl font-semibold text-gray-800">Our Certifications</h3>
-                            <ul class="text-sm list-none p-0 mb my-4 pb-5">
-                                <li className='text-md'><span class="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
-                                <li className='text-md my-3'><span class="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
-                                <li className='text-md'><span class="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
+                            <ul className="text-sm list-none p-0 mb my-4 pb-5">
+                                <li className='text-md'><span className="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
+                                <li className='text-md my-3'><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
+                                <li className='text-md'><span className="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
                             </ul>
 
                             <Link href="/contact-us/">

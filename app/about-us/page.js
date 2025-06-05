@@ -19,6 +19,7 @@ import {
 import { FaMapMarkerAlt, FaHeartbeat, FaAward, FaUserMd } from 'react-icons/fa';
 import { ArrowRight } from "lucide-react";
 import Link from 'next/link';
+import Head from 'next/head';
 
 const features = [
     {

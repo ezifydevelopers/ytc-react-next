@@ -944,45 +944,45 @@
             "text": "YTC Healthcare operates with this mindset. Our CNA staffing services are grounded in partnership, not transactions. We help Philadelphia-based facilities stay prepared, supported, and compliant — without sacrificing the human element of care."
           }
         ]
-      },
-      {
-        "section": "Frequently Asked Questions",
-        "subsections": [
-          {
-            "question": "What services does a CNA agency in Philadelphia typically offer?",
-            "answer": "A CNA agency in Philadelphia provides staffing solutions for healthcare facilities, including hospitals, long-term care centers, and home health services. Services often encompass per diem staffing, long-term placements, and emergency coverage to ensure patient care continuity."
-          },
-          {
-            "question": "How do I verify the credentials of a CNA provided by an agency?",
-            "answer": "Reputable agencies will provide current certification documents, background check clearance, and health records upon request. Many use digital credentialing platforms that allow real-time verification."
-          },
-          {
-            "question": "Are CNA agencies in Philadelphia equipped to handle specialized care needs?",
-            "answer": "Leading agencies maintain specialized CNA pools with training in dementia care, rehabilitation support, wound care assistance, and other specialty areas. Always inquire about specific competencies."
-          },
-          {
-            "question": "What are the benefits of using a CNA agency for per diem staffing?",
-            "answer": "Agency-per-diem staffing provides flexible coverage for census fluctuations, seasonal demand, and unexpected absences while maintaining care continuity and compliance with staffing ratios."
-          },
-          {
-            "question": "How does YTC Healthcare differentiate itself from CNA agencies in Philadelphia?",
-            "answer": "YTC Healthcare combines rigorous credentialing with personalized care matching. We prioritize long-term workforce stability through competitive compensation, ongoing training, and supportive scheduling—resulting in 92% client retention and 85% CNA retention rates."
-          }
-        ]
       }
     ],
-    "tags": [
-      "CNA Agency",
-      "Philadelphia",
-      "Healthcare Staffing",
-      "Certified Nursing Assistants",
-      "Long-Term Care",
-      "Home Health Care",
-      "Per Diem Staffing",
-      "YTC Healthcare",
-      "Nursing Support"
-    ]
+    "subsections": {
+      "section": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "question": "What services does a CNA agency in Philadelphia typically offer?",
+          "answer": "A CNA agency in Philadelphia provides staffing solutions for healthcare facilities, including hospitals, long-term care centers, and home health services. Services often encompass per diem staffing, long-term placements, and emergency coverage to ensure patient care continuity."
+        },
+        {
+          "question": "How do I verify the credentials of a CNA provided by an agency?",
+          "answer": "Reputable agencies will provide current certification documents, background check clearance, and health records upon request. Many use digital credentialing platforms that allow real-time verification."
+        },
+        {
+          "question": "Are CNA agencies in Philadelphia equipped to handle specialized care needs?",
+          "answer": "Leading agencies maintain specialized CNA pools with training in dementia care, rehabilitation support, wound care assistance, and other specialty areas. Always inquire about specific competencies."
+        },
+        {
+          "question": "What are the benefits of using a CNA agency for per diem staffing?",
+          "answer": "Agency-per-diem staffing provides flexible coverage for census fluctuations, seasonal demand, and unexpected absences while maintaining care continuity and compliance with staffing ratios."
+        },
+        {
+          "question": "How does YTC Healthcare differentiate itself from CNA agencies in Philadelphia?",
+          "answer": "YTC Healthcare combines rigorous credentialing with personalized care matching. We prioritize long-term workforce stability through competitive compensation, ongoing training, and supportive scheduling—resulting in 92% client retention and 85% CNA retention rates."
+        }
+      ]
+    }
   },
+  "tags": [
+    "CNA Agency",
+    "Philadelphia",
+    "Healthcare Staffing",
+    "Certified Nursing Assistants",
+    "Long-Term Care",
+    "Home Health Care",
+    "Per Diem Staffing",
+    "YTC Healthcare",
+    "Nursing Support"
+  ],
   "the-importance-of-cultural-competency-in-healthcare-staffing": {
     "id": 6,
     "title": "The Importance of Cultural Competency in Healthcare Staffing",
