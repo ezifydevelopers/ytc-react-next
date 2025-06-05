@@ -22,9 +22,7 @@ export default function serviceAvalibality({ data }) {
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                             {data.title}
                         </h2>
-                        <p className="text-gray-700 text-base md:text-lg leading-relaxed">
-                            {data.description}
-                        </p>
+                        <p className="text-gray-700 text-base md:text-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: data.description }}/>
                     </div>
 
                     {/* Right Buttons */}

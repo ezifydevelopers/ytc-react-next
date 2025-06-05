@@ -34,9 +34,7 @@ const PageHeader = ({ img, title, description, className }) => {
             {/* Content Section */}
             {description && <div className="p-6 md:p-10 flex flex-col xl:flex-row gap-6 xl:items-center xl:justify-between">
                 <div className="xl:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
-                    <p className="xl:ml-30">
-                        {description}
-                    </p>
+                    <p className="xl:ml-30" dangerouslySetInnerHTML={{ __html: description }}/>
                 </div>
 
                 {/* Call Section */}

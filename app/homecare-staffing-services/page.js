@@ -99,7 +99,7 @@ const HomecareStaffing = () => {
                 <PageHeader
                     img={'/images/banner-final-1-1.webp'}
                     title={'Homecare Staffing Services'}
-                    description={'YTC Healthcare connects families with certified caregivers and personal support workers who bring compassion and clinical experience directly into the home. Every match is intentionally designed to support those recovering from surgery, managing chronic conditions, or needing daily help with activities of daily living (ADLs). Our team specializes in homecare staffing services and provides dependable support for seniors who need care without leaving the comfort of their homes. With the growing demand for senior care staffing, we ensure no family has to compromise on quality.'}
+                    description={'YTC Healthcare connects families with <a href=\"https://ytchealthcare.com/service/physician/\"><u>certified caregivers</u></a> and personal support workers who bring compassion and clinical experience directly into the home. Every match is intentionally designed to support those recovering from surgery, managing chronic conditions, or needing daily help with activities of daily living (ADLs). Our team specializes in homecare staffing services and provides dependable support for seniors who need care without leaving the comfort of their homes. With the growing demand for senior care staffing, we ensure no family has to compromise on quality.'}
                 />
             </div>
             <section className="staffing-solution my-5 mx-3 sm:mx-4 md:mx-6 bg-white text-gray-900 rounded-tr-[20px] sm:rounded-tr-[25px] md:rounded-tr-[30px] rounded-br-[20px] sm:rounded-br-[25px] md:rounded-br-[30px]">
@@ -139,20 +139,20 @@ const HomecareStaffing = () => {
                             {/* Description and CTA */}
                             <div className="text-[#68747A] lg:w-[30%]">
                                 <p className="text-sm sm:text-base mb-4 sm:mb-6">
-                                    Hospital discharge is not the end of care—it is the beginning of a new chapter that demands trusted support at home. YTC Healthcare provides home healthcare staffing designed to ensure comfort, safety, and stability for individuals who require continued attention. From emotional support and medication oversight to mobility help and recovery-focused care, our nurses and personal support workers are trained to handle both medical and non-medical responsibilities. As a private homecare staffing agency, we match every household with professionals equipped to adapt to their unique needs.
-                                </p>
-                                <button 
-                                className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200" 
+                                    Hospital discharge is not the end of care—it is the beginning of a new chapter that demands trusted support at home. YTC Healthcare provides home healthcare staffing designed to ensure comfort, safety, and stability for individuals who require continued attention. From <a href="https://ytchealthcare.com/service/developmental-support-workers/" ><u>emotional support and medication</u></a> oversight to mobility help and recovery-focused care, our nurses and personal support workers are trained to handle both medical and non-medical responsibilities. As a private homecare staffing agency, we match every household with professionals equipped to adapt to their unique needs.
+                            </p>
+                            <button
+                                className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
                                 onClick={() => window.location.href = "/contact"}
-                                >
-                                    <span>Get Your Medical Expert Now</span>
-                                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-                                </button>
-                            </div>
+                            >
+                                <span>Get Your Medical Expert Now</span>
+                                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                            </button>
                         </div>
                     </div>
                 </div>
-            </section>
+        </div>
+            </section >
 
             <div className="px-6 md:px-0 pb-10 max-w-7xl mx-auto my-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -254,7 +254,7 @@ const HomecareStaffing = () => {
                 </div>
             </section>
             <Footer />
-        </div>
+        </div >
     );
 };
 

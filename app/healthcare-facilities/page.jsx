@@ -143,7 +143,7 @@ const HealthcareFacilities = () => {
                             {/* Description and CTA */}
                             <div className="text-[#68747A] lg:w-[30%]">
                                 <p className="text-sm sm:text-base mb-4 sm:mb-6">
-                                    YTC Healthcare simplifies the process of securing qualified healthcare talent. From identifying the right professionals to resolving recurring staffing gaps, our role is to strengthen your team with affordable clinical support. As a full-scale medical staffing agency, we serve hospitals, clinics, and a range of healthcare facilities, regardless of size or specialization. Our workforce includes licensed practical nurses (LPNs), registered nurses (RNs), physicians, and allied health professionals, each selected for their commitment to quality care. Whether you need short-term coverage or long-term staffing solutions, we provide seamless access to a highly trained network. Our mission is rooted in bridging healthcare systems with the people who make compassionate care possible.
+                                    YTC Healthcare simplifies the process of securing qualified healthcare talent. From identifying the right professionals to resolving recurring staffing gaps, our role is to strengthen your team with affordable clinical support. As a full-scale medical staffing agency, we serve hospitals, clinics, and a range of healthcare facilities, regardless of size or specialization. Our workforce includes licensed practical nurses (LPNs), registered nurses (RNs), physicians, and <a href="https://ytchealthcare.com/service/child-care-solutions/" ><u>allied health professionals</u></a>, each selected for their commitment to quality care. Whether you need short-term coverage or long-term staffing solutions, we provide seamless access to a highly trained network. Our mission is rooted in bridging healthcare systems with the people who make compassionate care possible.
                                 </p>
                                 <button
                                     className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
@@ -183,17 +183,17 @@ const HealthcareFacilities = () => {
                     </div>
 
                     <p className="text-sm md:text-base text-gray-500 mb-3">
-                    Together for a Better Healthcare
+                        Together for a Better Healthcare
                     </p>
 
                     <h2 className="text-2xl md:text-4xl font-extrabold text-[#0B2338] leading-tight mb-4">
-                    Facility-Focused Staffing for Real-World
+                        Facility-Focused Staffing for Real-World
                         <br className="hidden sm:block" />
                         Challenges
                     </h2>
 
                     <p className="text-sm md:text-base text-gray-500 max-w-3xl mx-auto">
-                    YTC Healthcare addresses the complex and evolving staffing needs of medical institutions with precision. We specialize in connecting healthcare facilities with medical professionals who can adapt to high-demand environments—whether in urban hospitals, rural clinics, or underserved communities. Through our hospital staffing solutions, we help ensure that no patient is left waiting and no department is under-supported.
+                        YTC Healthcare addresses the complex and evolving staffing needs of medical institutions with precision. We specialize in connecting healthcare facilities with medical professionals who can adapt to high-demand environments—whether in urban hospitals, rural clinics, or underserved communities. Through our hospital staffing solutions, we help ensure that no patient is left waiting and no department is under-supported.
                     </p>
                 </div>
                 <div className="bg-gradient-to-br py-10 px-4 sm:px-8">

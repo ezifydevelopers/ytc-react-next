@@ -7,9 +7,7 @@ export default function serviceList({data}) {
                 <h2 className="text-lg font-semibold text-gray-900 mb-2">
                     {data?.title}
                 </h2>
-                <p className="text-gray-700 mb-6">
-                    {data?.description}
-                </p>
+                <p className="text-gray-700 mb-6" dangerouslySetInnerHTML={{ __html: data?.description }}/>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-800">
                     <ul className="space-y-2">

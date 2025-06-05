@@ -8,7 +8,7 @@ export default function ClientSatisfactionSection() {
             icon: '/icons/sat-1.svg',
             title: 'Strategic Staffing Expertise',
             description:
-                'We bridge the gap between talent and opportunity by placing the right healthcare professionals, travel nurses, physicians, and other medical professionals, where they are needed most. From the beginning, your staffing challenges become our mission.',
+                'We bridge the gap between talent and opportunity by placing the right healthcare professionals, travel nurses, <a href=\"https://ytchealthcare.com/service/physician/\" ><u>physicians</u></a>, and other medical professionals, where they are needed most. From the beginning, your staffing challenges become our mission.',
         },
         {
             icon: '/icons/sat-2.svg',
@@ -69,9 +69,7 @@ export default function ClientSatisfactionSection() {
 
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
-                                <p className="text-gray-600 text-sm leading-relaxed">
-                                    {item.description}
-                                </p>
+                                <p className="text-gray-600 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: item.description }}/>
                             </div>
                         </div>
                     </div>

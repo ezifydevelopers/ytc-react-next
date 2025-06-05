@@ -195,7 +195,7 @@ const SpecialcareStaffing = () => {
                     </h2>
 
                     <p className="text-sm md:text-base text-gray-500 max-w-3xl mx-auto">
-                    Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer’s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson’s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive experienced medical professionals who provide continuity, respect, and meaningful care outcomes.
+                    Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer’s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson’s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive <a href='https://ytchealthcare.com/service/physician/'><u>experienced medical professionals</u></a> who provide continuity, respect, and meaningful care outcomes.
                     </p>
                 </div>
                 <div className="bg-gradient-to-br py-10 px-4 sm:px-8">
