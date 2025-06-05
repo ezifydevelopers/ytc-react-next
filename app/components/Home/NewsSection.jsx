@@ -55,11 +55,11 @@ export default function NewsSection() {
           const slug = Object.keys(blogs).find(key => blogs[key].id === post.id);
 
           return (
-            <div key={post.id || index} className="overflow-hidden bg-white transition duration-300">
+            <div key={index} className="overflow-hidden bg-white transition duration-300">
               <div className="">
                 <Image
                   src={post.image}
-                  alt={post.title}
+                  alt={post.title || "YTC Healthcare"}
                   width={292}
                   height={370}
                   className="object-cover rounded-xl w-full h-full"
