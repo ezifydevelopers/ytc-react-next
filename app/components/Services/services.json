@@ -1,8 +1,8 @@
 {
     "nurses": {
-        "pageimage" : "/images/01.jpg",
+        "pageimage": "/images/01.jpg",
         "pagetitle": "Nurse Staffing Solutions",
-        "pagedescription" : "Nurses are the backbone of the healthcare system—bringing their skills, care, and heart to every patient, every time. Whether you need specialized care, everyday medical help, or a travel nurse for health support, we have got you covered with nursing services designed just for you.",
+        "pagedescription": "Nurses are the backbone of the healthcare system—bringing their skills, care, and heart to every patient, every time. Whether you need specialized care, everyday medical help, or a travel nurse for health support, we have got you covered with nursing services designed just for you.",
         "avalibalitySection": {
             "title": "Find Nurse for Your Needs, Anytime, Anywhere",
             "description": "Nurses are true lifesavers, stepping up for patients who need medical care the most. Our nurse practitioners bring their expertise to healthcare facilities, private centers, and other licensed care environments. Registered nurses help ensure that your organization receives high-quality clinical care at every stage. You are welcome to reach out whether you need short-term support or a permanent placement. YTC Healthcare offers temporary nurse placement services aligned with your staffing needs and maintains one of the lowest turnover rates in the field. We remain in close contact with every client to provide support around the clock through our broader healthcare staffing solutions.",
@@ -32,7 +32,7 @@
             },
             "headingSection": {
                 "title": "Find a Nurse in Minutes and Keep Your Care on Track!",
-                "description": "Staff shortages place real pressure on healthcare operations, especially in roles that directly affect patient outcomes. Nurses remain essential to the continuity of care, working alongside physicians, managing clinical workflows, and supporting those in recovery. <p>We support staffing needs across hospitals, clinics, and home-based care. Our team includes experienced Registered Nurses (RNs) for advanced clinical cases and Licensed Practical Nurses (LPNs) for bedside support. Whether the need involves a Travel Nurse or a Critical Care Nurse for ICU coverage, we are prepared to act quickly and decisively.</p> Specialized roles are also available based on population needs and clinical demands. Pediatric Nurses, Geriatric Nurses, and Home Health Nurses help maintain stability in complex care environments. Our network also includes Registered Practical Nurses (RPNs), ER Nurses, Oncology Nurses, and Labor and Delivery Nurses, each place where their expertise is most needed. <p>These professionals are part of our broader nursing workforce solutions, designed to prevent understaffing and maintain quality standards. If additional support is required beyond clinical nursing, we also provide full-spectrum healthcare staffing support for allied and administrative roles.</p>"
+                "description": "Staff shortages place real pressure on healthcare operations, especially in roles that directly affect patient outcomes. Nurses remain essential to the continuity of care, working alongside physicians, managing clinical workflows, and supporting those in recovery. <p>We support staffing needs across hospitals, clinics, and home-based care. Our team includes experienced Registered Nurses (RNs) for advanced clinical cases and Licensed Practical Nurses (LPNs) for bedside support. Whether the need involves a Travel Nurse or a Critical Care Nurse for ICU coverage, we are prepared to act quickly and decisively.</p> Specialized roles are also available based on population needs and clinical demands. Pediatric Nurses, Geriatric Nurses, and Home Health Nurses help maintain stability in complex care environments. Our network also includes Registered Practical Nurses (RPNs), ER Nurses, Oncology Nurses, and Labor and Delivery Nurses, each place where their expertise is most needed. <p>These professionals are part of our broader nursing workforce solutions, designed to prevent understaffing and maintain quality standards. If additional support is required beyond clinical nursing, we also provide full-spectrum <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u> healthcare staffing </u></a> support for allied and administrative roles.</p>"
             },
             "cards": [
                 {
@@ -158,9 +158,9 @@
         }
     },
     "physician": {
-        "pageimage" : "/images/01-3.jpg",
+        "pageimage": "/images/01-3.jpg",
         "pagetitle": "Hire Qualified Doctors & Specialists",
-        "pagedescription" : "Physicians hold a critical role in healthcare, identifying conditions early and managing complex treatment plans across disciplines. YTC Healthcare connects medical facilities with certified physicians who contribute meaningfully to patient outcomes. As a trusted physician recruitment agency, we ensure healthcare facilities remain fully staffed with professionals who are licensed, experienced, and ready to serve. Whether your needs are immediate or long-term, our process makes physician placement seamless and dependable.",
+        "pagedescription": "Physicians hold a critical role in healthcare, identifying conditions early and managing complex treatment plans across disciplines. YTC Healthcare connects medical facilities with certified physicians who contribute meaningfully to patient outcomes. As a trusted physician recruitment agency, we ensure healthcare facilities remain fully staffed with professionals who are licensed, experienced, and ready to serve. Whether your needs are immediate or long-term, our process makes physician placement seamless and dependable.",
         "avalibalitySection": {
             "title": "Find a Physician for Your Healthcare Needs",
             "description": "Every healthcare facility deserves access to experienced physicians who can deliver high-quality patient care without interruption. YTC Healthcare addresses staffing gaps by connecting organizations with qualified family physicians, general practitioners, specialists, and those available for locum tenens physician staffing. Whether the need is routine or urgent, our team ensures your facility remains fully supported, regardless of complexity or timeline. We provide continuous oversight to maintain the care standards your patients rely on.",
@@ -214,7 +214,7 @@
                     "title": "Swift Support at Your Fingertips",
                     "bg": "bg-yellow-200",
                     "iconBg": "bg-blue-900",
-                    "text": "Quick response times matter. YTC Healthcare provides 24/7 staffing coordination and ongoing assistance to solve issues before they impact care delivery. We also provide telemedicine physician staffing, enabling facilities to expand reach without delay or compromise."
+                    "text": "Quick response times matter. YTC Healthcare provides <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u>24/7 staffing</u></a> coordination and ongoing assistance to solve issues before they impact care delivery. We also provide telemedicine physician staffing, enabling facilities to expand reach without delay or compromise."
                 }
             ]
         },
@@ -309,9 +309,9 @@
         }
     },
     "social-service-workers": {
-        "pageimage" : "/images/social-service-workers.jpg",
+        "pageimage": "/images/social-service-workers.jpg",
         "pagetitle": "Social Service Worker",
-        "pagedescription" : "Social service workers are central to building stronger communities. They support individuals and families through moments of crisis, transition, and recovery—often when care is needed most. From addressing mental health concerns to coordinating critical resources, their presence improves lives and strengthens systems. YTC Healthcare provides social work staffing solutions that help organizations deliver meaningful, people-first care across a wide range of social service environments.",
+        "pagedescription": "Social service workers are central to building stronger communities. They support individuals and families through moments of crisis, transition, and recovery—often when care is needed most. From addressing mental health concerns to coordinating critical resources, their presence improves lives and strengthens systems. YTC Healthcare provides social work staffing solutions that help organizations deliver meaningful, people-first care across a wide range of social service environments.",
         "avalibalitySection": {
             "title": "Find the Right Social Service Worker for Your Medical Needs",
             "description": "YTC Healthcare connects organizations with certified professionals through focused licensed social worker recruitment. Our workers are ready to step into roles that require emotional insight, clinical coordination, and social care expertise. Whether the need is for mental health services, family support, or case management, we offer both short-term and long-term placements to match the unique demands of your facility. Each social worker brings the ability to act with empathy while maintaining the structure required for effective care delivery.",
@@ -335,7 +335,7 @@
             ]
         },
         "cardSection": {
-            "image": { 
+            "image": {
                 "src": "/images/02-Social-Service-Worker.webp",
                 "alt": "Home Care"
             },
@@ -369,7 +369,7 @@
         },
         "whyChooseSection": {
             "title": "Types of Social Service Workers We Provide",
-            "description": "YTC Healthcare connects organizations with certified social service professionals who bring both clinical knowledge and emotional understanding to each placement. Our child welfare staffing solutions ensure vulnerable children and families receive consistent support from workers trained in trauma-informed care and protection protocols. <p>We also provide professionals experienced in addiction recovery, relapse prevention, and rehabilitation casework. Through our substance abuse counselor staffing, your organization can address dependency challenges with trained staff who respond with skill and compassion.</p> <p>From short-term roles to long-term care coordination, we offer dependable staffing across the full continuum of social services. With our family support services staffing, organizations can rely on workers who advocate, coordinate, and empower families through difficult transitions. Each placement is supported with 24/7 communication, proactive planning, and a commitment to measurable outcomes.</p>",
+            "description": "YTC Healthcare connects organizations with certified social service professionals who bring both clinical knowledge and emotional understanding to each placement. Our child welfare staffing solutions ensure vulnerable children and families receive consistent support from workers trained in trauma-informed <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u>care and protection protocols</u></a>. <p>We also provide professionals experienced in addiction recovery, relapse prevention, and rehabilitation casework. Through our substance abuse counselor staffing, your organization can address dependency challenges with trained staff who respond with skill and compassion.</p> <p>From short-term roles to long-term care coordination, we offer dependable staffing across the full continuum of social services. With our family support services staffing, organizations can rely on workers who advocate, coordinate, and empower families through difficult transitions. Each placement is supported with 24/7 communication, proactive planning, and a commitment to measurable outcomes.</p>",
             "features": [
                 "Experienced and Certified Professionals",
                 "Quick and Reliable Placements",
@@ -433,9 +433,9 @@
         }
     },
     "personal-support-workers": {
-        "pageimage" : "/images/personal-support-workers.jpg",
+        "pageimage": "/images/personal-support-workers.jpg",
         "pagetitle": "Personal Support Worker Staffing",
-        "pagedescription" : "Personal Support Workers offer essential, hands-on care to individuals requiring daily living assistance. Every PSW in our network brings clinical reliability and emotional understanding, ensuring that seniors and individuals with disabilities feel respected, safe, and supported. YTC Healthcare provides personal support worker staffing services to healthcare facilities, private homes, and long-term care communities, strengthening day-to-day care while improving patient quality of life.",
+        "pagedescription": "Personal Support Workers offer essential, hands-on care to individuals requiring daily living assistance. Every PSW in our network brings clinical reliability and emotional understanding, ensuring that seniors and individuals with disabilities feel respected, safe, and supported. YTC Healthcare provides personal support worker staffing services to healthcare facilities, private homes, and long-term care communities, strengthening day-to-day care while improving patient quality of life.",
         "avalibalitySection": {
             "title": "Find the Right Personal Support Worker for Your Needs",
             "description": "Supporting daily living takes more than just clinical skill—it requires empathy, patience, and behavioral awareness. Our Personal Support Workers are trained to help individuals retain dignity and independence while managing complex care needs. YTC Healthcare ensures each placement fits your expectations, offering short-term, ongoing, or specialized caring assistance as required. Through our certified personal care assistant recruitment, we help families and care facilities access dependable support built on compassion and accountability.",
@@ -507,7 +507,7 @@
         },
         "whyChooseSection": {
             "title": "Why Choose Our Personal Support Workers?",
-            "description": "YTC Healthcare provides experienced and certified Personal Support Workers who bring a thoughtful balance of empathy and clinical professionalism. We focus on meaningful care, whether it is assistance at home or extra support within a healthcare organization. When ongoing support is needed, our team helps establish continuity through long-term personal care staffing, building familiarity and trust between caregivers and those they serve. We also offer companion care staffing solutions to support emotional well-being alongside physical care. Backed by responsive client service and clear agreements, our approach removes the guesswork. Families and care facilities can count on us to stay present, involved, and reliable throughout every stage of care.",
+            "description": "YTC Healthcare provides experienced and certified Personal Support Workers who bring a thoughtful balance of empathy and clinical professionalism. We focus on meaningful care, whether it is assistance at home or extra support within a healthcare organization. When ongoing support is needed, our team helps establish continuity through long-term personal care staffing, building familiarity and trust between caregivers and those they serve. We also offer <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u>companion care staffing</u></a> solutions to support emotional well-being alongside physical care. Backed by responsive client service and clear agreements, our approach removes the guesswork. Families and care facilities can count on us to stay present, involved, and reliable throughout every stage of care.",
             "features": [
                 "Experienced and Certified Professionals",
                 "Customized Care Plans",
@@ -577,9 +577,9 @@
         }
     },
     "developmental-support-workers": {
-        "pageimage" : "/images/developmental-support-workers.jpg",
+        "pageimage": "/images/developmental-support-workers.jpg",
         "pagetitle": "Developmental Support Worker Staffing",
-        "pagedescription" : "YTC Healthcare continues to respond to workforce gaps across healthcare and community-based care. Our commitment to consistent, person-centered service extends to organizations supporting individuals with developmental disabilities. Developmental Support Workers play a vital role in enhancing day-to-day life, offering both emotional guidance and physical support. Through our developmental support worker staffing services, we assist group homes, community programs, and private residences in building dependable care teams that improve outcomes and preserve dignity.",
+        "pagedescription": "YTC Healthcare continues to respond to workforce gaps across healthcare and community-based care. Our commitment to consistent, person-centered service extends to organizations supporting individuals with developmental disabilities. Developmental Support Workers play a vital role in enhancing day-to-day life, offering both emotional guidance and physical support. Through our developmental support worker staffing services, we assist group homes, community programs, and private residences in building dependable care teams that improve outcomes and preserve dignity.",
         "avalibalitySection": {
             "title": "Find the Right Development Support Worker for Your Needs",
             "description": "YTC Healthcare recognizes that supporting individuals with developmental conditions requires more than basic care, it demands understanding, consistency, and trust. Our certified professionals specialize in intellectual and developmental disabilities support, providing thoughtful assistance that promotes independence and emotional well-being. Whether short-term or ongoing, each care plan is shaped around the person’s goals, personality, and daily challenges. With the right match, individuals receive the kind of support that helps them grow, not just get by.",
@@ -609,7 +609,7 @@
             },
             "headingSection": {
                 "title": "Empowering Individuals Through Personalized Support",
-                "description": "Developmental Support Workers from YTC Healthcare are driven by a clear purpose: helping people live with greater independence and dignity. These professionals assist with daily routines, emotional regulation, and life skills, whether support is needed at home, in schools, or within public programs. Through our disability support worker recruitment, we connect families and organizations with individuals who bring not only skill but also deep empathy to every assignment. <p>The developmental support workers we place are trained to meet a wide range of needs—mobility, personal care, behavioral coaching, and companionship. Beyond caregiving, they serve as consistent mentors who foster growth, communication, and community presence. With a focus on community integration support services, we help people with disabilities remain active and engaged in environments that build confidence and autonomy.</p>"
+                "description": "Developmental Support Workers from YTC Healthcare are driven by a clear purpose: helping people live with greater independence and dignity. These professionals assist with daily routines, emotional regulation, and life skills, whether support is needed at home, in schools, or within public programs. Through our disability support worker recruitment, we connect families and organizations with individuals who bring not only skill but also deep empathy to every assignment. <p>The developmental support workers we place are trained to meet a wide range of needs—mobility, personal care, behavioral coaching, and companionship. Beyond caregiving, they serve as consistent mentors who foster growth, communication, and community presence. With a focus on <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u>community integration support services</u></a>, we help people with disabilities remain active and engaged in environments that build confidence and autonomy.</p>"
             },
             "cards": [
                 {
@@ -719,9 +719,9 @@
         }
     },
     "child-care-solutions": {
-        "pageimage" : "/images/child-care-solutions.jpg",
+        "pageimage": "/images/child-care-solutions.jpg",
         "pagetitle": "Child Care Staffing Services",
-        "pagedescription" : "YTC Healthcare recognizes the importance of qualified professionals in early childhood care. Our network includes certified staff ready to support children in safe, nurturing environments where learning and development come first. From guiding toddlers through new experiences to assisting school-aged children with daily routines, each placement is made with purpose. Through our child care staffing services, we assist daycare centers and private families in finding dependable care providers who contribute to a child’s well-being and growth.",
+        "pagedescription": "YTC Healthcare recognizes the importance of qualified professionals in early childhood care. Our network includes certified staff ready to support children in safe, nurturing environments where learning and development come first. From guiding toddlers through new experiences to assisting school-aged children with daily routines, each placement is made with purpose. Through our child care staffing services, we assist daycare centers and private families in finding <a href=\"https://ytchealthcare.com/healthcare-staffing/\" ><u>dependable care providers</u></a> who contribute to a child’s well-being and growth.",
         "avalibalitySection": {
             "title": "Find the Right Child Care Worker for Your Needs",
             "description": "YTC Healthcare understands the impact childcare workers have on early development. Our professionals are available for full-time care, after-school support, or flexible assistance during demanding schedules. Each candidate is selected through a focused early childhood educator recruitment process, ensuring your children receive care from individuals who nurture creativity, confidence, and emotional growth. With us, your child remains in safe, capable hands, supported by someone who truly understands their developmental needs.",
@@ -865,9 +865,9 @@
         }
     },
     "24-hour-home-care": {
-        "pageimage" : "/images/faq1.webp",
+        "pageimage": "/images/faq1.webp",
         "pagetitle": "24 Hour Home Care Services",
-        "pagedescription" : "YTC Healthcare supports seniors and individuals with complex needs who require reliable, attentive care throughout the day and night. Our 24-hour in-home care services are designed to provide continuous support, ensuring that every client receives supervision, assistance, and comfort without interruption. Backed by a skilled team of caregivers, we deliver the quality of a professional care facility in one place, which matters most, the home.",
+        "pagedescription": "YTC Healthcare supports seniors and individuals with complex needs who require reliable, attentive care throughout the day and night. Our 24-hour in-home care services are designed to provide continuous support, ensuring that every client receives supervision, assistance, and comfort without interruption. Backed by a skilled team of caregivers, we deliver the quality of a professional care facility in one place, which matters most, the home.",
         "avalibalitySection": {
             "title": "Round-the-Clock Home Care Assistance That Never Stops",
             "description": "YTC Healthcare delivers round-the-clock home care assistance with a focus on physical comfort, emotional support, and medical stability for individuals in fragile health. Care is provided by a rotating team of qualified professionals, ensuring that someone is always present to respond to changing needs. From bathing and dressing to companionship and chronic condition management, our caregivers remain attentive, giving families the peace of mind that their loved ones are never left alone.",
@@ -1009,9 +1009,9 @@
         }
     },
     "in-home-nursing-care": {
-        "pageimage" : "/images/faq1.webp",
+        "pageimage": "/images/faq1.webp",
         "pagetitle": "In-Home Nursing Care Services",
-        "pagedescription" : "YTC Healthcare is committed to improving life for older adults, individuals with disabilities, and those managing ongoing health conditions. Through our in-home nursing care services, clients receive skilled, hands-on support without leaving the familiarity of their homes. Our licensed nurses work with care, consistency, and clinical expertise to help each person live independently with safety, dignity, and peace of mind.",
+        "pagedescription": "YTC Healthcare is committed to improving life for older adults, individuals with disabilities, and those managing ongoing health conditions. Through our in-home nursing care services, clients receive skilled, hands-on support without leaving the familiarity of their homes. Our licensed nurses work with care, consistency, and clinical expertise to help each person live independently with safety, dignity, and peace of mind.",
         "avalibalitySection": {
             "title": "Skip the Hospital Visits—Get Expert Nursing at Home",
             "description": "Healthcare should feel both reliable and comforting. YTC Healthcare delivers skilled nursing care at home that meets clinical standards while preserving the comfort of familiar surroundings. Our nursing care plans are developed in collaboration with families, physicians, and our licensed professionals, ensuring medical needs are addressed effectively. From recovery after surgery to support for long-term conditions, we provide consistent care without the need for hospitalization.",
@@ -1147,9 +1147,9 @@
         }
     },
     "personal-care": {
-        "pageimage" : "/images/personal-care.jpg",
+        "pageimage": "/images/personal-care.jpg",
         "pagetitle": "Personal Care Services",
-        "pagedescription" : "YTC Healthcare recognizes the importance of hygiene, dignity, and daily self-care, especially for individuals managing illness, disability, or the challenges of aging. Our personal care services for seniors are designed to support those who struggle with grooming, mobility, or hygiene-related tasks. Whether recovering from surgery or living with a long-term condition, each client receives attentive care that respects comfort, health, and independence.",
+        "pagedescription": "YTC Healthcare recognizes the importance of hygiene, dignity, and daily self-care, especially for individuals managing illness, disability, or the challenges of aging. Our personal care services for seniors are designed to support those who struggle with grooming, mobility, or hygiene-related tasks. Whether recovering from surgery or living with a long-term condition, each client receives attentive care that respects comfort, health, and independence.",
         "avalibalitySection": {
             "title": "Professional Personal Care Support, Right at Your Doorstep",
             "description": "Daily tasks can become overwhelming when mobility or medical conditions limit independence. YTC Healthcare offers in-home personal care assistance that brings comfort, dignity, and consistent support directly to your door. Our care professionals are chosen not only for their clinical skills but also for their ability to build trust and offer companionship. Every service is delivered with attention to your preferences and routines, because quality care starts with understanding the individual.",
@@ -1282,9 +1282,9 @@
         }
     },
     "senior-care-staffing": {
-        "pageimage" : "/images/social-service-workers.jpg",
+        "pageimage": "/images/social-service-workers.jpg",
         "pagetitle": "Senior Care Staffing Solutions",
-        "pagedescription" : "Growing older presents new challenges, but it should never mean sacrificing independence, dignity, or comfort. YTC Healthcare delivers senior care staffing services that ensure older adults receive daily living assistance, clinical oversight, and emotional presence—all within familiar environments. Our professional caregivers are trained to support both physical and emotional well-being, offering more than help—they offer consistency, conversation, and care that respects every individual’s story. We believe every senior deserves to live with purpose, safety, and human connection.",
+        "pagedescription": "Growing older presents new challenges, but it should never mean sacrificing independence, dignity, or comfort. YTC Healthcare delivers senior care staffing services that ensure older adults receive daily living assistance, clinical oversight, and emotional presence—all within familiar environments. Our professional caregivers are trained to support both physical and emotional well-being, offering more than help—they offer consistency, conversation, and care that respects every individual’s story. We believe every senior deserves to live with purpose, safety, and human connection.",
         "avalibalitySection": {
             "title": "Certified Care Professionals for Every Stage of Aging",
             "description": "Senior care requires more than medical assistance. It demands compassion, consistency, and a deep understanding of individual needs. Through our elderly care staffing solutions, YTC Healthcare provides support that balances physical health with emotional care. Whether navigating memory changes, chronic illness, or reduced mobility, our certified professionals promote confidence and comfort with every interaction. We build strong relationships between caregivers and clients, ensuring that older adults experience security, belonging, and the dignity they deserve each day.",
@@ -1417,9 +1417,9 @@
         }
     },
     "alzheimers-care-staffing": {
-        "pageimage" : "/images/01-17.jpg",
+        "pageimage": "/images/01-17.jpg",
         "pagetitle": "Professional Staff For Alzheimers Care",
-        "pagedescription" : "Caring for a loved one with Alzheimer’s disease presents emotional and logistical challenges, but you are not alone. YTC Healthcare offers Alzheimer’s care staffing services designed to provide reliable, compassionate support within the familiarity of home. Our trained professionals understand the complexities of cognitive decline, including memory loss, disorientation, communication difficulties, and behavioral shifts. We prioritize more than physical well-being. Through customized care plans, we support emotional stability and daily continuity. Whether it involves structured routines or guided engagement, our approach helps individuals maintain dignity and comfort. As a memory care staffing agency, we are committed to delivering consistent, personalized care that evolves with each patient’s needs.",
+        "pagedescription": "Caring for a loved one with Alzheimer’s disease presents emotional and logistical challenges, but you are not alone. YTC Healthcare offers Alzheimer’s care staffing services designed to provide reliable, compassionate support within the familiarity of home. Our trained professionals understand the complexities of cognitive decline, including memory loss, disorientation, communication difficulties, and behavioral shifts. We prioritize more than physical well-being. Through customized care plans, we support emotional stability and daily continuity. Whether it involves structured routines or guided engagement, our approach helps individuals maintain dignity and comfort. As a memory care staffing agency, we are committed to delivering consistent, personalized care that evolves with each patient’s needs.",
         "avalibalitySection": {
             "title": "Alzheimer’s Care with Heart and Precision",
             "description": "YTC Healthcare recognizes the emotional toll and daily complexity that Alzheimer’s disease places on families. Our in-home support services are structured to match the individual needs of each patient with precision and compassion. Through continuous supervision, our professionals promote safety, minimize risks, and assist with routines to preserve comfort and consistency. By placing specialized Alzheimer’s caregivers directly in the home, we ensure that patients remain in a familiar environment that supports memory retention, emotional stability, and trust. With in-home dementia care providers available around the clock, your loved ones receive attentive care that evolves as their condition progresses.",
@@ -1561,9 +1561,9 @@
         }
     },
     "dementia-care": {
-        "pageimage" : "/images/01-15.jpg",
+        "pageimage": "/images/01-15.jpg",
         "pagetitle": "Dementia Care Staffing Solutions",
-        "pagedescription" : "Dementia care requires more than experience—it demands understanding, patience, and clinical compassion. YTC Healthcare connects you with certified professionals through our dementia care staffing services, ensuring specialized support for individuals with cognitive decline. Our specialized dementia caregivers assist with memory care, structured routines, and emotional stability to create a safe, comforting environment. We provide in-home dementia care providers to healthcare facilities, residential communities, and private homes, ensuring every patient receives the care they deserve.",
+        "pagedescription": "Dementia care requires more than experience—it demands understanding, patience, and clinical compassion. YTC Healthcare connects you with certified professionals through our dementia care staffing services, ensuring specialized support for individuals with cognitive decline. Our specialized dementia caregivers assist with memory care, structured routines, and emotional stability to create a safe, comforting environment. We provide in-home dementia care providers to healthcare facilities, residential communities, and private homes, ensuring every patient receives the care they deserve.",
         "avalibalitySection": {
             "title": "Helping Your Loved Ones Through Dementia with Dignity",
             "description": "Every patient’s dementia journey is different. YTC Healthcare provides personalized dementia care support through caregivers who respect individual needs and preferences. Our team includes certified dementia care workers trained to manage symptoms and foster meaningful moments of clarity and connection. Backed by a reliable behavioral health staffing agency, we ensure your loved ones receive consistent support grounded in empathy and clinical experience.",
@@ -1705,9 +1705,9 @@
         }
     },
     "acquired-brain-injury-care": {
-        "pageimage" : "/images/01-16.jpg",
+        "pageimage": "/images/01-16.jpg",
         "pagetitle": "Acquired Brain Injury Care Staffing Services",
-        "pagedescription" : "Living with an Acquired Brain Injury (ABI) presents emotional, physical, and cognitive challenges for both individuals and their families. YTC Healthcare understands the complexity of recovery, and our role is to provide the structured, empathetic, and clinical care needed to help patients regain function and confidence. Whether the injury was caused by trauma, illness, or another event, our specialized brain injury caregivers step in to support rehabilitation, maximize independence, and improve quality of life. As a leading provider of acquired brain injury care services across Canada and the U.S., we ensure that every placement contributes meaningfully to long-term recovery.",
+        "pagedescription": "Living with an Acquired Brain Injury (ABI) presents emotional, physical, and cognitive challenges for both individuals and their families. YTC Healthcare understands the complexity of recovery, and our role is to provide the structured, empathetic, and clinical care needed to help patients regain function and confidence. Whether the injury was caused by trauma, illness, or another event, our specialized brain injury caregivers step in to support rehabilitation, maximize independence, and improve quality of life. As a leading provider of acquired brain injury care services across Canada and the U.S., we ensure that every placement contributes meaningfully to long-term recovery.",
         "avalibalitySection": {
             "title": "Holistic Support for Healing, Recovery, and Hope",
             "description": "An Acquired Brain Injury (ABI) refers to any damage to the brain occurring after birth, commonly resulting from trauma, stroke, infection, or oxygen deprivation. Unlike congenital conditions, these injuries are sudden and often life-altering. Recovery demands not just physical care, but emotional and cognitive rehabilitation as well. YTC Healthcare steps in with carefully developed plans to support healing and independence. Our brain injury rehabilitation providers work closely with families and facilities to restore function and foster a greater sense of control over daily life.",
@@ -1843,9 +1843,9 @@
         }
     },
     "expert-staff-for-als-care": {
-        "pageimage" : "/images/01-14.jpg",
+        "pageimage": "/images/01-14.jpg",
         "pagetitle": "Expert Staff For ALS Care Services",
-        "pagedescription" : "Individuals diagnosed with ALS face progressive and life-altering challenges that demand consistent, compassionate care. YTC Healthcare connects families and healthcare facilities with specialized ALS caregivers who understand the complexities of neuromuscular decline. These professionals offer essential support for mobility, respiratory function, and emotional well-being, helping individuals maintain dignity and comfort throughout each stage. Our role as a healthcare staffing provider is grounded in one purpose: ensuring every patient with ALS receives the dedicated attention they need to live with strength and stability.",
+        "pagedescription": "Individuals diagnosed with ALS face progressive and life-altering challenges that demand consistent, compassionate care. YTC Healthcare connects families and healthcare facilities with specialized ALS caregivers who understand the complexities of neuromuscular decline. These professionals offer essential support for mobility, respiratory function, and emotional well-being, helping individuals maintain dignity and comfort throughout each stage. Our role as a healthcare staffing provider is grounded in one purpose: ensuring every patient with ALS receives the dedicated attention they need to live with strength and stability.",
         "avalibalitySection": {
             "title": "Reliable and Supportive Medical Staff for ALS Patients",
             "description": "ALS progressively impacts nerve cells in the brain and spinal cord, resulting in muscle weakness, speech limitations, and difficulty with mobility and breathing. Because no two ALS journeys are the same, support plans must evolve with changing symptoms. YTC Healthcare provides ALS home health care services that prioritize compassion, consistency, and adaptability. Our professionals deliver care that aligns with each individual’s condition, helping families feel supported through every phase. From mobility assistance to respiratory care, we ensure clients receive the respect and steady guidance they deserve.",
@@ -1985,9 +1985,9 @@
         }
     },
     "healthcare-staff-for-hospitals": {
-        "pageimage" : "/images/01-Healthcare-Staffing-For-Hospitals-Needs.jpg",
+        "pageimage": "/images/01-Healthcare-Staffing-For-Hospitals-Needs.jpg",
         "pagetitle": "Healthcare Staffing For Hospitals Needs",
-        "pagedescription" : "Hospitals require structured approaches to maintain safety, deliver consistent care, and balance patient-to-staff ratios without compromising compliance. Managing patient volume, regulatory demands, and clinical workloads can strain even the most efficient systems. A dependable staffing partner becomes essential in sustaining operational stability and clinical excellence. YTC Healthcare is an affordable healthcare staffing agency providing responsive hospital staffing services that align with the speed and precision required in high-pressure environments. Our professionals arrive ready to perform, backed by experience, certification, and a commitment to care.",
+        "pagedescription": "Hospitals require structured approaches to maintain safety, deliver consistent care, and balance patient-to-staff ratios without compromising compliance. Managing patient volume, regulatory demands, and clinical workloads can strain even the most efficient systems. A dependable staffing partner becomes essential in sustaining operational stability and clinical excellence. YTC Healthcare is an affordable healthcare staffing agency providing responsive hospital staffing services that align with the speed and precision required in high-pressure environments. Our professionals arrive ready to perform, backed by experience, certification, and a commitment to care.",
         "avalibalitySection": {
             "title": "Reliable Healthcare Staff for Every Department, Anytime You Need",
             "description": "Hospitals are dynamic, managing critical cases and fluctuating patient loads around the clock. Responding to emergencies, complying with regulations, and maintaining seamless operations require strategic staffing across all departments. These demands call for healthcare professionals who are not only skilled but adaptable. YTC Healthcare strengthens hospital teams through precise medical staff recruitment, ensuring you have the right professionals in the right roles—whether for routine care or surge periods. As an expert nurse staffing agency and provider of full hospital workforce solutions, we offer responsive support that scales with your needs. Bulk staffing by department is available to help you maintain stability without delays.",
@@ -2125,9 +2125,9 @@
         }
     },
     "staff-for-clinics": {
-        "pageimage" : "/images/01-18.jpg",
+        "pageimage": "/images/01-18.jpg",
         "pagetitle": "Staffing Services For Clinics",
-        "pagedescription" : "Clinics require dependable and experienced professionals to deliver uninterrupted care. YTC Healthcare provides clinic staffing services that connect healthcare facilities with skilled medical staff, administrative support, and specialized professionals. As an expert medical clinic staffing agency, we help clinics reduce gaps in care, manage day-to-day demands, and enhance team performance. From front-desk to clinical roles, our team ensures your clinic runs efficiently—so your staff can focus on what matters most: your patients.",
+        "pagedescription": "Clinics require dependable and experienced professionals to deliver uninterrupted care. YTC Healthcare provides clinic staffing services that connect healthcare facilities with skilled medical staff, administrative support, and specialized professionals. As an expert medical clinic staffing agency, we help clinics reduce gaps in care, manage day-to-day demands, and enhance team performance. From front-desk to clinical roles, our team ensures your clinic runs efficiently—so your staff can focus on what matters most: your patients.",
         "avalibalitySection": {
             "title": "Flexible Staffing to Match Clinical Demands",
             "description": "YTC Healthcare provides healthcare staff for medical facilities who adapt to the changing demands of daily operations. Our skilled professionals ensure consistent care delivery, allowing your clinic to run without interruption. Whether you require temporary clinic staffing solutions for peak times or permanent medical staff placement to build long-term capacity, we support every need with precision and care. From routine visits to more complex patient cases, our professionals help uphold the clinical standards your patients expect.",
@@ -2265,9 +2265,9 @@
         }
     },
     "staff-for-childcare-centers": {
-        "pageimage" : "/images/staff-for-childcare-centers.jpg",
+        "pageimage": "/images/staff-for-childcare-centers.jpg",
         "pagetitle": "Childcare Centers Staffing Services",
-        "pagedescription" : "Children deserve a nurturing environment where they can thrive, explore, and grow with confidence. YTC Healthcare helps your center achieve this by connecting you with certified childcare providers who understand the unique developmental, emotional, and safety needs of young learners. Through our childcare center staffing services, we supply early childhood educators, teaching assistants, and specialized caregivers prepared to make a real difference. Whether your facility is a daycare, preschool, or after-school program, we support you with qualified professionals who uplift both the children and families you serve.",
+        "pagedescription": "Children deserve a nurturing environment where they can thrive, explore, and grow with confidence. YTC Healthcare helps your center achieve this by connecting you with certified childcare providers who understand the unique developmental, emotional, and safety needs of young learners. Through our childcare center staffing services, we supply early childhood educators, teaching assistants, and specialized caregivers prepared to make a real difference. Whether your facility is a daycare, preschool, or after-school program, we support you with qualified professionals who uplift both the children and families you serve.",
         "avalibalitySection": {
             "title": "Building Safe, Supportive, and Happy Spaces for Children",
             "description": "If you are managing a childcare center, then you already understand that creating a positive learning environment begins with the right team. Professional and dedicated staff ensure children receive the attention, care, and foundational learning they deserve. High turnover or staffing shortages can interrupt this flow and impact parents’ trust in your facility. YTC Healthcare offers childcare staff recruitment solutions to help maintain consistency and meet your operational needs. Our focus is on placing early childhood education staffing professionals who bring both expertise and empathy—creating a stable, nurturing environment where children feel safe, valued, and encouraged.",
@@ -2400,9 +2400,9 @@
         }
     },
     "staff-for-dental-facilities": {
-        "pageimage" : "/images/01-19.jpg",
+        "pageimage": "/images/01-19.jpg",
         "pagetitle": "Healthcare Staff For Dental Clinics",
-        "pagedescription" : "Dental patients often require timely care, and even small staffing gaps can lead to delayed treatment and reduced patient satisfaction. YTC Healthcare provides dental facility staffing services that ensure your clinic remains productive and responsive. Our extensive talent pool includes skilled dental hygienists, experienced dental assistants, and administrative personnel who integrate effortlessly into your existing team. Whether facing seasonal peaks or sudden absences, your practice deserves reliable support. As an affordable dental staffing agency, we help maintain seamless operations so you can focus on patient care—without compromise.",
+        "pagedescription": "Dental patients often require timely care, and even small staffing gaps can lead to delayed treatment and reduced patient satisfaction. YTC Healthcare provides dental facility staffing services that ensure your clinic remains productive and responsive. Our extensive talent pool includes skilled dental hygienists, experienced dental assistants, and administrative personnel who integrate effortlessly into your existing team. Whether facing seasonal peaks or sudden absences, your practice deserves reliable support. As an affordable dental staffing agency, we help maintain seamless operations so you can focus on patient care—without compromise.",
         "avalibalitySection": {
             "title": "Flexible Staffing for Daily and Specialized Dental Needs",
             "description": "YTC Healthcare helps dental practices avoid interruptions with flexible staffing services that fit your operational pace. Whether you need extra hands during busy seasons or longer-term support after a staff departure, we provide skilled professionals who step in with confidence. From dental hygienists to administrative support, our team ensures your clinic stays efficient and responsive to patient needs. With a focus on consistency and quality, our dental staffing solutions improve appointment flow, reduce wait times, and maintain a high standard of care, without the burden of last-minute hiring.",

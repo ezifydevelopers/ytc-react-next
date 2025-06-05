@@ -60,9 +60,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed"> 
-                {text}
-            </p>
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed" dangerouslySetInnerHTML={{ __html: text }}/>
         </div>
     );
 }

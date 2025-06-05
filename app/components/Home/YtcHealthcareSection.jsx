@@ -45,7 +45,7 @@ export default function YtcHealthcareSection() {
                     </div>
                     <div className="md:w-[50%] w-[100%] flex items-center justify-center">
                         <p className="text-gray-600 text-justify">
-                            We provide healthcare professionals who are skilled and ready to work. As a healthcare recruiting partner, we are meticulous about the candidates we choose to send to your facility. From locum tenens nurse practitioners to skilled travel nurses, we supply professionals who are smart, efficient, and focused on delivering patient-centered care, especially in underserved communities.
+                            We provide healthcare professionals who are skilled and ready to work. As a healthcare recruiting partner, we are meticulous about the candidates we choose to send to your facility. From locum tenens nurse practitioners to <a href="https://ytchealthcare.com/service/nurses/" ><u>skilled travel nurses</u></a>, we supply professionals who are smart, efficient, and focused on delivering patient-centered care, especially in underserved communities.
                         </p>
                     </div>
                 </div>

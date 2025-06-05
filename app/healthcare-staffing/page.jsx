@@ -9,14 +9,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 
-const HealthcareStaffing = () => {
+const HealthcareStaffing = () => { 
 
     const cards = [
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M34.76,42A8,8,0,0,0,32,48V216a8,8,0,0,0,16,0V171.77c26.79-21.16,49.87-9.75,76.45,3.41,16.4,8.11,34.06,16.85,53,16.85,13.93,0,28.54-4.75,43.82-18a8,8,0,0,0,2.76-6V48A8,8,0,0,0,210.76,42c-28,24.23-51.72,12.49-79.21-1.12C103.07,26.76,70.78,10.79,34.76,42ZM208,164.25c-26.79,21.16-49.87,9.74-76.45-3.41-25-12.35-52.81-26.13-83.55-8.4V51.79c26.79-21.16,49.87-9.75,76.45,3.4,25,12.35,52.82,26.13,83.55,8.4Z"></path></svg>,
             "title": "Our Commitment",
             "bg": "bg-[#f1f2f2]",
-            "text": "Our commitment goes beyond recruitment—we do not simply fill positions. We stay actively involved to ensure performance, satisfaction, and alignment between staff and facilities. Every assignment is part of a larger mission: connecting qualified frontline staff, including developmental support workers, with the communities that rely on consistent, skilled care. Our goal is to help healthcare organizations maintain dependable, meaningful healthcare delivery—one trusted professional at a time."
+            "text": "Our commitment goes beyond recruitment—we do not simply fill positions. We stay actively involved to ensure performance, satisfaction, and alignment between staff and facilities. Every assignment is part of a larger mission: connecting qualified frontline staff, including developmental support workers, with the communities that rely on <a href=\"https://ytchealthcare.com/service/nurses/\" ><u>consistent, skilled care</u></a>. Our goal is to help healthcare organizations maintain dependable, meaningful healthcare delivery—one trusted professional at a time."
         },
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M216,88H168V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V88H40a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H88v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V168h48a16,16,0,0,0,16-16V104A16,16,0,0,0,216,88Zm0,64H160a8,8,0,0,0-8,8v56H104V160a8,8,0,0,0-8-8H40V104H96a8,8,0,0,0,8-8V40h48V96a8,8,0,0,0,8,8h56Z"></path></svg>,
@@ -279,9 +279,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                {text}
-            </p>
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed" dangerouslySetInnerHTML={{ __html: text }}/>
         </div>
     );
 }
