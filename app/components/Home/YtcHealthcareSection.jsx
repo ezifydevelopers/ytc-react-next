@@ -51,15 +51,24 @@ export default function YtcHealthcareSection() {
                 </div>
 
                 {/* Right Card */}
-                <div className="bg-teal-600 text-white pt-20 md:pb-30 pb-16 px-5 lg:px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out">
-                    <p className="text-lg font-semibold flex items-center gap-2 mb-4 text-black">
+                <div className="relative text-white pt-20 md:pb-30 pb-16 px-5 lg:px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out" >
+                    <video
+                         autoPlay
+                         loop
+                         muted
+                         playsInline
+                        className="absolute top-0 left-0 w-full h-full object-cover"
+                    >
+                        <source src="/videos/ytcVedio.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    {/* <p className="text-lg font-semibold flex items-center gap-2 mb-4 text-black">
                         <span className="text-xl"><Image src="/images/ic1-golden.png" width={20} height={20} alt="YTC Healthcare" /></span> Our Mission
                     </p>
                     <p className="leading-9 font-[600] text-lg lg:min-h-[252px]">
                         {paragraphs[current]}
                     </p>
 
-                    {/* Arrows */}
                     <div className="flex gap-4 justify-end relative top-5">
                         <button onClick={handlePrev} className="w-17 h-17 border border-[#4EA89D] rounded-full flex items-center justify-center hover:bg-white hover:text-teal-600 transition">
                             <FaArrowLeft />
@@ -69,8 +78,7 @@ export default function YtcHealthcareSection() {
                         </button>
                     </div>
 
-                    {/* Decorative background (optional) */}
-                    <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/10 rounded-full transform translate-x-1/3 translate-y-1/3 pointer-events-none"></div>
+                    <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/10 rounded-full transform translate-x-1/3 translate-y-1/3 pointer-events-none"></div> */}
                 </div>
             </div>
         </section>

@@ -11,7 +11,6 @@ import NewsSection from './components/Home/NewsSection';
 import ContactSection from './components/Home/ContactSection';
 import CustomerTestimonial from './components/Home/CustomerTestimonial';
 import Head from 'next/head';
-import { HomeVideo } from './components/Home/HomeVideo';
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <HeroSection />
       <StaffingSolutions />
       <SalaryGuideSection />
-      <HomeVideo />
       <HealthcareProfessional />
       <YtcHealthcareSection />
       <ClientSatisfactionSection />

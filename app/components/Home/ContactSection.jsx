@@ -22,9 +22,25 @@ const validationSchema = Yup.object({
 
 export default function ContactSection() {
 
-    const handleSubmit = (values, { resetForm }) => {
-        console.log(values);
-        resetForm(); // optional
+    const handleSubmit = async(values, { resetForm }) => {
+        try {
+            const response = await fetch("https://ytchealthcare.com/messageForm.php", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(values),
+            });
+
+            const result = await response.json();
+
+            if (result.status === "success") {
+                alert("Message sent successfully!");
+                resetForm();
+            } else {
+                alert("Failed to send message. Please try again.");
+            }
+        } catch (error) {
+            alert("An error occurred. Please try again later.");
+        }
     };
 
     return (

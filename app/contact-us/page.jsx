@@ -11,38 +11,44 @@ import Head from 'next/head';
 const Contact = () => {
 
     const validationSchema = Yup.object({
-        name: Yup.string().required('Name is required'),
-        email: Yup.string().email('Invalid email format').required('Email is required'),
-        number: Yup.string().matches(/^[0-9]+$/, 'Must be a number').required('Phone number is required'),
-        message: Yup.string().required('Message is required'),
+        name: Yup.string()
+            .required('Name is required')
+            .min(2, 'Name must be at least 2 characters'),
+
+        email: Yup.string()
+            .email('Invalid email address')
+            .required('Email is required'),
+
+        number: Yup.string()
+            .required('Phone number is required')
+            .matches(/^[0-9]{10,15}$/, 'Enter a valid phone number (10–15 digits)'),
+
+        Gender: Yup.string()
+            .required('Gender is required'),
+
+        message: Yup.string()
+            .required('Message is required')
+            .min(10, 'Message must be at least 10 characters'),
     });
 
     const handleSubmit = async (values, { resetForm }) => {
         try {
-            const response = await fetch("https://www.jobsforu.ca/contactInfo.php", {
+            const response = await fetch("https://ytchealthcare.com/contactInfo.php", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(values),
             });
 
             const result = await response.json();
+
             if (result.status === "success") {
-                toast.success("Message sent successfully!", {
-                    position: "bottom-right",
-                    autoClose: 5000,
-                });
+                alert("Message sent successfully!");
                 resetForm();
             } else {
-                toast.error("Failed to send message. Please try again.", {
-                    position: "bottom-right",
-                    autoClose: 5000,
-                });
+                alert("Failed to send message. Please try again.");
             }
         } catch (error) {
-            toast.error("An error occurred. Please try again later.", {
-                position: "bottom-right",
-                autoClose: 5000,
-            });
+            alert("An error occurred. Please try again later.");
         }
     };
 
@@ -130,7 +136,7 @@ const Contact = () => {
 
                         {/* Right Column (Form) */}
                         <Formik
-                            initialValues={{ name: '', email: '', number: '', message: '' }}
+                            initialValues={{ name: '', email: '', number: '', message: '', Gender: '' }}
                             validationSchema={validationSchema}
                             onSubmit={handleSubmit}
                         >
@@ -172,11 +178,11 @@ const Contact = () => {
                                         </div>
 
                                     </div>
-                                    <div className="checkout-form-list group my-5 ">
+                                    <div className=" group my-5 ">
                                         <label>
                                             Message <span className="required">*</span>
                                         </label>
-                                        <Field as="textarea" name="message" placeholder="Write Message" />
+                                        <Field as="textarea" name="message" placeholder="Write Message" rows="8" className="w-full px-4 py-3 rounded-md text-black border border-gray-200" />
                                         <ErrorMessage name="message" component="div" className="error text-red-500 text-sm mt-1" />
                                     </div>
                                     <div className="wow fadeInUp" data-wow-delay=".9s">
