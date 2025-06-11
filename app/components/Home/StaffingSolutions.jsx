@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function StaffingSolutions() {
     return (
@@ -8,7 +9,7 @@ export default function StaffingSolutions() {
                 {/* Header Section */}
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
                     <p className="text-xs sm:text-sm font-semibold text-gray-600 flex items-center gap-2">
-                        <span className="inline-block w-3 h-3 sm:w-4 sm:h-4 bg-gray-800 rounded-sm"></span>
+                        <Image alt="Health Care" width="17" height="17" decoding="async" data-nimg="1" style="color: transparent;" src="/images/ic2.png" />
                         <span>Professional and Reliable Healthcare Staffing Provider</span>
                     </p>
 

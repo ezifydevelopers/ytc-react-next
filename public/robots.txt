@@ -7,3 +7,4 @@ Host: https://ytchealthcare.com/
 
 # Sitemaps
 Sitemap: https://ytchealthcare.com/sitemap.xml
+Sitemap-0: https://ytchealthcare.com/sitemap-0.xml

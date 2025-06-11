@@ -27,7 +27,7 @@ export default function Home() {
       <ClientSatisfactionSection />
       <FAQCard />
       <NewsSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
       <CustomerTestimonial />
       <Footer />
     </div>
