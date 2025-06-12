@@ -19,7 +19,7 @@ const validationSchema = Yup.object({
     message: Yup.string().required('Message is required'),
 });
 
-const ContactForm = ({ className, onSuccess  }) => { 
+const ContactForm = ({ className, onSuccess }) => {
 
     const handleSubmit = async (values, { resetForm }) => {
         try {
@@ -112,8 +112,8 @@ const ContactForm = ({ className, onSuccess  }) => {
                                 className="w-full h-[60px] outline-0 px-4 py-3 rounded-md text-black bg-white"
                             >
                                 <option value="">Select Service</option>
-                                <option value="Staffing">Staffing</option>
-                                <option value="Consulting">Consulting</option>
+                                <option value="Lookingforhealthcarestaff">Looking for healthcare staff</option>
+                                <option value="LookingforJob">Looking for Job</option>
                             </Field>
                             <ErrorMessage
                                 name="service"

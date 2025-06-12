@@ -170,12 +170,11 @@ const Contact = () => {
                                             </label>
                                             <Field as="select" name="Service" className="select">
                                                 <option value="">Select</option>
-                                                <option value="male">Looking for healthcare staff</option>
-                                                <option value="female">Looking for Job</option>
+                                                <option value="Lookingforhealthcarestaff">Looking for healthcare staff</option>
+                                                <option value="LookingforJob">Looking for Job</option>
                                             </Field>
                                             <ErrorMessage name="Service" component="div" className="text-red-500 text-sm mt-1" />
                                         </div>
-
                                     </div>
                                     <div className=" group my-5 ">
                                         <label>
