@@ -10,6 +10,7 @@
     "postbuild": "next-sitemap && cp ./sitemap*.xml ./public && cp ./robots.txt ./public"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.4",
     "formik": "^2.4.6",
     "framer-motion": "^12.15.0",
     "lucide-react": "^0.510.0",
@@ -19,6 +20,7 @@
     "react-dom": "^19.0.0",
     "react-dropzone": "^14.3.8",
     "react-icons": "^5.5.0",
+    "react-pdf": "^9.2.1",
     "react-slick": "^0.30.3",
     "slick-carousel": "^1.8.1",
     "yup": "^1.6.1"

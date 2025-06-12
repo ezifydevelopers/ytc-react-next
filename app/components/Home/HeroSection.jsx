@@ -5,7 +5,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 
 export default function HeroSection() {
-    
+
     const settings = {
         dots: false,
         infinite: true,
@@ -39,11 +39,17 @@ export default function HeroSection() {
                             <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">
                                 Don&apos;t let staffing shortages impact your patient&apos;s well-being. YTC Healthcare delivers certified healthcare professionals ready to step in immediately. From locum nurse practitioners to long-term medical oncology nurses, we provide every healthcare professional to fill your staffing shortages.
                             </p>
-                            <Link href="/contact-us/">
+                            <Link href="/contact-us/" >
+                                <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
+                                    Get in Touch
+                                </button>
+                            </Link>
+                            <Link href="/contact-us/" className="mx-5">
                                 <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
                                     Fill Staffing Shortage Now
                                 </button>
                             </Link>
+
                         </div>
                         <div className="hidden lg:block absolute right-0 top-0 w-1/3 h-full bg-gradient-to-l from-teal-600/20 to-transparent"></div>
                     </section>
@@ -64,7 +70,12 @@ export default function HeroSection() {
                                 <span>Opportunity</span>
                             </h1>
                             <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">YTC Healthcare is a healthcare staffing agency that helps certified professionals — including every health care support worker — find roles that align with their skills, goals, and well-being. We do not just fill shifts. We match people with work that fits.</p>
-                            <Link href="/contact-us/">
+                            <Link href="/contact-us/" >
+                                <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
+                                    Get in Touch
+                                </button>
+                            </Link>
+                            <Link href="/contact-us/" className="mx-5">
                                 <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
                                     Fill Staffing Shortage Now
                                 </button>

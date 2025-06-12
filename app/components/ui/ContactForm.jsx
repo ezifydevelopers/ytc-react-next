@@ -19,7 +19,7 @@ const validationSchema = Yup.object({
     message: Yup.string().required('Message is required'),
 });
 
-const ContactForm = ({ className }) => {
+const ContactForm = ({ className, onSuccess  }) => {
 
     const handleSubmit = async (values, { resetForm }) => {
         try {
@@ -34,6 +34,9 @@ const ContactForm = ({ className }) => {
             if (result.status === "success") {
                 alert("Message sent successfully!");
                 resetForm();
+                if (onSuccess) {
+                    onSuccess(); // Notify parent (SalaryGuide) that form is submitted
+                }
             } else {
                 alert("Failed to send message. Please try again.");
             }

@@ -3,8 +3,10 @@
 import { useEffect, useState } from 'react';
 import { CalendarCheck, ChevronDown, ChevronUp } from 'lucide-react';
 import jobopenings from "@/app/components/jobopenings.json"
+import { useRouter } from 'next/navigation';
 
 export default function JobDetailCard() {
+  const router = useRouter()
   const [openSection, setOpenSection] = useState('requirements');
   const [data, setData] = useState([])
 
@@ -84,7 +86,7 @@ export default function JobDetailCard() {
 
               {/* Apply Now Button */}
               <div className="mt-6">
-                <button className="bg-[#359C8F] hover:bg-teal-700 text-white px-7 py-4 cursor-pointer rounded-xl shadow-md">
+                <button className="bg-[#359C8F] hover:bg-teal-700 text-white px-7 py-4 cursor-pointer rounded-xl shadow-md" onClick={() => router.push('/healthcare-careers')}>
                   Apply Now
                 </button>
               </div>

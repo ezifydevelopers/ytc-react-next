@@ -31,12 +31,14 @@ const Footer = () => {
                                 <FaPhoneAlt />
                                 <span className="font-semibold">Emergency 24h: +1 365 737 4000</span>
                             </div>
-
-                            <Link href="/contact-us/">
-                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-16 py-5 mt-5 rounded-md text-sm text-white">
-                                    Request An Appointment →
+                            <div className='flex flex-col md:w-70 w-full'>
+                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white">
+                                    Canada - +1 (365) 737-4000
                                 </button>
-                            </Link>
+                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white">
+                                    USA - +1 412-218-2885
+                                </button>
+                            </div>
                         </div>
 
                         <div className='lg:w-[15%]'>
