@@ -260,9 +260,9 @@ const Header = () => {
                                     </div>
                                 </div>
 
-                                <Modal isOpen={isModalOpen} onClose={closeModal}>
+                                {/* <Modal isOpen={isModalOpen} onClose={closeModal}>
                                     <ContactForm className="text-left" />
-                                </Modal>
+                                </Modal> */}
                             </>
                         </div>
                     </div>
@@ -374,14 +374,14 @@ const Header = () => {
                 {/* Sticky Header - animates down when sticky */}
                 <header className={`w-full flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 bg-white shadow fixed top-0 z-30 transition-all duration-500 ease-in-out ${isSticky ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
                     <div className="flex items-center space-x-4 w-full md:w-[12%]">
-                            <Image
-                                src="/images/logo.webp"
-                                alt="Your Talent Consultancy Logo"
-                                width={150}
-                                height={61}
-                                className="h-auto cursor-pointer"
-                                onClick={() => window.location.href = '/'}
-                            />
+                        <Image
+                            src="/images/logo.webp"
+                            alt="Your Talent Consultancy Logo"
+                            width={150}
+                            height={61}
+                            className="h-auto cursor-pointer"
+                            onClick={() => window.location.href = '/'}
+                        />
 
                         {/* Mobile menu button for sticky header */}
                         <div className="ml-auto md:hidden">
@@ -477,9 +477,9 @@ const Header = () => {
                                     </div>
                                 </div>
 
-                                <Modal isOpen={isModalOpen} onClose={closeModal}>
+                                {/* <Modal isOpen={isModalOpen} onClose={closeModal}>
                                     <ContactForm className="text-left" />
-                                </Modal>
+                                </Modal> */}
                             </>
 
                             {/* <div className="md:w-[17%] flex justify-end">
@@ -495,6 +495,9 @@ const Header = () => {
                         </div>
                     </div>
                 </header>
+                <Modal isOpen={isModalOpen} onClose={closeModal}>
+                    <ContactForm className="text-left" />
+                </Modal>
             </div>
         </div>
     )
