@@ -58,7 +58,13 @@ const Contact = () => {
                 <link rel="canonical" href="https://ytchealthcare.com/contact-us/" />
             </Head>
             <Header />
+<<<<<<< HEAD
             <PageHeader title="Contact Us" img="/images/ct1.webp" />
+=======
+            <div className="px-5 mt-5">
+                <PageHeader title="Contact Us" img="/images/ct1.webp" />
+            </div>
+>>>>>>> f0d9056be1cdd1111ec68a0afe81422dc55adcc5
             <div className='p-5 my-5'>
                 <div className="mx-auto p-6 md:px-15 md:pt-15 bg-white border rounded-md">
                     <div className="grid md:grid-cols-2 gap-10">

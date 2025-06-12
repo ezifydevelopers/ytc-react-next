@@ -84,16 +84,14 @@ const Header = () => {
                 {/* Default Header - animates up when sticky */}
                 <header className={`w-full flex items-center justify-between px-4 sm:px-6 py-4 bg-white shadow z-30 transition-all duration-500 ease-in-out ${isSticky ? '-translate-y-full opacity-0' : 'translate-y-0 opacity-100'}`}>
                     <div className="flex items-center space-x-4 w-full md:w-[12%]">
-                        <Link href="/" className="flex-shrink-0">
-                            <Image
-                                src="/images/logo.webp"
-                                alt="Your Talent Consultancy Logo"
-                                width={180}
-                                height={74}
-                                className="h-auto w-[150px] sm:w-[180px]"
-                            />
-                        </Link>
-
+                        <Image
+                            src="/images/logo.webp"
+                            alt="Your Talent Consultancy Logo"
+                            width={180}
+                            height={74}
+                            className="h-auto w-[150px] sm:w-[180px] cursor-pointer"
+                            onClick={() => window.location.href = '/'}
+                        />
                         {/* Mobile menu button */}
                         <div className="ml-auto md:hidden">
                             <button
@@ -281,7 +279,8 @@ const Header = () => {
                             alt="Your Talent Consultancy Logo"
                             width={150}
                             height={61}
-                            className="h-auto"
+                            className="h-auto cursor-pointer"
+                            onClick={() => window.location.href = '/'}
                         />
                         <button onClick={toggleMobileMenu} className="p-2">
                             <X className="h-6 w-6 text-gray-600" />
@@ -375,15 +374,14 @@ const Header = () => {
                 {/* Sticky Header - animates down when sticky */}
                 <header className={`w-full flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 bg-white shadow fixed top-0 z-30 transition-all duration-500 ease-in-out ${isSticky ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
                     <div className="flex items-center space-x-4 w-full md:w-[12%]">
-                        <Link href="/">
                             <Image
                                 src="/images/logo.webp"
                                 alt="Your Talent Consultancy Logo"
                                 width={150}
                                 height={61}
-                                className="h-auto"
+                                className="h-auto cursor-pointer"
+                                onClick={() => window.location.href = '/'}
                             />
-                        </Link>
 
                         {/* Mobile menu button for sticky header */}
                         <div className="ml-auto md:hidden">
