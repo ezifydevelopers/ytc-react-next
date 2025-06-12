@@ -27,7 +27,7 @@ export default function YtcHealthcareSection() {
         <section className="py-16 px-6 md:px-20 bg-white">
             <div className="lg:grid grid-cols-1 lg:grid-cols-3 gap-18">
                 {/* Left Content */}
-                <div className="md:col-span-2 flex flex-col mb-10 lg:mb-0 md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8 p-8">
+                <div className="md:col-span-2 flex flex-col mb-10 lg:mb-0 md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8 p-8 ">
                     <div className="md:w-[50%] w-[100%] flex flex-col gap-[23px] ">
                         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
                             <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Welcome to YTC Healthcare
@@ -39,7 +39,7 @@ export default function YtcHealthcareSection() {
 
                         <Link href="/about-us/">
                             <button className="bg-teal-600 cursor-pointer text-white px-6 py-4 rounded-2xl hover:bg-teal-700 transition w-fit">
-                                View More About Us
+                                Learn More About YTC Healthcare
                             </button>
                         </Link>
                     </div>
@@ -53,15 +53,17 @@ export default function YtcHealthcareSection() {
                 {/* Right Card */}
                 <div className="relative text-white pt-20 md:pb-30 pb-16 px-5 lg:px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out" >
                     <video
-                         autoPlay
-                         loop
-                         muted
-                         playsInline
+                        autoPlay
+                        loop
+                        muted
+                        controls
+                        playsInline
                         className="absolute top-0 left-0 w-full h-full object-cover"
                     >
                         <source src="/videos/ytcVedio.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
+
                     {/* <p className="text-lg font-semibold flex items-center gap-2 mb-4 text-black">
                         <span className="text-xl"><Image src="/images/ic1-golden.png" width={20} height={20} alt="YTC Healthcare" /></span> Our Mission
                     </p>

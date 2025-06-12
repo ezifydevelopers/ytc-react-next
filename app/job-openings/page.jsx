@@ -14,7 +14,9 @@ export default function JobDetail() {
             <div className="mt-[30px]">
                 <BlogPageHeader title="Jobs Opening" src="/images/about-us.jpg" />
             </div>
-            <div className="px-8"><JobDetailCard /></div>
+            <div className="px-8">
+                <JobDetailCard />
+                </div>
             <Footer />
         </div>
     );

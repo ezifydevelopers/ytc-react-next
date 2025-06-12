@@ -99,11 +99,11 @@ const HealthcareProfessional = () => {
                             className="w-full h-full object-cover opacity-80"
                             fill
                         />
-                        <div className="absolute inset-0 p-6 flex flex-col justify-center">
-                            <h3 className="text-2xl font-semibold text-gray-800">Our Certifications</h3>
-                            <ul className="text-sm list-none p-0 mb my-4 pb-5">
+                        <div className="absolute bottom-0 p-6 flex flex-col justify-center">
+                            <h3 className="text-2xl font-semibold text-gray-800">Our Certifications</h3> 
+                            <ul className="text-sm list-none p-0 mb my-4 pb-1">
                                 <li className='text-md'><span className="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
-                                <li className='text-md my-3'><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
+                                <li className='text-md my-2 '><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
                                 <li className='text-md'><span className="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
                             </ul>
 

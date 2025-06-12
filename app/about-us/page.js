@@ -421,7 +421,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <CustomerTestimonial />
-            <ContactSection />
+            {/* <ContactSection /> */}
             <Footer />
         </div>
     );

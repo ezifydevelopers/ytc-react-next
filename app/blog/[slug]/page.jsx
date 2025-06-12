@@ -40,7 +40,7 @@ const PostComponent = ({ params }) => {
           <div className="flex flex-wrap gap-2">
             {Array.isArray(content) ? (
               content.map((tag, index) => (
-                <span 
+                <span
                   key={index}
                   className="bg-gray-100 px-4 py-2 rounded-full text-sm"
                 >
@@ -75,9 +75,9 @@ const PostComponent = ({ params }) => {
       <div className="mx-auto px-8 py-8">
         <div className="mt-[0px]">
           <div className="mb-8">
-            <BlogPageHeader 
-              src="/images/post-1.webp" 
-              title={content?.title || 'Untitled Post'} 
+            <BlogPageHeader
+              src="/images/post-1.webp"
+              title={content?.title || 'Untitled Post'}
             />
           </div>
 
@@ -130,15 +130,15 @@ const PostComponent = ({ params }) => {
                     {Array.isArray(section.subsections) && section.subsections.map((subsection, subIndex) => (
                       <div key={subIndex} className="mt-4">
                         {subsection.section && (
-                          <p className="text-[15px] text-[#68747A] font-medium">
-                            {renderContent(subsection.section)}
-                          </p>
+                          <p className="text-[15px] text-[#68747A] font-medium" dangerouslySetInnerHTML={{ __html: renderContent(subsection.section) }}/>
                         )}
-
+                        {subsection.title && (
+                          <h3 className="text-2xl font-bold text-[#68747A] font-medium">
+                            {renderContent(subsection.title)}
+                          </h3>
+                        )}
                         {subsection.text && (
-                          <p className="text-[15px] text-[#68747A] mt-2">
-                            {renderContent(subsection.text)}
-                          </p>
+                          <div className="text-[16px] text-[#68747A] mt-2" dangerouslySetInnerHTML={{ __html: renderContent(subsection.text) }}/>
                         )}
 
                         {subsection.image && (
