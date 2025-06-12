@@ -200,9 +200,6 @@ const Header = () => {
                                             <Link href="/blog" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
                                                 <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                                             </svg>Blogs</Link>
-                                            <Link href="/salary-guide/" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
-                                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-                                            </svg>Salary Guide</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +322,6 @@ const Header = () => {
                         <div className="py-3 border-b border-gray-100">
                             <MobileAccordion title="Resources">
                                 <Link href="/blog" className="block py-2 pl-4 text-gray-700">Blogs</Link>
-                                <Link href="/salary-guide/" className="block py-2 pl-4 text-gray-700">Salary Guide</Link>
                             </MobileAccordion>
                         </div>
 
