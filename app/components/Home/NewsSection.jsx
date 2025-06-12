@@ -51,36 +51,38 @@ export default function NewsSection() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {posts.slice(0, 6).map((post, index) => {
+        {posts.slice(0, 3).map((post, index) => {
           const slug = Object.keys(blogs).find(key => blogs[key].id === post.id);
 
           return (
-            <div key={index} className="overflow-hidden bg-white transition duration-300">
-              <div className="">
-                <Image
-                  src={post.image}
-                  alt={post.title || "YTC Healthcare"}
-                  width={292}
-                  height={370}
-                  className="object-cover rounded-xl w-full h-full"
-                />
-              </div>
-              <div className="p-5">
-                <div className="flex flex-wrap items-center text-sm text-gray-500 gap-4 mb-3">
-                  <span className="flex items-center gap-1">
-                    <User className="w-4 h-4 text-[#359C8F]" /> {post.author || "YTC Healthcare"}
-                  </span>
-                  <span className="flex items-center gap-1">
-                    <CalendarDays className="w-4 h-4 text-[#359C8F]" /> {post.date || "No date"}
-                  </span>
+            <Link href={`/blog/${slug}`} passHref>
+              <div key={index} className="overflow-hidden bg-white transition duration-300">
+                <div className="">
+                  <Image
+                    src={post.image}
+                    alt={post.title || "YTC Healthcare"}
+                    width={292}
+                    height={370}
+                    className="object-cover rounded-xl w-full h-full"
+                  />
                 </div>
-                <Link href={`/blog/${slug}`} passHref>
-                  <h3 className="text-gray-900 font-semibold text-lg leading-tight line-clamp-2 mb-2">
-                    {post.title}
-                  </h3>
-                </Link>
+                <div className="p-5">
+                  <div className="flex flex-wrap items-center text-sm text-gray-500 gap-4 mb-3">
+                    <span className="flex items-center gap-1">
+                      <User className="w-4 h-4 text-[#359C8F]" /> {post.author || "YTC Healthcare"}
+                    </span>
+                    <span className="flex items-center gap-1">
+                      <CalendarDays className="w-4 h-4 text-[#359C8F]" /> {post.date || "No date"}
+                    </span>
+                  </div>
+                  {/* <Link href={`/blog/${slug}`} passHref>
+                    <h3 className="text-gray-900 font-semibold text-lg leading-tight line-clamp-2 mb-2">
+                      {post.title}
+                    </h3>
+                  </Link> */}
+                </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>

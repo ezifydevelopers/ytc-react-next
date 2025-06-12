@@ -58,8 +58,8 @@ export default function SalaryGuideSection() {
           <Image
             src="/images/Salary-Guide-banner-06.webp"
             alt="2025 Healthcare Salary Guide"
-            className="rounded-md"
-            width={450} height={50}
+            className="w-full rounded-md"
+            width={750} height={50}
           />
         </div>
       </div>
