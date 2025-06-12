@@ -14,10 +14,15 @@ const Footer = () => {
                     <div className=" mx-auto lg:flex lg:gap-5 lg:justify-between">
                         <div className='lg:w-[30%]'>
                             <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Contact With Us!</h3>
-                            <div className="flex items-start gap-3 mb-5">
-                                <span><svg xmlns="http://www.w3.org/2000/svg" fill='white' className='w-[27px] h-[24px]' viewBox="0 0 576 512"><path d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.7 0-32 14.3-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.7-14.3-32-32-32zm256-96H224c-17.7 0-32 14.3-32 32v32h96c33.2 0 60.6 25.4 63.7 57.8l.3-.2V416h192c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.3 28.7-64 64-64h224V32c0-17.7-14.3-32-32-32H96C78.3 0 64 14.3 64 32v192h96v-32z" /></svg></span>
-                                <span> info@ytchealthcare.com</span>
-                            </div>
+                            <a href="mailto:info@ytchealthcare.com" className="flex items-start gap-3 mb-5 text-white hover:underline">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" className="w-[27px] h-[24px]" viewBox="0 0 576 512">
+                                        <path d="M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.7 14.3 32 32 32h256c17.7 0 32-14.3 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.7 0-32 14.3-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.7-14.3-32-32-32zm256-96H224c-17.7 0-32 14.3-32 32v32h96c33.2 0 60.6 25.4 63.7 57.8l.3-.2V416h192c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.3 28.7-64 64-64h224V32c0-17.7-14.3-32-32-32H96C78.3 0 64 14.3 64 32v192h96v-32z" />
+                                    </svg>
+                                </span>
+                                <span>info@ytchealthcare.com</span>
+                            </a>
+
                             <div className="flex items-start gap-3 mb-5">
                                 <MdLocationOn className="text-3xl" />
                                 <a href='https://www.google.com/search?q=2960+Drew+Rd+%23156%2C+Mississauga%2C+ON+L4T+0A5%2C+Canada+ytc+healthcare&rlz=1C1VDKB_enCA1105CA1105&oq=2960+Drew+Rd+%23156%2C+Mississauga%2C+ON+L4T+0A5%2C+Canada+ytc+healthcare&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIRgK0gEINTAzOGowajeoAgiwAgHxBYf0nnl4CvwR&sourceid=chrome&ie=UTF-8'> 2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</a>

@@ -39,7 +39,6 @@ export default function SalaryGuideSection() {
       const result = await response.json();
 
       if (result.status === "success") {
-        alert("Message sent successfully!");
         handleDownload();
         resetForm();
         setIsOpen(false);

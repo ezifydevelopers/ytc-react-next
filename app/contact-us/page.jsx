@@ -23,8 +23,8 @@ const Contact = () => {
             .required('Phone number is required')
             .matches(/^[0-9]{10,15}$/, 'Enter a valid phone number (10–15 digits)'),
 
-        Gender: Yup.string()
-            .required('Gender is required'),
+        Service: Yup.string()
+            .required('Service is required'),
 
         message: Yup.string()
             .required('Message is required')
@@ -58,7 +58,7 @@ const Contact = () => {
                 <link rel="canonical" href="https://ytchealthcare.com/contact-us/" />
             </Head>
             <Header />
-            <PageHeader title="Contact Us" img="/images/ct1.webp" description={"Contact us if you are struggling with healthcare staffing shortages in your medical facilities or if you need medical staff for your loved ones. We provide professional and reliable medical professionals who are ready to be on your side in no time. Plus, they are certified and background-checked individuals passionate about serving in the healthcare industry to make a real difference. If you are a caregiver or clinician looking to apply for a healthcare role, we welcome you to explore opportunities with YTC Healthcare."} />
+            <PageHeader title="Contact Us" img="/images/ct1.webp" />
             <div className='p-5 my-5'>
                 <div className="mx-auto p-6 md:px-15 md:pt-15 bg-white border rounded-md">
                     <div className="grid md:grid-cols-2 gap-10">
@@ -136,7 +136,7 @@ const Contact = () => {
 
                         {/* Right Column (Form) */}
                         <Formik
-                            initialValues={{ name: '', email: '', number: '', message: '', Gender: '' }}
+                            initialValues={{ name: '', email: '', number: '', message: '', Service: '' }}
                             validationSchema={validationSchema}
                             onSubmit={handleSubmit}
                         >
@@ -166,15 +166,14 @@ const Contact = () => {
                                         </div>
                                         <div className="checkout-form-list">
                                             <label>
-                                                Gender <span className="required">*</span>
+                                                How can we help <span className="required">*</span>
                                             </label>
-                                            <Field as="select" name="Gender" className="select">
-                                                <option value="">Select Gender</option>
-                                                <option value="male">Male</option>
-                                                <option value="female">Female</option>
-                                                <option value="other">Other</option>
+                                            <Field as="select" name="Service" className="select">
+                                                <option value="">Select</option>
+                                                <option value="male">Looking for healthcare staff</option>
+                                                <option value="female">Looking for Job</option>
                                             </Field>
-                                            <ErrorMessage name="Gender" component="div" className="text-red-500 text-sm mt-1" />
+                                            <ErrorMessage name="Service" component="div" className="text-red-500 text-sm mt-1" />
                                         </div>
 
                                     </div>
