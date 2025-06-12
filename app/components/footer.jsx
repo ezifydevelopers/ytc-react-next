@@ -19,12 +19,12 @@ const Footer = () => {
                                 <span> info@ytchealthcare.com</span>
                             </div>
                             <div className="flex items-start gap-3 mb-5">
-                                <MdLocationOn className="text-3xl mt-1" />
-                                <span>2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</span>
+                                <MdLocationOn className="text-3xl" />
+                                <a href='https://www.google.com/search?q=2960+Drew+Rd+%23156%2C+Mississauga%2C+ON+L4T+0A5%2C+Canada+ytc+healthcare&rlz=1C1VDKB_enCA1105CA1105&oq=2960+Drew+Rd+%23156%2C+Mississauga%2C+ON+L4T+0A5%2C+Canada+ytc+healthcare&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQIRgK0gEINTAzOGowajeoAgiwAgHxBYf0nnl4CvwR&sourceid=chrome&ie=UTF-8'> 2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</a>
                             </div>
                             <div className="flex items-start gap-3 mb-5">
-                                <MdLocationOn className="text-3xl mt-1" />
-                                <span>744 South St, Philadelphia, PA 19147</span>
+                                <MdLocationOn className="text-3xl" />
+                                <a href='https://www.google.com/search?q=your+talent+consultancy+philadelphia&sca_esv=ef108326c3cb304c&rlz=1C1VDKB_enCA1105CA1105&ei=h_BKaPamIdye5NoP8MqTwQE&oq=your+talent+consultancy+phi&gs_lp=Egxnd3Mtd2l6LXNlcnAiG3lvdXIgdGFsZW50IGNvbnN1bHRhbmN5IHBoaSoCCAMyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSLQaULUCWM4LcAF4AZABAJgBhwGgAdYDqgEDMC40uAEDyAEA-AEBmAIFoAL3A8ICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigXCAg0QABiABBiwAxhDGIoFwgIOEC4YgAQYxwEYjgUYrwHCAgUQABiABMICBhAAGBYYHsICAhAmwgILEAAYgAQYhgMYigXCAgUQABjvBcICHRAuGIAEGMcBGI4FGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYogQYiQXCAggQABiABBiiBJgDAIgGAZAGCLoGBggBEAEYFJIHAzEuNKAHixuyBwMwLjS4B_EDwgcHMC4xLjMuMcgHHQ&sclient=gws-wiz-serp'>744 South St, Philadelphia, PA 19147</a>
                             </div>
 
                             <div className="flex items-center gap-3 text-white bg-gray-700 w-fit px-4 py-2 rounded-full mb-8">
@@ -32,12 +32,16 @@ const Footer = () => {
                                 <span className="font-semibold">Emergency 24h: +1 365 737 4000</span>
                             </div>
                             <div className='flex flex-col md:w-70 w-full'>
-                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white">
-                                    Canada - +1 (365) 737-4000
-                                </button>
-                                <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white">
-                                    USA - +1 412-218-2885
-                                </button>
+                                <a href="tel:+13657374000">
+                                    <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white flex gap-2">
+                                        <FaPhoneAlt />  Canada - +1 (365) 737-4000
+                                    </button>
+                                </a>
+                                <a href="tel:+14122182885">
+                                    <button className="bg-teal-600 cursor-pointer hover:bg-teal-700 px-10 py-5 mt-5 rounded-md text-sm text-white flex gap-2">
+                                        <FaPhoneAlt />  USA - +1 412-218-2885
+                                    </button>
+                                </a>
                             </div>
                         </div>
 

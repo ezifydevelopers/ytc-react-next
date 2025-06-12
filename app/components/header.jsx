@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { Menu, X, ChevronDown, CreditCard, PlusCircle } from 'lucide-react'
 import ContactForm from './ui/ContactForm'
 import Modal from './ui/Modal'
+import { FaPhoneAlt } from 'react-icons/fa';
 
 const linkMap = {
     // Healthcare Workers
@@ -63,9 +64,20 @@ const Header = () => {
 
     return (
         <div className="">
-            <div className="bg-[#009689] px-8 py-1 flex lg:flex-row flex-col lg:justify-between">
-                <div className="text-white text-[13px] lg:text-[16px] flex items-center"><span className='p-0 m-0'><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="text-3xl mt-0" height="25px" width="23px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"></path></svg></span>2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</div>
-                <div className="text-white text-[13px] lg:text-[16px] flex items-center"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="text-3xl mt-0" height="25px" width="23px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"></path></svg></span>744 South St, Philadelphia, PA 19147</div>
+            <div className="bg-[#009689] px-8 py-1 flex lg:flex-row flex-col md:justify-between items-center">
+                <div className='flex'>
+                    <div className="text-white text-[13px] lg:text-[16px] items-center hidden lg:flex"><span className='p-0 m-0'><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="text-3xl mt-0" height="25px" width="23px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"></path></svg></span>2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</div>
+                    <a href="tel:+13657374000" className='flex gap-2 text-white md:mx-5'>
+                        <FaPhoneAlt />  Canada - +1 (365) 737-4000
+                    </a>
+
+                </div>
+                <div className='flex'>
+                    <div className="text-white text-[13px] lg:text-[16px] hidden lg:flex items-center"><span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" className="text-3xl mt-0" height="25px" width="23px" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"></path></svg></span>744 South St, Philadelphia, PA 19147</div>
+                    <a href="tel:+14122182885" className='flex gap-2 text-white md:mx-5'>
+                        <FaPhoneAlt />  USA - +1 412-218-2885
+                    </a>
+                </div>
             </div>
 
             <div className='relative w-[100%] flex'>
@@ -159,7 +171,7 @@ const Header = () => {
                                                     </Link>
                                                 ))}
                                             </div>
-                                            
+
 
                                             <div className="p-4 lg:p-10">
                                                 <a href={'/special-care-staffing-services/'}><h3 className="px-4 py-2 text-md border-b md:border-r md:border-b-0 border-[#DBDFE2] font-semibold text-gray-700">Special Care Services</h3></a>
