@@ -19,7 +19,7 @@ const validationSchema = Yup.object({
     message: Yup.string().required('Message is required'),
 });
 
-const ContactForm = ({ className, onSuccess  }) => {
+const ContactForm = ({ className, onSuccess  }) => { 
 
     const handleSubmit = async (values, { resetForm }) => {
         try {
