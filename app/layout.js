@@ -18,7 +18,7 @@ export const metadata = {
   title: "YTC HealthCare",
   description: "YTC HealthCare: Your Healthcare Staffing Provider",
   icons: {
-    icon: "/favicon.ico", // or "/favicon.png"
+    icon: "/favicon.ico", 
   },
 };
 
