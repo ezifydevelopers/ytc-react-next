@@ -3,7 +3,6 @@
 @import "tailwindcss";
 
 
-
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
@@ -13,6 +12,8 @@
     font-family: "Inter", sans-serif;
   }
 }
+
+
 
 body {
   background: var(--background);
@@ -48,6 +49,10 @@ body {
   box-shadow: 0 5px 0 0px #0000001a;
 }
 
+.items-inherit{
+  align-items: inherit;
+}
+
 @media only screen and (min-width: 1024px) {
   .items-inherit {
     align-items: inherit;
@@ -56,6 +61,28 @@ body {
     background: url('/images/Salary-Guide-banner-05.webp') no-repeat;
   } */
 }
-.items-inherit{
-  align-items: inherit;
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 1.1;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 1.1;
+  }
+  blockquote {
+    font-size: 16px;
+  }
 }

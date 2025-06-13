@@ -50,8 +50,13 @@ export default function FAQCard() {
     ]
 
     return (
+<<<<<<< HEAD
+        <div className="flex flex-col items-center items-inherit lg:flex-row gap-8 px-5 md:px-12  pb-20 lg:pb-0">
+            <div className="bg-gradient-to-b from-[#359C8FA6] py-10 px-8 lg:px-15 to-[#359C8F] text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
+=======
         <div className="flex flex-col items-center items-inherit lg:flex-row gap-8 px-5 md:px-12  md:pb-20 pb-10 lg:pb-0">
             <div className="bg-gradient-to-b from-[#359C8FA6] py-10 px-15 to-[#359C8F] text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
+>>>>>>> 25e669532a4009f6fab5224d1c3e7dea75d16024
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">Frequently<br />Asked Questions.</h2>
                 <p className="text-sm md:text-base text-black mb-6">
                     Explore the most frequently asked questions by many healthcare Facilities

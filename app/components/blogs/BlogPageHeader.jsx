@@ -1,7 +1,7 @@
 
 const BlogPageHeader = ({ src, title }) => {
     return (
-        <div className="relative h-[330px] w-full px-4">
+        <div className="relative h-[330px] w-full md:px-4">
             <div
                 alt="Home Care"
                 className="w-full object-cover h-full rounded-tl-[20px] rounded-tr-[20px]"

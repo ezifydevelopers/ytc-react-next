@@ -35,7 +35,7 @@ const PostComponent = ({ params }) => {
     return (
       <div className="single-post">
         <Header />
-        <div className="mx-auto px-8 py-8">
+        <div className="mx-auto py-8">
           <h1 className="text-2xl font-bold mb-8">Blog Tags</h1>
           <div className="flex flex-wrap gap-2">
             {Array.isArray(content) ? (
@@ -72,7 +72,7 @@ const PostComponent = ({ params }) => {
         <link rel="canonical" href={`https://ytchealthcare.com/blog/${slug}`} />
       </Head>
       <Header />
-      <div className="mx-auto px-8 py-8">
+      <div className="mx-auto px-1 py-8">
         <div className="mt-[0px]">
           <div className="mb-8">
             <BlogPageHeader
@@ -81,7 +81,7 @@ const PostComponent = ({ params }) => {
             />
           </div>
 
-          <div className="flex flex-wrap justify-between gap-8 max-w-[1360px] mx-auto">
+          <div className="flex flex-wrap px-8 justify-between gap-8 max-w-[1360px] mx-auto">
             <div className="w-full md:w-[840px]">
               {content.author && content.date && (
                 <div className="mb-5">
