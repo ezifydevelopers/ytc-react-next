@@ -328,7 +328,7 @@ const Header = () => {
                             </MobileAccordion>
                         </div>
 
-                        <Link href="/about" className="block py-3 text-lg font-medium border-b border-gray-100">About Us</Link>
+                        <Link href="/about-us" className="block py-3 text-lg font-medium border-b border-gray-100">About Us</Link>
 
                         {/* Mobile Accordion for Resources */}
                         <div className="py-3 border-b border-gray-100">

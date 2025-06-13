@@ -35,7 +35,7 @@ export default function ClientSatisfactionSection() {
         <section className="max-w-[1320px] mx-auto mb-16 lg:mb-0 lg:py-16 px-6 md:px-20 bg-white flex gap-20 flex-col">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                 {/* Text Section */}
-                <div className="md:max-w-4xl pr-18">
+                <div className="md:max-w-4xl md:pr-18">
                     <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
                         <span className="text-teal-600 text-xl"><Image src="/images/ic2.png" width={20} height={20} alt="YTC Healthcare" /></span> Your Health is Our Top Goal
                     </p>
