@@ -28,7 +28,7 @@ export default function FaqAccordion({ data }) {
           >
             <button
               onClick={() => toggle(index)}
-              className="flex justify-between items-center w-full px-6 py-5 text-left text-lg font-semibold"
+              className="flex cursor-pointer justify-between items-center w-full px-6 py-5 text-left text-lg font-semibold"
             >
               {faq.question}
               {openIndex === index ? (
