@@ -48,7 +48,7 @@ const ContactForm = ({ className, onSuccess }) => {
     return (
         <div>
             {/* Right Side - Form */}
-            <div className={`${className} mx-auto w-full text-center`}>
+            <div className={`${className} mx-auto w-full text-center `}>
                 <h2 className="text-2xl font-bold mb-2">We Are Ready When You Are!</h2>
                 <p className="text-sm text-white mb-6">
                     By submitting this form you are agreeing to our Privacy Policy. We guarantee not to disclose your information.

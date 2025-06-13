@@ -14,9 +14,9 @@ export default function FaqAccordion({ data }) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-15">
-      <h2 className="text-3xl font-bold mb-4">{data.title}</h2>
+      <h2 className="text-3xl font-bold mb-4">{data?.title}</h2>
       <p className="text-gray-600 mb-6">
-        {data.description}
+        {data?.description}
       </p>
 
       {data?.faqs && <div className="space-y-4">

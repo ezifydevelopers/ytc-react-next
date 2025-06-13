@@ -78,7 +78,7 @@ const Contact = () => {
                                 {/* Business Address */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-[#08243c] text-white p-3 rounded-full">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor"  viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10l4.553 4.553a9 9 0 11-12.728 0L9 10m6 0V5a3 3 0 00-6 0v5" />
                                         </svg>
                                     </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                                 {/* Contact Us */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-[#08243c] text-white p-3 rounded-full">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor"  viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M2 8l10 6 10-6M2 8v8a2 2 0 002 2h16a2 2 0 002-2V8M2 8l10 6 10-6" />
                                         </svg>
                                     </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                                 {/* Email Address */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-[#08243c] text-white p-3 rounded-full">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor"  viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M16 12H8m0 0l4 4m-4-4l4-4m8-2a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2h16z" />
                                         </svg>
                                     </div>
@@ -118,7 +118,7 @@ const Contact = () => {
                                 {/* Office Hours */}
                                 <div className="flex items-start space-x-4">
                                     <div className="bg-[#08243c] text-white p-3 rounded-full">
-                                        <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                                        <svg className="w-6 h-6" fill="none" stroke="currentColor"  viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
                                     </div>
