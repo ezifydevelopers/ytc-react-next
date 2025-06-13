@@ -23,8 +23,8 @@ export default function YtcHealthcareSection() {
         setCurrent((prev) => (prev === paragraphs.length - 1 ? 0 : prev + 1));
     };
 
-    return (
-        <section className="py-16 px-6 md:px-20 bg-white">
+    return ( 
+        <section className="md:py-16 pb-25 md:pb-0 px-6 md:px-20 bg-white">
             <div className="lg:grid grid-cols-1 lg:grid-cols-3 gap-18">
                 {/* Left Content */}
                 <div className="md:col-span-2 flex flex-col mb-10 lg:mb-0 md:flex-row bg-gray-100 md:p-24 rounded-2xl shadow-md gap-8 p-8 ">
@@ -51,14 +51,14 @@ export default function YtcHealthcareSection() {
                 </div>
 
                 {/* Right Card */}
-                <div className="relative text-white pt-20 md:pb-30 pb-16 px-5 lg:px-20 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out" >
+                <div className="relative bg-white pt-20 md:pb-30 pb-16 px-5 lg:px-20  flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out" >
                     <video
                         autoPlay
                         loop
                         muted
                         controls
                         playsInline
-                        className="absolute top-0 left-0 w-full h-full object-cover"
+                        className="absolute top-0 left-0 w-full h-[210px] md:h-full object-cover rounded-2xl"
                     >
                         <source src="/videos/ytcVedio.mp4" type="video/mp4" />
                         Your browser does not support the video tag.

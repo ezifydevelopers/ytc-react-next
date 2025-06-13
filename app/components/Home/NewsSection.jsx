@@ -50,7 +50,7 @@ export default function NewsSection() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-8">
         {posts.slice(0, 3).map((post, index) => {
           const slug = Object.keys(blogs).find(key => blogs[key].id === post.id);
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function StaffingSolutions() {
     return (
         <section className="staffing-solution mx-3 sm:mx-4 md:mx-6 bg-white text-gray-900 rounded-tr-[20px] sm:rounded-tr-[25px] md:rounded-tr-[30px] rounded-br-[20px] sm:rounded-br-[25px] md:rounded-br-[30px]">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-8 sm:py-10 md:py-[55px]">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-5 md:py-[55px]">
                 {/* Header Section */}
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
                     <p className="text-xs sm:text-sm font-semibold text-gray-600 flex items-center gap-2">

@@ -35,7 +35,7 @@ export default function CustomerTestimonial() {
   };
 
   return (
-    <Card className="flex flex-col md:flex-row items-center justify-between p-6 md:py-10 md:pl-[155px] md:pr-10 rounded-2xl healthcarebox mx-5 md:mx-12 border-[#DADEE2] mb-[102px]">
+    <Card className="flex flex-col md:flex-row items-center justify-between p-6 md:py-10 md:pl-[155px] md:pr-10 rounded-2xl healthcarebox mx-5 md:mx-12 border-[#DADEE2] md:mb-[102px] mb-[50px]">
       {/* Left side - Text Content */}
       <div className="md:w-2/3 space-y-4 md:py-10">
         <p className="text-sm text-gray-500 flex items-center gap-2 mb-3">
