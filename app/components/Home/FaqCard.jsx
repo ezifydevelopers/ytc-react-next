@@ -17,16 +17,35 @@ export default function FAQCard() {
             "answer": "Yes, we are a licensed and compliant healthcare staffing agency in both countries."
         },
         {
-            "question": "How Do Dental Staffing Services Ensure The Quality Of The Professionals They Provide?",
-            "answer": "YTC Healthcare conducts thorough screening processes, which may include verifying credentials, assessing clinical skills, and performing background checks. We also offer continuing education opportunities to ensure their professionals stay current with industry standards."
+            "question": "How fast can YTC Healthcare fill urgent care shifts?",
+            "answer": "We offer 24/7 support and rapid staffing, including same-day placements."
         },
         {
-            "question": "Can Dental Staffing Agencies Assist With Emergency Or Short-Notice Staffing Needs?",
-            "answer": "Yes, many dental staffing agencies i.e. YTC Healthcare, offer emergency or short-notice placements to help practices maintain operations during unexpected staff shortages due to illness, emergencies, or sudden increases in patient volume."
+            "question": "Does YTC Healthcare serve hospitals and care homes?",
+            "answer": "Yes, we staff hospitals, long-term care homes, and private healthcare facilities."
         },
         {
-            "question": "Are There Any Costs Associated With Using Dental Staffing Services?",
-            "answer": "Typically, dental staffing agencies charge fees for their services, which can vary based on factors such as the type of placement (temporary vs. permanent) and the specific role being filled. YTC Healthcare provides customizable plans that suit every dental care facility."
+            "question": "How do I contact YTC Healthcare’s local offices?",
+            "answer": "Reach us via our website, or call our Mississauga or Philadelphia office directly."
+        }
+    ]
+
+    const faqs = [
+        {
+            "question": "How can I apply for a healthcare job with YTC Healthcare?",
+            "answer": "Job seekers can apply online or contact our local offices in Mississauga or Philadelphia."
+        },
+        {
+            "question": "Can YTC Healthcare provide temporary or permanent staff?",
+            "answer": "Yes, we offer both temporary and permanent healthcare staffing solutions based on your needs."
+        },
+        {
+            "question": "What sets YTC Healthcare apart from other agencies?",
+            "answer": "Our commitment to reliability, compliance, and personalized service makes us a trusted staffing partner."
+        },
+        {
+            "question": "How does YTC ensure quality in healthcare staffing?",
+            "answer": "We use a rigorous selection process and continuous performance monitoring to maintain high standards."
         }
     ]
 
@@ -112,7 +131,7 @@ export default function FAQCard() {
                 </p>
                 <div className="h-px bg-white mb-5"></div>
                 <div className="space-y-4">
-                    {data?.map((faq, index) => (
+                    {faqs?.map((faq, index) => (
                         <div
                             key={index}
                             className={` border border-gray-300 rounded-xl transition-all duration-300 ${openIndex === index ? 'shadow-md' : ''

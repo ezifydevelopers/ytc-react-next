@@ -165,7 +165,7 @@ const HealthcareStaffing = () => {
                 </div>
             </section>
 
-            <div className="px-6 md:px-0 pb-10 max-w-7xl mx-auto my-10">
+            <div className="px-6 md:px-0 pb-10 max-w-7xl mx-auto md:my-10">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {cards.map((card, index) => {
                         return (
@@ -183,7 +183,7 @@ const HealthcareStaffing = () => {
                     })}
                 </div>
             </div>
-            <section className=" mx-auto px-4 py-10 mx-3 sm:mx-4 md:mx-5 md:pb-16 md:pt-4 rounded-[20px]" style={{ background: "linear-gradient(to bottom, #e2f0f7, rgba(227, 241, 248, 0));" }}>
+            <section className=" mx-auto px-4 md:py-10 sm:mx-4 md:mx-5 md:pb-16 md:pt-4 rounded-[20px]" style={{ background: "linear-gradient(to bottom, #e2f0f7, rgba(227, 241, 248, 0));" }}>
                 <div className="px-4 pb-10 md:pb-16 pt-20 text-center">
                     <div className="flex justify-center mb-4">
                         <Image src="/images/ic2.png" width={20} height={20} alt="Health Care" />
@@ -228,7 +228,7 @@ const HealthcareStaffing = () => {
                 </div>
             </section>
 
-            <section className="text-white py-30 rounded-xl px-4 mb-10 mx-5" style={{ backgroundImage: 'url(/images/sv17.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <section className="text-white md:py-30 py-15 rounded-xl px-4 mb-10 mx-5" style={{ backgroundImage: 'url(/images/sv17.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 text-center">
                     {steps.map((step) => (
                         <div key={step.id}>

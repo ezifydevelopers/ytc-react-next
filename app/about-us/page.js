@@ -113,18 +113,18 @@ const AboutUs = () => {
             <div className='mx-3 sm:mx-4 md:mx-5'>
                 <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={"Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don’t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches."} />
             </div>
-            <div className='pt-5 px-5 rounded'>
-                <section className="w-full bg-gradient-to-b from-white to-[#f5fafd] pt-16  relative overflow-hidden" style={{ borderRadius: '20px' }}>
+            <div className='pt-5 px-5 rounded '>
+                <section className="w-full bg-gradient-to-b from-white to-[#f5fafd] md:pt-16  relative overflow-hidden" style={{ borderRadius: '20px' }}>
                     {/* Gradient overlay at the bottom */}
                     <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-b from-transparent to-[#cde6e5] z-0" />
 
                     <div className=" md:mx-5 md:px-6 grid xl:grid-cols-3 gap-10 items-center relative z-10">
                         {/* Left Content */}
-                        <div className="col-span-1 space-y-15">
+                        <div className="col-span-1 md:space-y-15 space-y-5">
                             <div className=" rounded-full ">
                                 <svg id="svg11425" height="47" viewBox="0 0 16.933333 16.933334" width="47"><g id="layer1" transform="translate(0 -280.067)" className="fill-current text-[#ffcc53]"><path id="path13638" d="m8.456844 280.59477c-.03822.002-.07559.0118-.109554.0295 0 0-3.1421915 1.56734-7.0605515 2.08979-.1316461.0182-.2293859.13118-.2284095.26407v5.55418c0 3.40254 1.8628359 5.42086 3.6995152 6.54327 1.8366718 1.12241 3.6695438 1.39268 3.6695438 1.39268.02603.004.05251.004.07855 0 0 0 1.832871-.27027 3.669542-1.39268 1.83668-1.12241 3.699516-3.14073 3.699516-6.54327v-5.55418c.0011-.13289-.09676-.24589-.22841-.26407-3.91836-.52245-7.060551-2.08979-7.060551-2.08979-.03987-.0206-.08432-.0308-.12919-.0295zm.0098 3.17604c2.627119 0 4.761465 2.13434 4.761465 4.76146s-2.134346 4.76405-4.761465 4.76405c-2.6271198 0-4.761466-2.13693-4.761466-4.76405s2.1343462-4.76146 4.761466-4.76146zm-1.05885 2.38073v1.32447h-1.321886c-.146119-.00053-.2650303.11743-.265615.26355v1.58801c.0005291.14612.119496.26411.265615.26355h1.321885v1.32447c.000529.14632.119814.26439.266134.26355h1.585431c.146119.00053.265033-.11743.265618-.26355v-1.32447h1.3224c.146119.00053.265033-.11743.265616-.26355v-1.58801c-.00053-.14612-.119497-.26411-.265616-.26355h-1.3224v-1.32447c-.00053-.14612-.119497-.26411-.265618-.26355h-1.599126c-.149244.0133-.252547.12735-.252439.26355z"></path></g></svg>
                             </div>
-                            <div>
+                            <div >
                                 <p className="text-8xl text-gray-900 text-[#051b2e]">10<span className="text-5xl p-5 align-middle">+</span></p>
                                 <p className="text[#0f2436] " style={{ fontSize: "17px", fontWeight: '500', fontFamily: "" }}>
                                     Years of Experience<br />
@@ -206,7 +206,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </section>
-            </div>
+            </div> 
             <div className="grid md:grid-cols-3 gap-4 items-center p-4 mb-5">
                 {/* First Empty Section */}
                 <div></div>
@@ -247,7 +247,7 @@ const AboutUs = () => {
                 </div>
             </div>
 
-            <section className=" lg:px-60 px-5 py-12 ">
+            <section className=" lg:px-60 px-5 md:py-12 ">
                 <div className='grid grid-cols-1 md:grid-cols-2 items-center'>
                     {/* Left - Image with play button */}
                     <div className="relative rounded-xl overflow-hidden max-w-xl mx-auto shadow-lg">
@@ -288,7 +288,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section className="px-6 py-12">
+            <section className="px-6 md:py-12 pb-10 md:pb-0">
                 <div className="max-w-6xl mx-auto">
                     <div className="border-t border-gray-200 pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                         {features.map((feature, index) => (
