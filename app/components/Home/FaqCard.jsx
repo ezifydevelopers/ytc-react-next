@@ -47,7 +47,7 @@ export default function FAQCard() {
                         >
                             <button
                                 onClick={() => toggle(index)}
-                                className="flex justify-between items-center w-full px-4 py-3 text-left text-lg font-semibold"
+                                className="flex justify-between items-center w-full px-3 py-2 text-left text-[14px] cursor-pointer"
                             >
                                 {faq.question}
                                 {openIndex === index ? (
@@ -58,7 +58,7 @@ export default function FAQCard() {
                             </button>
                             {openIndex === index && (
                                 <div
-                                    className="px-6 pb-5 pt-0 text-gray-600 text-sm"
+                                    className="px-3 pb-5 pt-0 text-gray-600 text-sm"
                                     dangerouslySetInnerHTML={{ __html: faq.answer }}
                                 />
                             )}
