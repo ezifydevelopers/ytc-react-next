@@ -31,8 +31,13 @@ export default function FAQCard() {
     ]
 
     return (
+<<<<<<< HEAD
         <div className="flex flex-col items-center items-inherit lg:flex-row gap-8 px-5 md:px-12  pb-20 lg:pb-0">
             <div className="bg-gradient-to-b from-[#359C8FA6] py-10 px-8 lg:px-15 to-[#359C8F] text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
+=======
+        <div className="flex flex-col items-center items-inherit lg:flex-row gap-8 px-5 md:px-12  md:pb-20 pb-10 lg:pb-0">
+            <div className="bg-gradient-to-b from-[#359C8FA6] py-10 px-15 to-[#359C8F] text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
+>>>>>>> 25e669532a4009f6fab5224d1c3e7dea75d16024
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">Frequently<br />Asked Questions.</h2>
                 <p className="text-sm md:text-base text-black mb-6">
                     Explore the most frequently asked questions by many healthcare Facilities
@@ -105,15 +110,41 @@ export default function FAQCard() {
                 </ul>
             </div>
 
-            <div className="bg-gradient-to-b from-[#359C8FA6] to-[#359C8F] py-30 px-15 text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
+            <div className="bg-gradient-to-b from-[#359C8FA6] to-[#359C8F] py-10 px-15 text-gray-900 rounded-2xl p-8 w-full max-w-md md:max-w-xl lg:max-w-2xl relative overflow-hidden">
                 <h2 className="text-2xl md:text-3xl font-bold mb-2">Frequently<br />Asked Questions.</h2>
                 <p className="text-sm md:text-base text-black mb-6">
                     Explore the most frequently asked questions by many healthcare Facilities
                 </p>
-                <div className="h-px bg-white mb-25"></div>
-
-                <div className="">
-                    <div className="bg-[#0b2239] p-7 rounded-2xl inline-flex items-center justify-center">
+                <div className="h-px bg-white mb-5"></div>
+                <div className="space-y-4">
+                    {data?.map((faq, index) => (
+                        <div
+                            key={index}
+                            className={` border border-gray-300 rounded-xl transition-all duration-300 ${openIndex === index ? 'shadow-md' : ''
+                                }`}
+                        >
+                            <button
+                                onClick={() => toggle(index)}
+                                className="flex justify-between items-center w-full px-3 py-2 text-left text-[14px] cursor-pointer"
+                            >
+                                {faq.question}
+                                {openIndex === index ? (
+                                    <ChevronUp className="w-5 h-5" />
+                                ) : (
+                                    <ChevronDown className="w-5 h-5" />
+                                )}
+                            </button>
+                            {openIndex === index && (
+                                <div
+                                    className="px-3 pb-5 pt-0 text-gray-600 text-sm"
+                                    dangerouslySetInnerHTML={{ __html: faq.answer }}
+                                />
+                            )}
+                        </div>
+                    ))}
+                </div>
+                <div className="pt-5">
+                    <div className="bg-[#0b2239] p-5 rounded-2xl inline-flex items-center justify-center">
                         <span className="text-white text-2xl">
                             <Image src="/icons/faq-2.svg" width={50} height={50} alt="Ytc healthcare" />
                         </span>

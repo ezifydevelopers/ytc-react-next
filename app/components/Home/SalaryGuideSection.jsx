@@ -53,7 +53,7 @@ export default function SalaryGuideSection() {
   };
 
   return (
-    <section className="bg-white pt-4 pb-16 px-6 md:px-16 relative">
+    <section className="bg-white pt-4 md:pb-16 px-6 md:px-16 relative">
       <div className="salary-guide-inner max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="lg:mt-24">
           <h2 className="text-4xl lg:text-5xl font-bold text-teal-800 leading-tight mb-4">

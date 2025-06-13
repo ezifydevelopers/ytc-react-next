@@ -9,11 +9,11 @@ const Footer = () => {
     return (
         <div>
             <div className="footer-main bg-[#0B2436] mx-[15px] text-white rounded-br-[30px] rounded-bl-[30px]">
-                <footer className=" footer-inner px-6 py-[75px]">
+                <footer className=" footer-inner px-6 md:py-[75px] py-[30px]">
                     <Image src="/images/footer-logo.png" alt="Logo" width={220} height={60} />
                     <div className=" mx-auto lg:flex lg:gap-5 lg:justify-between">
                         <div className='lg:w-[30%]'>
-                            <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Contact With Us!</h3>
+                            <h3 className="text-lg font-semibold md:my-[40px] my-[20px]">Contact With Us!</h3>
                             <a href="mailto:info@ytchealthcare.com" className="flex items-start gap-3 mb-5 text-white hover:underline">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="white" className="w-[27px] h-[24px]" viewBox="0 0 576 512">
@@ -32,7 +32,7 @@ const Footer = () => {
                                 <a href='https://www.google.com/search?q=your+talent+consultancy+philadelphia&sca_esv=ef108326c3cb304c&rlz=1C1VDKB_enCA1105CA1105&ei=h_BKaPamIdye5NoP8MqTwQE&oq=your+talent+consultancy+phi&gs_lp=Egxnd3Mtd2l6LXNlcnAiG3lvdXIgdGFsZW50IGNvbnN1bHRhbmN5IHBoaSoCCAMyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSLQaULUCWM4LcAF4AZABAJgBhwGgAdYDqgEDMC40uAEDyAEA-AEBmAIFoAL3A8ICChAAGLADGNYEGEfCAg0QABiwAxjWBBhHGMkDwgIOEAAYgAQYsAMYkgMYigXCAg0QABiABBiwAxhDGIoFwgIOEC4YgAQYxwEYjgUYrwHCAgUQABiABMICBhAAGBYYHsICAhAmwgILEAAYgAQYhgMYigXCAgUQABjvBcICHRAuGIAEGMcBGI4FGK8BGJcFGNwEGN4EGOAE2AEBwgIIEAAYogQYiQXCAggQABiABBiiBJgDAIgGAZAGCLoGBggBEAEYFJIHAzEuNKAHixuyBwMwLjS4B_EDwgcHMC4xLjMuMcgHHQ&sclient=gws-wiz-serp'>744 South St, Philadelphia, PA 19147</a>
                             </div>
 
-                            <div className="flex items-center gap-3 text-white bg-gray-700 w-fit px-4 py-2 rounded-full mb-8">
+                            <div className="flex items-center gap-3 text-white bg-gray-700 w-fit px-4 py-2 rounded-full md:mb-8">
                                 <FaPhoneAlt />
                                 <span className="font-semibold">Emergency 24h: +1 365 737 4000</span>
                             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
                         </div>
 
                         <div className='lg:w-[15%]'>
-                            <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Services</h3>
+                            <h3 className="text-lg font-semibold md:mt-[50px] mt-[25px] md:mb-[40px] mb-[10px]">Services</h3>
                             <ul className="space-y-3 text-gray-300">
                                 <li><Link href="/healthcare-staffing/">Healthcare Workers</Link></li>
                                 <li><Link href="/homecare-staffing-services/">Home Care Services</Link></li>
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div>
 
                         <div className='lg:w-[15%]'>
-                            <h3 className="text-lg font-semibold mt-[50px] mb-[40px]">Quick Links</h3>
+                            <h3 className="text-lg font-semibold md:mt-[50px] mt-[25px] md:mb-[40px] mb-[10px]">Quick Links</h3>
                             <ul className="space-y-3 text-gray-300">
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="/about-us/">About Us</Link></li>
@@ -83,7 +83,7 @@ const Footer = () => {
                         </div>
 
                         {/* form */}
-                        <div className='lg:w-[40%] mt-14'>
+                        <div className='lg:w-[40%] md:mt-14 mt-7'>
                             <ContactForm className="text-left" />
                         </div>
                     </div>

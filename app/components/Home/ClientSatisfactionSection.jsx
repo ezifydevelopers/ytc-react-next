@@ -32,7 +32,7 @@ export default function ClientSatisfactionSection() {
 
 
     return (
-        <section className="max-w-[1320px] mx-auto mb-16 lg:mb-0 lg:py-16 px-6 md:px-20 bg-white flex gap-20 flex-col">
+        <section className="max-w-[1320px] mx-auto mb-10 lg:mb-0 lg:py-16 px-6 md:px-20 bg-white flex gap-10 md:gap-20 flex-col">
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                 {/* Text Section */}
                 <div className="md:max-w-4xl md:pr-18">
