@@ -122,15 +122,32 @@ const PostComponent = ({ params }) => {
                     )}
 
                     {section.text && (
-                      <p className="text-[15px] text-[#68747A]">
-                        {renderContent(section.text)}
-                      </p>
+                      <p className="text-[15px] text-[#68747A]" dangerouslySetInnerHTML={{ __html: renderContent(section.text) }} />
                     )}
-
+                    {section.table && (
+                      <table className="min-w-full border border-gray-300">
+                        <thead className="bg-gray-200">
+                          <tr>
+                            <th className="text-left px-4 py-2 border">Phase</th>
+                            <th className="text-left px-4 py-2 border">Common Staffing Challenges</th>
+                            <th className="text-left px-4 py-2 border">Impact on Care Homes</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {section.table.map((row, idx) => (
+                            <tr key={idx} className="hover:bg-gray-100">
+                              <td className="px-4 py-2 border">{row.phase}</td>
+                              <td className="px-4 py-2 border">{row.commonStaffingChallenges}</td>
+                              <td className="px-4 py-2 border">{row.impactOnCareHomes}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    )}
                     {Array.isArray(section.subsections) && section.subsections.map((subsection, subIndex) => (
                       <div key={subIndex} className="mt-4">
                         {subsection.section && (
-                          <p className="text-[15px] text-[#68747A] font-medium" dangerouslySetInnerHTML={{ __html: renderContent(subsection.section) }}/>
+                          <p className="text-[15px] text-[#68747A] font-medium" dangerouslySetInnerHTML={{ __html: renderContent(subsection.section) }} />
                         )}
                         {subsection.title && (
                           <h3 className="text-2xl font-bold text-[#68747A] font-medium">
@@ -138,7 +155,7 @@ const PostComponent = ({ params }) => {
                           </h3>
                         )}
                         {subsection.text && (
-                          <div className="text-[16px] text-[#68747A] mt-2" dangerouslySetInnerHTML={{ __html: renderContent(subsection.text) }}/>
+                          <div className="text-[16px] text-[#68747A] mt-2" dangerouslySetInnerHTML={{ __html: renderContent(subsection.text) }} />
                         )}
 
                         {subsection.image && (

@@ -13,8 +13,9 @@ export default function FaqAccordion({ data }) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-15">
+    <div className="max-w-7xl mx-auto px-4 py-3">
       <h2 className="text-3xl font-bold mb-4">{data?.title}</h2>
+      <h2 className="text-3xl font-bold mb-4">{data?.section}</h2>
       <p className="text-gray-600 mb-6">
         {data?.description}
       </p>
