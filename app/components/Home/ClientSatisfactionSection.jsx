@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobileSlider from "../ui/Slider";
 
 export default function ClientSatisfactionSection() {
 
@@ -59,7 +60,7 @@ export default function ClientSatisfactionSection() {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-wrap gap-4 md:gap-[4%]">
+            <div className="sm:flex hidden flex-wrap gap-4 md:gap-[4%]">
                 {services.map((item, index) => {
                     return <div key={index} className="relative w-[100%] md:w-[48%] md:mb-[45px] bg-white border  border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition healthcarebox">
                         <div className="flex items-center gap-4 lg:gap-10">
@@ -69,12 +70,29 @@ export default function ClientSatisfactionSection() {
 
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
-                                <p className="text-gray-600 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: item.description }}/>
+                                <p className="text-gray-600 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: item.description }} />
                             </div>
                         </div>
                     </div>
                 })}
             </div>
+            
+            <MobileSlider>
+                {services.map((item, index) => {
+                    return <div key={index} className="relative w-[100%] md:w-[48%] md:mb-[45px] bg-white border  border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition healthcarebox">
+                        <div className="flex items-center gap-4 lg:gap-10">
+                            <div className="flex-shrink-0">
+                                <Image src={item.icon} width={100} height={100} alt="Icon" className="w-12 h-12" />
+                            </div>
+
+                            <div>
+                                <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
+                                <p className="text-gray-600 text-sm leading-relaxed" dangerouslySetInnerHTML={{ __html: item.description }} />
+                            </div>
+                        </div>
+                    </div>
+                })}
+            </MobileSlider>
         </section>
     );
 }

@@ -53,6 +53,23 @@ body {
   align-items: inherit;
 }
 
+ul.slick-dots {
+  margin-top: -23px !important;
+  position: relative;
+}
+
+button.absolute.-bottom-12.right-1\/2.transform.translate-x-2.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
+  right: 25px;
+  bottom: -32px;
+  z-index: 999;
+}
+
+button.absolute.-bottom-12.right-1\/2.transform.-translate-x-12.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
+  left: 63px;
+  bottom: -32px;
+  z-index: 999;
+}
+
 @media only screen and (min-width: 1024px) {
   .items-inherit {
     align-items: inherit;

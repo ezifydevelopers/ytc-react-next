@@ -2,6 +2,7 @@ import React from 'react';
 import { FaStarOfLife } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
+import MobileSlider from '../ui/Slider';
 
 const HealthcareProfessional = () => {
 
@@ -46,6 +47,13 @@ const HealthcareProfessional = () => {
             description:
                 'Your Talent Consultancy Healthcare does not overlook child care; we have certified childcare workers in our talent pool.',
         },
+        {
+            id: '06',
+            type: 'certifications',
+            url: '/contact-us/',
+            title: 'Our Certifications',
+            description: 'View our certifications and permits',
+        }
     ];
 
     return (
@@ -69,53 +77,103 @@ const HealthcareProfessional = () => {
                 </p>
             </div>
 
-            <div className="px-0 xl:px-20 bg-white">
+            <div className="px-0 xl:px-20 bg-white hidden sm:block">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {services.map((service, index) => (
-                        <Link key={index} href={`/service${service.url}`}>
-                            <div
-                                key={service.id}
-                                className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
-                            >
-                                <div className="flex gap-4 items-center justify-between">
-                                    <div className="w-[82px] h-[82px] bg-teal-700 flex items-center justify-center rounded-[13px]">
-                                        <Image src={service.icon} alt={service.title} className="w-[48px] h-[48px]" width={48} height={48} />
+                        <div key={service.id} className="px-2">
+                            {service.type === 'certifications' ? (
+                                <Link href={service.url}>
+                                    <div className="rounded-xl overflow-hidden bg-gray-100 relative h-[400px]">
+                                        <Image
+                                            alt="Doctor"
+                                            src="/images/doctor-cta.webp"
+                                            fill
+                                            className="object-cover opacity-80"
+                                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                        />
+                                        <div className="absolute bottom-0 p-6 flex flex-col justify-center">
+                                            <h3 className="text-2xl font-semibold text-gray-800">{service.title}</h3>
+                                            <ul className="text-sm list-none p-0 mb my-4 pb-1">
+                                                <li className="text-md"><span className="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
+                                                <li className="text-md my-2"><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
+                                                <li className="text-md"><span className="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
+                                            </ul>
+                                            <button className="inline-flex cursor-pointer h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
+                                                Let&apos;s Discuss →
+                                            </button>
+                                        </div>
                                     </div>
-                                    <div className="w-[50px] h-[50px] border border-gray-300 rounded-full flex items-center justify-center text-sm text-gray-500 font-medium transition-colors duration-300 group-hover:bg-[#00786F] group-hover:text-white">
-                                        {service.id}
+                                </Link>
+                            ) : (
+                                <Link href={`/service${service.url}`}>
+                                    <div
+                                        className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
+                                    >
+                                        <div className="flex gap-4 items-center justify-between">
+                                            <div className="w-[82px] h-[82px] bg-teal-700 flex items-center justify-center rounded-[13px]">
+                                                <Image src={service.icon} alt={service.title} className="w-[48px] h-[48px]" width={48} height={48} />
+                                            </div>
+                                            <div className="w-[50px] h-[50px] border border-gray-300 rounded-full flex items-center justify-center text-sm text-gray-500 font-medium transition-colors duration-300 group-hover:bg-[#00786F] group-hover:text-white">
+                                                {service.id}
+                                            </div>
+                                        </div>
+                                        <h3 className="mt-14 mb-5 font-semibold text-2xl text-gray-900">{service.title}</h3>
+                                        <p className="mt-2 text-sm text-gray-600 mb-[43px]">{service.description}</p>
                                     </div>
-                                </div>
-                                <h3 className="mt-14 mb-5 font-semibold text-2xl text-gray-900">{service.title}</h3>
-                                <p className="mt-2 text-sm text-gray-600 mb-[43px]">{service.description}</p>
-                            </div>
-                        </Link>
-                    ))}
-
-                    {/* Last Column CTA */}
-                    <div className="rounded-xl overflow-hidden bg-gray-100 relative">
-                        <Image
-                            src="/images/doctor-cta.webp"
-                            alt="Doctor"
-                            className="w-full h-full object-cover opacity-80"
-                            fill
-                        />
-                        <div className="absolute bottom-0 p-6 flex flex-col justify-center">
-                            <h3 className="text-2xl font-semibold text-gray-800">Our Certifications</h3> 
-                            <ul className="text-sm list-none p-0 mb my-4 pb-1">
-                                <li className='text-md'><span className="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
-                                <li className='text-md my-2 '><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
-                                <li className='text-md'><span className="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
-                            </ul>
-
-                            <Link href="/contact-us/">
-                                <button className="inline-flex cursor-pointer h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
-                                    Let&apos;s Discuss →
-                                </button>
-                            </Link>
+                                </Link>
+                            )}
                         </div>
-                    </div>
+                    ))}
                 </div>
             </div>
+
+            <MobileSlider>
+                {services.map((service, index) => (
+                    <div key={service.id} className="px-2">
+                        {service.type === 'certifications' ? (
+                            <Link href={service.url}>
+                                <div className="rounded-xl overflow-hidden bg-gray-100 relative h-[400px]">
+                                    <Image
+                                        alt="Doctor"
+                                        src="/images/doctor-cta.webp"
+                                        fill
+                                        className="object-cover opacity-80"
+                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                    />
+                                    <div className="absolute bottom-0 p-6 flex flex-col justify-center">
+                                        <h3 className="text-2xl font-semibold text-gray-800">{service.title}</h3>
+                                        <ul className="text-sm list-none p-0 mb my-4 pb-1">
+                                            <li className="text-md"><span className="font-semibold text-gray-800">Ontario Permit:</span> THA-0000002579</li>
+                                            <li className="text-md my-2"><span className="font-semibold text-gray-800">Quebec Permit:</span> YTC-AP-2202698</li>
+                                            <li className="text-md"><span className="font-semibold text-gray-800">Certified by:</span> Pennsylvania Dept. of Health</li>
+                                        </ul>
+                                        <button className="inline-flex cursor-pointer h-[55px] w-[176.5px] items-center gap-2 bg-teal-700 text-white font-semibold text-sm px-4 py-2 rounded-lg hover:bg-teal-800 transition">
+                                            Let&apos;s Discuss →
+                                        </button>
+                                    </div>
+                                </div>
+                            </Link>
+                        ) : (
+                            <Link href={`/service${service.url}`}>
+                                <div
+                                    className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
+                                >
+                                    <div className="flex gap-4 items-center justify-between">
+                                        <div className="w-[82px] h-[82px] bg-teal-700 flex items-center justify-center rounded-[13px]">
+                                            <Image src={service.icon} alt={service.title} className="w-[48px] h-[48px]" width={48} height={48} />
+                                        </div>
+                                        <div className="w-[50px] h-[50px] border border-gray-300 rounded-full flex items-center justify-center text-sm text-gray-500 font-medium transition-colors duration-300 group-hover:bg-[#00786F] group-hover:text-white">
+                                            {service.id}
+                                        </div>
+                                    </div>
+                                    <h3 className="mt-14 mb-5 font-semibold text-2xl text-gray-900">{service.title}</h3>
+                                    <p className="mt-2 text-sm text-gray-600 mb-[43px]">{service.description}</p>
+                                </div>
+                            </Link>
+                        )}
+                    </div>
+                ))}
+            </MobileSlider>
         </section>
     );
 };
