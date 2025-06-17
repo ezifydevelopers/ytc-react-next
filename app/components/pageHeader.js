@@ -1,6 +1,20 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
+import Modal from './ui/Modal';
+import ContactForm from './ui/ContactForm';
 
 const PageHeader = ({ img, title, description, className }) => {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const openModal = (e) => {
+        e.preventDefault(); // Prevent the link from navigating
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
     return (
         <div className={`${className} bg-white rounded-xl overflow-hidden shadow-md`}>
             {/* Header Section */}
@@ -17,6 +31,14 @@ const PageHeader = ({ img, title, description, className }) => {
                     }}
                 />
                 <div className='container'>
+                    <div onClick={openModal} className='absolute bottom-22 left-42'>
+                        <button className="bg-teal-600 cursor-pointer flex justify-center items-center gap-2 h-[51px] hover:bg-teal-700 text-white text-[15px] px-4 py-2 rounded-md transition-colors">
+                            Get A Quote
+                            <svg fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M23.12,9.91,19.25,6a1,1,0,0,0-1.42,0h0a1,1,0,0,0,0,1.41L21.39,11H1a1,1,0,0,0-1,1H0a1,1,0,0,0,1,1H21.45l-3.62,3.61a1,1,0,0,0,0,1.42h0a1,1,0,0,0,1.42,0l3.87-3.88A3,3,0,0,0,23.12,9.91Z" />
+                            </svg>
+                        </button>
+                    </div>
                     <div className="absolute md:bottom-4 bottom-20 left-5 md:left-40 text-white md:w-3xl">
                         <h1 className="text-3xl md:text-5xl text-white font-semibold">
                             {title}
@@ -34,7 +56,7 @@ const PageHeader = ({ img, title, description, className }) => {
             {/* Content Section */}
             {description && <div className="p-6 md:p-10 flex flex-col xl:flex-row gap-6 xl:items-center xl:justify-between">
                 <div className="xl:w-2/4 text-gray-800 text-base md:text-lg leading-relaxed ">
-                    <p className="xl:ml-30" dangerouslySetInnerHTML={{ __html: description }}/>
+                    <p className="xl:ml-30" dangerouslySetInnerHTML={{ __html: description }} />
                 </div>
 
                 {/* Call Section */}
@@ -53,6 +75,10 @@ const PageHeader = ({ img, title, description, className }) => {
                     </div>
                 </div>
             </div>}
+
+            <Modal isOpen={isModalOpen} onClose={closeModal}>
+                <ContactForm className="text-left" />
+            </Modal>
         </div>
     );
 };

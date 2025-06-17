@@ -54,7 +54,7 @@ export default function HeroSection() {
                             <button className="bg-[#071b2f] cursor-pointer md:mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
                             onClick={openModal}
                             >
-                                Get Quote
+                                Get A Quote
                             </button>
                             <Link href="/contact-us/" className="md:mx-5">
                                 <button className="bg-[#071b2f] cursor-pointer mt-6 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
@@ -85,7 +85,7 @@ export default function HeroSection() {
                             <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
                             onClick={openModal}
                             >
-                                Get Quote
+                                Get A Quote
                             </button>
                             <Link href="/contact-us/" className="md:mx-5">
                                 <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
