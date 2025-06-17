@@ -65,14 +65,14 @@ const Header = () => {
     return (
         <div className="">
             <div className="bg-[#009689] px-4 py-2 flex flex-col md:flex-row md:justify-between items-start md:items-center gap-2 text-white text-sm md:text-base">
-                <div className="flex flex-col lg:hidden md:flex-row items-start md:items-center gap-2 md:gap-6">
+                <div className="flex justify-between w-full px-2 lg:hidden md:flex-row items-start md:items-center gap-2 md:gap-6">
                     <a href="tel:+13657374000" className="flex items-center gap-2 hover:underline">
                         <FaPhoneAlt className="text-white" />
-                        <span>Canada - +1 (365) 737-4000</span>
+                        <span>Canada</span>
                     </a>
                     <a href="tel:+14122182885" className="flex items-center gap-2 hover:underline">
                         <FaPhoneAlt className="text-white" />
-                        <span>USA - +1 412-218-2885</span>
+                        <span>USA</span>
                     </a>
                 </div>
 
@@ -283,10 +283,10 @@ const Header = () => {
                 </header>
 
                 {/* Mobile Menu Overlay */}
-                <div className={`md:hidden fixed inset-0 bg-black bg-opacity-50 z-40 transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`} onClick={toggleMobileMenu}></div>
+                <div className={`md:hidden fixed inset-0 bg-black bg-opacity-50 z-[99999] transition-opacity duration-300 ${isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`} onClick={toggleMobileMenu}></div>
 
                 {/* Mobile Menu Drawer */}
-                <div className={`md:hidden fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-xl z-50 transform transition-transform duration-300 ease-in-out  overflow-y-auto max-h-[calc(100vh-0px)] ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                <div className={`md:hidden fixed top-0 right-0 h-full w-[80%] max-w-sm bg-white shadow-xl z-[9999999] transform transition-transform duration-300 ease-in-out  overflow-y-auto max-h-[calc(100vh-0px)] ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
                     <div className="flex justify-between items-center p-4 border-b">
                         <Image
                             src="/images/logo.webp"
@@ -386,7 +386,7 @@ const Header = () => {
                 </div>
 
                 {/* Sticky Header - animates down when sticky */}
-                <header className={`w-full flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 bg-white shadow fixed top-0 z-30 transition-all duration-500 ease-in-out ${isSticky ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
+                <header className={`w-full flex items-center justify-between px-4 sm:px-6 lg:px-6 py-4 bg-white shadow fixed top-0 z-[999999] transition-all duration-500 ease-in-out ${isSticky ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}`}>
                     <div className="flex items-center space-x-4 w-full md:w-[12%]">
                         <Image
                             src="/images/logo.webp"

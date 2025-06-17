@@ -61,7 +61,7 @@ ul.slick-dots {
 button.absolute.-bottom-12.right-1\/2.transform.translate-x-2.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
   right: 25px;
   bottom: -32px;
-  z-index: 999;
+  z-index: 99;
 }
 
 button.absolute.-bottom-12.right-1\/2.transform.-translate-x-12.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
