@@ -56,58 +56,60 @@ const ContactForm = ({ className, onSuccess }) => {
     //             alert("reCAPTCHA not ready. Please try again.");
     //             return;
     //         }
-
-    //         const token = await recaptchaRef.current.executeCaptcha();
-
+    
+    //         // Get the captcha value from the visible checkbox
+    //         const token = recaptchaRef.current.getValue();
+    
     //         if (!token) {
-    //             alert("Failed to get reCAPTCHA token.");
+    //             alert("Please complete the reCAPTCHA.");
     //             return;
     //         }
-
+    
     //         // Step 1: Verify reCAPTCHA token on your backend
     //         const verifyResponse = await fetch('/api/verify-recaptcha', {
     //             method: 'POST',
     //             headers: { 'Content-Type': 'application/json' },
     //             body: JSON.stringify({ token }),
     //         });
-
+    
     //         if (!verifyResponse.ok) {
     //             const text = await verifyResponse.text();
     //             console.error("reCAPTCHA verification failed:", text);
     //             throw new Error("Verification request failed");
     //         }
-
+    
     //         const verifyResult = await verifyResponse.json();
-
+    
     //         if (!verifyResult.success) {
     //             console.error("reCAPTCHA verifyResult:", verifyResult);
     //             alert("reCAPTCHA verification failed. Please try again.");
     //             return;
     //         }
-
+    
     //         // Step 2: Send form data
     //         const payload = {
     //             ...values,
     //             'g-recaptcha-response': token,
     //         };
-
+    
     //         const response = await fetch('https://ytchealthcare.com/messageForm.php', {
     //             method: 'POST',
     //             headers: { 'Content-Type': 'application/json' },
     //             body: JSON.stringify(payload),
     //         });
-
+    
     //         if (!response.ok) {
     //             const text = await response.text();
     //             console.error("PHP server error:", text);
     //             throw new Error("PHP server responded with error");
     //         }
-
+    
     //         const result = await response.json();
-
+    
     //         if (result.status === 'success') {
     //             alert('Message sent successfully!');
     //             resetForm();
+    //             recaptchaRef.current.reset(); // reset the checkbox
     //             if (onSuccess) onSuccess();
     //         } else {
     //             console.error("Form submission failed:", result);
@@ -228,4 +230,4 @@ const ContactForm = ({ className, onSuccess }) => {
     )
 }
 
-export default ContactForm
+export default ContactForm;
