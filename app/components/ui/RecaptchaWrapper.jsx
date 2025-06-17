@@ -1,32 +1,26 @@
 'use client';
 
-import { useRef } from 'react';
+import { forwardRef, useImperativeHandle, useRef } from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
 
-export default function RecaptchaWrapper({ onVerify }) {
+const RecaptchaWrapper = forwardRef(({ onVerify }, ref) => {
   const recaptchaRef = useRef();
 
-  const executeCaptcha = async () => {
-    const token = await recaptchaRef.current.executeAsync();
-    recaptchaRef.current.reset();
-    onVerify(token); 
-  };
+  useImperativeHandle(ref, () => ({
+    executeCaptcha: async () => {
+      const token = await recaptchaRef.current.executeAsync();
+      recaptchaRef.current.reset();
+      return token;
+    },
+  }));
 
   return (
-    <>
-      <ReCAPTCHA
-        ref={recaptchaRef}
-        sitekey="6Lc7D2MrAAAAAJF2NegqlwkyF0IbWKoR77SJYHPS"
-        size="invisible"
-      />
-      <button
-        type="button"
-        className="hidden"
-        onClick={executeCaptcha}
-        id="trigger-recaptcha"
-      >
-        Trigger reCAPTCHA
-      </button>
-    </>
+    <ReCAPTCHA
+      ref={recaptchaRef}
+      sitekey="6Lc7D2MrAAAAAJF2NegqIwkyF0IbWKoR77SJYHPS"
+      // size="invisible"
+    />
   );
-}
+});
+
+export default RecaptchaWrapper;
