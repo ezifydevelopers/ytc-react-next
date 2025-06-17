@@ -85,7 +85,7 @@ export default function CustomerTestimonial() {
 
       {/* Right side - Static Image */}
       <div className="relative mt-8 md:mt-0 md:w-1/3 hidden md:block">
-        <div className="w-full h-120 rounded-xl overflow-hidden relative">
+        <div className="w-full hidden sm:block h-120 rounded-xl overflow-hidden relative">
           <Image
             src="/images/testimonial.webp"
             alt="Testimonial"
