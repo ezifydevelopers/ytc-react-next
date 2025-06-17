@@ -51,19 +51,11 @@ export default function HeroSection() {
                             <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">
                                 Don&apos;t let staffing shortages impact your patient&apos;s well-being. YTC Healthcare delivers certified healthcare professionals ready to step in immediately. From locum nurse practitioners to long-term medical oncology nurses, we provide every healthcare professional to fill your staffing shortages.
                             </p>
-<<<<<<< Updated upstream
                             <button className="bg-[#071b2f] cursor-pointer md:mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
                             onClick={openModal}
                             >
                                 Get A Quote
                             </button>
-=======
-                            <Link href="/contact-us/" >
-                                <button className="bg-[#071b2f] cursor-pointer sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
-                                    Get in Touch
-                                </button>
-                            </Link>
->>>>>>> Stashed changes
                             <Link href="/contact-us/" className="md:mx-5">
                                 <button className="bg-[#071b2f] cursor-pointer mt-6 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95">
                                     Fill Staffing Shortage Now
