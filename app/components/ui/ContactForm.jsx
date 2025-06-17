@@ -142,7 +142,7 @@ const ContactForm = ({ className, onSuccess }) => {
                         <div className="w-full">
                             <button
                                 type="submit"
-                                className="mt-4 bg-[#359c8f] w-[220px] hover:bg-teal-600 cursor-pointer px-14 py-4 rounded-md font-semibold text-white"
+                                className="mt-0 bg-[#359c8f] w-[220px] hover:bg-teal-600 cursor-pointer px-14 py-4 rounded-md font-semibold text-white"
                             >
                                 SUBMIT
                             </button>
