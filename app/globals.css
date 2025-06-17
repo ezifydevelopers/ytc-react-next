@@ -4,16 +4,23 @@
 
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400 !important;
   }
-  p, b, span {
+
+  p,
+  b,
+  span {
     font-family: "Inter", sans-serif;
   }
 }
-
-
 
 body {
   background: var(--background);
@@ -26,7 +33,12 @@ body {
   background-position: bottom right;
 }
 
-.checkout-form-list input[type="text"], .checkout-form-list input[type="password"], .checkout-form-list input[type="email"], .checkout-form-list input[type="date"], .checkout-form-list textarea, .checkout-form-list .select {
+.checkout-form-list input[type="text"],
+.checkout-form-list input[type="password"],
+.checkout-form-list input[type="email"],
+.checkout-form-list input[type="date"],
+.checkout-form-list textarea,
+.checkout-form-list .select {
   background: #ffffff;
   border: 1px solid #eaedff;
   border-radius: 0;
@@ -36,20 +48,12 @@ body {
   outline: none;
   border-radius: 10px;
 }
-.hero-section {
-  background: url('/images/hero-section-bg.webp') no-repeat;
-}
-
-.staffing-solution {
-    background: url(/images/staffing-image.webp) 100% center / cover no-repeat;
-    background-position: 106px center;
-}
 
 .healthcarebox {
   box-shadow: 0 5px 0 0px #0000001a;
 }
 
-.items-inherit{
+.items-inherit {
   align-items: inherit;
 }
 
@@ -61,7 +65,7 @@ ul.slick-dots {
 button.absolute.-bottom-12.right-1\/2.transform.translate-x-2.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
   right: 25px;
   bottom: -32px;
-  z-index: 999;
+  z-index: 99;
 }
 
 button.absolute.-bottom-12.right-1\/2.transform.-translate-x-12.w-10.h-10.rounded-full.border.border-\[\#4EA89D\].flex.items-center.justify-center.hover\:bg-white.hover\:text-teal-600.transition {
@@ -70,10 +74,29 @@ button.absolute.-bottom-12.right-1\/2.transform.-translate-x-12.w-10.h-10.rounde
   z-index: 999;
 }
 
+header.w-full.flex.items-center.justify-between.px-4.sm\:px-6.lg\:px-6.py-4.bg-white.shadow.fixed.top-0.z-30.transition-all.duration-500.ease-in-out.translate-y-0.opacity-100 {
+  z-index: 99999;
+}
+
+.hero-section {
+  background: url('/images/mobile-hero.png') no-repeat;
+}
+
+@media only screen and (min-width: 640px) {
+  .hero-section {
+    background: url('/images/hero-section-bg.webp') no-repeat;
+  }
+  .staffing-solution {
+    background: url(/images/staffing-image.webp) 100% center / cover no-repeat;
+    background-position: 106px center;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .items-inherit {
     align-items: inherit;
   }
+
   /* .salary-guide-inner {
     background: url('/images/Salary-Guide-banner-05.webp') no-repeat;
   } */
@@ -99,7 +122,25 @@ button.absolute.-bottom-12.right-1\/2.transform.-translate-x-12.w-10.h-10.rounde
     font-size: 20px;
     line-height: 1.1;
   }
+
   blockquote {
     font-size: 16px;
+  }
+
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay, adjust opacity if needed */
+    z-index: 1;
+  }
+  
+  /* Ensure text appears above overlay */
+  .hero-section * {
+    position: relative;
+    z-index: 2;
   }
 }

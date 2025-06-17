@@ -156,7 +156,7 @@ const HealthcareProfessional = () => {
                         ) : (
                             <Link href={`/service${service.url}`}>
                                 <div
-                                    className="group relative bg-white border border-[#dadee2] rounded-xl py-[50px] px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
+                                    className="group relative bg-white border border-[#dadee2] rounded-xl py-[30px] px-[20px] md:py-[50px] md:px-[35px] shadow-sm hover:shadow-md transition transform hover:-translate-y-2 duration-300 healthcarebox h-full flex flex-col"
                                 >
                                     <div className="flex gap-4 items-center justify-between">
                                         <div className="w-[82px] h-[82px] bg-teal-700 flex items-center justify-center rounded-[13px]">
