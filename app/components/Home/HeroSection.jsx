@@ -52,7 +52,7 @@ export default function HeroSection() {
                                 Don&apos;t let staffing shortages impact your patient&apos;s well-being. YTC Healthcare delivers certified healthcare professionals ready to step in immediately. From locum nurse practitioners to long-term medical oncology nurses, we provide every healthcare professional to fill your staffing shortages.
                             </p>
                             <button className="bg-[#071b2f] cursor-pointer md:mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
-                            // onClick={openModal}
+                            onClick={openModal}
                             >
                                 Get Quote
                             </button>
@@ -83,7 +83,7 @@ export default function HeroSection() {
                             </h1>
                             <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">YTC Healthcare is a healthcare staffing agency that helps certified professionals — including every health care support worker — find roles that align with their skills, goals, and well-being. We do not just fill shifts. We match people with work that fits.</p>
                             <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
-                            // onClick={openModal}
+                            onClick={openModal}
                             >
                                 Get Quote
                             </button>
