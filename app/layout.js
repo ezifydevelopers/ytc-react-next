@@ -2,6 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Chatbot from './components/Chatbot';
 
 
 const geistSans = Geist({
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        {/* <Chatbot /> */}
       </body>
     </html>
   );
