@@ -56,7 +56,7 @@ export default function NewsSection() {
           const slug = Object.keys(blogs).find(key => blogs[key].id === post.id);
 
           return (
-            <Link href={`/blog/${slug}`} passHref>
+            <Link key={index} href={`/blog/${slug}`} passHref>
               <div key={index} className="overflow-hidden bg-white transition duration-300">
                 <div className="">
                   <Image

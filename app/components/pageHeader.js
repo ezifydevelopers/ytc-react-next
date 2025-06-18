@@ -20,8 +20,6 @@ const PageHeader = ({ img, title, description, className }) => {
             {/* Header Section */}
             <div className="relative h-[300px] w-full">
                 <div
-                    // src={img}
-                    alt="Home Care"
                     className="w-full object-cover h-full"
                     style={{
                         backgroundImage: `linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(44, 62, 80, 0.9)), url(${img})`,

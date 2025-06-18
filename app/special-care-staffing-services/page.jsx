@@ -22,7 +22,7 @@ const SpecialcareStaffing = () => {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M216,88H168V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V88H40a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H88v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V168h48a16,16,0,0,0,16-16V104A16,16,0,0,0,216,88Zm0,64H160a8,8,0,0,0-8,8v56H104V160a8,8,0,0,0-8-8H40V104H96a8,8,0,0,0,8-8V40h48V96a8,8,0,0,0,8,8h56Z"></path></svg>,
             "title": "Why Choose Us?",
             "bg": "bg-[#cfe6ef]",
-            "text": "We recognize that individuals living with Alzheimer’s, Parkinson’s, ALS, or brain injuries require focused, consistent attention. Our certified caregivers are selected for their ability to maintain emotional presence and clinical discipline. Through transparent onboarding, regular performance reviews, and long-term client relationships, we support continuity in care because reliability should never be in question."
+            "text": "We recognize that individuals living with Alzheimer's, Parkinson's, ALS, or brain injuries require focused, consistent attention. Our certified caregivers are selected for their ability to maintain emotional presence and clinical discipline. Through transparent onboarding, regular performance reviews, and long-term client relationships, we support continuity in care because reliability should never be in question."
         },
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M220,160a12,12,0,1,1-12-12A12,12,0,0,1,220,160Zm-4.55,39.29A48.08,48.08,0,0,1,168,240H144a48.05,48.05,0,0,1-48-48V151.49A64,64,0,0,1,40,88V40a8,8,0,0,1,8-8H72a8,8,0,0,1,0,16H56V88a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V48H136a8,8,0,0,1,0-16h24a8,8,0,0,1,8,8V87.17c0,32.84-24.53,60.29-56,64.31V192a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM232,160a24,24,0,1,0-24,24A24,24,0,0,0,232,160Z"></path></svg>,
@@ -35,7 +35,7 @@ const SpecialcareStaffing = () => {
     const HealthcareCards = [
         {
             title: 'Expert Staff For ALS Care Services',
-            description: 'Individuals with ALS have to deal with unique challenges, and that’s where YTC Healthcare comes in to assist.',
+            description: 'Individuals with ALS have to deal with unique challenges, and that&apos;s where YTC Healthcare comes in to assist.',
             img: '/images/02-Expert-Staff-For-ALS-Care-Services.jpg',
             linkHref: "/service/expert-staff-for-als-care/",
         },
@@ -53,7 +53,7 @@ const SpecialcareStaffing = () => {
         },
         {
             title: 'Professional Staff For Alzheimers Care',
-            description: 'Caring for someone with Alzheimer’s disease can be challenging for families, but you don’t have to face it alone.',
+            description: 'Caring for someone with Alzheimer&apos;s disease can be challenging for families, but you don&apos;t have to face it alone.',
             img: '/images/05-Professional-Staff-For-Alzheimers-Care.jpg',
             linkHref: "/service/alzheimers-care-staffing/",
         },
@@ -63,7 +63,7 @@ const SpecialcareStaffing = () => {
         {
             id: 1,
             title: "Start with Your Care Priorities, We Handle the Rest",
-            desc: `We connect you with certified professionals experienced in delivering specialized care services, ranging from Alzheimer’s to ALS support. Our targeted recruitment ensures your facility or home receives the right talent, without delay. `,
+            desc: `We connect you with certified professionals experienced in delivering specialized care services, ranging from Alzheimer&apos;s to ALS support. Our targeted recruitment ensures your facility or home receives the right talent, without delay. `,
             linkText: "",
             linkHref: "",
             suffix: "",
@@ -84,7 +84,7 @@ const SpecialcareStaffing = () => {
         {
             id: 4,
             title: "Focused on Stability and Continuity",
-            desc: `We help reduce turnover by assigning professionals passionate about long-term impact. Whether you are staffing for dementia care, Parkinson’s, or `,
+            desc: `We help reduce turnover by assigning professionals passionate about long-term impact. Whether you are staffing for dementia care, Parkinson&apos;s, or `,
             linkText: "acquired brain injury support",
             linkHref: "/service/acquired-brain-injury-care/",
             suffix: ", we match your facility with professionals who deliver consistent, high-quality service.",
@@ -102,7 +102,7 @@ const SpecialcareStaffing = () => {
                 <PageHeader
                     img={'/images/01-Certified-Staff-For-Special-Care-Services.jpg'}
                     title={'Certified Staff For Special Care Services'}
-                    description={'YTC Healthcare delivers professional staffing solutions for individuals living with complex medical conditions. Every placement is guided by clinical experience, emotional intelligence, and a deep understanding of specialized care. Facilities and families receive dependable support that adapts to the needs of patients facing long-term or progressive health challenges. We provide focused assistance for Alzheimer’s disease, dementia, acquired brain injuries (ABI), ALS, Parkinson’s disease, and other neurological or cognitive conditions. Our caregivers are trained in mobility support, symptom monitoring, and emotional care, ensuring that each patient receives meaningful attention. Through our special care staffing services, we help individuals live with dignity while easing the demands on families and healthcare teams.'}
+                    description={'YTC Healthcare delivers professional staffing solutions for individuals living with complex medical conditions. Every placement is guided by clinical experience, emotional intelligence, and a deep understanding of specialized care. Facilities and families receive dependable support that adapts to the needs of patients facing long-term or progressive health challenges. We provide focused assistance for Alzheimer&apos;s disease, dementia, acquired brain injuries (ABI), ALS, Parkinson&apos;s disease, and other neurological or cognitive conditions. Our caregivers are trained in mobility support, symptom monitoring, and emotional care, ensuring that each patient receives meaningful attention. Through our special care staffing services, we help individuals live with dignity while easing the demands on families and healthcare teams.'}
                 />
             </div>
             <section className="staffing-solution my-5 mx-3 sm:mx-4 md:mx-6 bg-white text-gray-900 rounded-tr-[20px] sm:rounded-tr-[25px] md:rounded-tr-[30px] rounded-br-[20px] sm:rounded-br-[25px] md:rounded-br-[30px]">
@@ -118,7 +118,7 @@ const SpecialcareStaffing = () => {
                         <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold leading-tight text-gray-900">
                             Specialized Healthcare
                             <br className="hidden sm:block" />
-                            Staffing for Life’s Most
+                            Staffing for Life&apos;s Most
                             <br className="hidden sm:block" />
                             Delicate Moments
                         </h2>
@@ -145,7 +145,7 @@ const SpecialcareStaffing = () => {
                             {/* Description and CTA */}
                             <div className="text-[#68747A] lg:w-[30%]">
                                 <p className="text-sm sm:text-base mb-4 sm:mb-6">
-                                    Each day, YTC Healthcare connects patients and providers through dedicated, specialized care. Our team delivers expert support for individuals facing Alzheimer’s, dementia, Parkinson’s disease, and acquired brain injuries—conditions that demand both clinical skill and human connection. We serve in both home environments and clinical premises with the same objective: providing specialized healthcare staffing solutions that enhance comfort and continuity. Families and facilities can depend on our team to deliver consistent, respectful care while building trust where it matters most.
+                                    Each day, YTC Healthcare connects patients and providers through dedicated, specialized care. Our team delivers expert support for individuals facing Alzheimer&apos;s, dementia, Parkinson&apos;s disease, and acquired brain injuries—conditions that demand both clinical skill and human connection. We serve in both home environments and clinical premises with the same objective: providing specialized healthcare staffing solutions that enhance comfort and continuity. Families and facilities can depend on our team to deliver consistent, respectful care while building trust where it matters most.
                                 </p>
                                 <button
                                     className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
@@ -195,7 +195,7 @@ const SpecialcareStaffing = () => {
                     </h2>
 
                     <p className="text-sm md:text-base text-gray-500 max-w-3xl mx-auto">
-                    Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer’s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson’s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive <a href='https://ytchealthcare.com/service/physician/'><u>experienced medical professionals</u></a> who provide continuity, respect, and meaningful care outcomes.
+                    Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer&apos;s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson&apos;s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive <a href='https://ytchealthcare.com/service/physician/'><u>experienced medical professionals</u></a> who provide continuity, respect, and meaningful care outcomes.
                     </p>
                 </div>
                 <div className="bg-gradient-to-br py-10 px-4 sm:px-8">
