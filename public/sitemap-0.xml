@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<<<<<<< sliderchanges
 <url><loc>https://ytchealthcare.com/healthcare-careers/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://ytchealthcare.com/homecare-staffing-services/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://ytchealthcare.com/contact-us/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -36,4 +37,43 @@
 <url><loc>https://ytchealthcare.com/blog/what-is-the-role-of-a-pediatric-nurse-in-philadelphias-clinics/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://ytchealthcare.com/job-openings/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://ytchealthcare.com/special-care-staffing-services/</loc><lastmod>2025-06-17T19:34:42.660Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+=======
+<url><loc>https://ytchealthcare.com/healthcare-staffing/</loc><lastmod>2025-06-18T14:20:00.136Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/job-openings/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/healthcare-careers/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/about-us/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/special-care-staffing-services/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/Pandemic-Pressure-2.0-Why-Care-Homes-can&apos;t-Survive-Without-Staffing-Agencies/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/The-Benefits-of-Partnering-with-a-Healthcare-Staffing-Agency/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/elder-care-workforce-philadelphia/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/how-philadelphia-clinics-can-cut-costs-without-cutting-quality-staff/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/how-to-choose-the-right-cna-agency-in-philadelphia/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/the-importance-of-cultural-competency-in-healthcare-staffing/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/unregulated-care-providers-canada/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/what-is-the-role-of-a-pediatric-nurse-in-philadelphias-clinics/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/24-hour-home-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/acquired-brain-injury-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/alzheimers-care-staffing/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/child-care-solutions/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/dementia-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/developmental-support-workers/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/expert-staff-for-als-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/healthcare-staff-for-hospitals/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/in-home-nursing-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/nurses/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/personal-care/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/personal-support-workers/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/physician/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/senior-care-staffing/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/social-service-workers/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/staff-for-childcare-centers/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/staff-for-clinics/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/service/staff-for-dental-facilities/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/blog/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/homecare-staffing-services/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/healthcare-facilities/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/contact-us/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://ytchealthcare.com/audio/</loc><lastmod>2025-06-18T14:20:00.137Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+>>>>>>> main
 </urlset>

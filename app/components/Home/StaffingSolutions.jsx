@@ -9,7 +9,7 @@ export default function StaffingSolutions() {
                 {/* Header Section */}
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
                     <p className="text-xs sm:text-sm font-semibold text-gray-600 flex items-center gap-2">
-                        <Image alt="Health Care" width="17" height="17" decoding="async" data-nimg="1" style="color: transparent;" src="/images/ic2.png" />
+                        <Image alt="Health Care" width="17" height="17" decoding="async" data-nimg="1"  src="/images/ic2.png" />
                         <span>Professional and Reliable Healthcare Staffing Provider</span>
                     </p>
 
