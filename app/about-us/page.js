@@ -111,7 +111,6 @@ const AboutUs = () => {
             </Head>
             <Header />
             <div className='mx-3 sm:mx-4 md:mx-5'>
-                <PageHeader title="About YTC Healthcare" img={'/images/01-About-US.jpg'} description={"Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry across Canada and the US for over 10+ years. We have a large talent pool, including certified travel nurses, physiotherapists, and other medical specialists. Get our healthcare staffing services to cover your staffing shortages at your healthcare facilities. We don’t just provide exceptional staff—we do everything for you. From getting you the perfect match to retaining them at your workplace, we handle all the headaches."} />
             </div>
             <div className='pt-5 px-5 rounded '>
                 <section className="w-full bg-gradient-to-b from-white to-[#f5fafd] md:pt-16  relative overflow-hidden" style={{ borderRadius: '20px' }}>
