@@ -247,7 +247,7 @@ const SpecialcareStaffing = () => {
                                 <span className="w-px h-[1px] bg-[#359c8f] flex-1 mx-2"></span>
                             </div>
 
-                            <h3 className=" font-semibold mb-2 text-lg mt-8">{step.title}</h3>
+                            <h2 className=" font-semibold mb-2 text-lg mt-8">{step.title}</h2>
                             <p className="text-md text-[#B3C0CE]">
                                 {step.desc}{" "}
                                 {step.linkText && (

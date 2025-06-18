@@ -63,9 +63,9 @@ export default function serviceCareProcess({data}) {
                                     {step.number}
                                 </div>
                                 <div>
-                                    <h2 className="text-lg font-bold mb-1">
+                                    <h3 className="text-lg font-bold mb-1">
                                         {step.title}
-                                    </h2>
+                                    </h3>
                                     <div className="text-sm text-gray-500 leading-relaxed mt-3" style={{fontSize:'15px',lineHeight:'25px'}}  dangerouslySetInnerHTML={{ __html: step.description }}/>
                                 </div>
                             </div>

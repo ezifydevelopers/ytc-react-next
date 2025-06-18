@@ -14,9 +14,9 @@ import Head from 'next/head';
 
 export async function generateStaticParams() {
     const slugs = Object.keys(data);
-  
+
     return slugs.map((slug) => ({ slug }));
-  }
+}
 
 export default function Service({ params }) {
     const slug = params.slug;

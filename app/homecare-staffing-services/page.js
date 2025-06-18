@@ -16,19 +16,19 @@ const HomecareStaffing = () => {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M34.76,42A8,8,0,0,0,32,48V216a8,8,0,0,0,16,0V171.77c26.79-21.16,49.87-9.75,76.45,3.41,16.4,8.11,34.06,16.85,53,16.85,13.93,0,28.54-4.75,43.82-18a8,8,0,0,0,2.76-6V48A8,8,0,0,0,210.76,42c-28,24.23-51.72,12.49-79.21-1.12C103.07,26.76,70.78,10.79,34.76,42ZM208,164.25c-26.79,21.16-49.87,9.74-76.45-3.41-25-12.35-52.81-26.13-83.55-8.4V51.79c26.79-21.16,49.87-9.75,76.45,3.4,25,12.35,52.82,26.13,83.55,8.4Z"></path></svg>,
             "title": "Our Commitment",
             "bg": "bg-[#f1f2f2]",
-            "text": "YTC Healthcare stands by every placement. From 24-hour and overnight homecare staffing to pediatric support, we offer professional help that meets specific home-based medical needs. Every match is handled with attention and care, bringing certified caregivers directly to your home, ready to serve, support, and uphold clinical excellence."
+            "text": "YTC Healthcare stands by every placement. From 24-hour and <a href=\"https://ytchealthcare.com/service/in-home-nursing-care/\" ><u>overnight homecare staffing</u></a> to pediatric support, we offer professional help that meets specific home-based medical needs. Every match is handled with attention and care, bringing certified caregivers directly to your home, ready to serve, support, and uphold clinical excellence."
         },
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M216,88H168V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V88H40a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H88v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V168h48a16,16,0,0,0,16-16V104A16,16,0,0,0,216,88Zm0,64H160a8,8,0,0,0-8,8v56H104V160a8,8,0,0,0-8-8H40V104H96a8,8,0,0,0,8-8V40h48V96a8,8,0,0,0,8,8h56Z"></path></svg>,
             "title": "Why Choose Us?",
             "bg": "bg-[#cfe6ef]",
-            "text": "Our focus remains on dependable outcomes, not volume. YTC Healthcare places qualified homecare professionals who prioritize patient safety, emotional well-being, and continuity of care. We also offer services such as companion care professionals and affordable in-home caregiver staffing, ensuring families receive meaningful support. Transparent hiring standards and performance monitoring ensure ongoing collaboration between families and care teams."
+            "text": "Our focus remains on dependable outcomes, not volume. YTC Healthcare places qualified homecare professionals who prioritize patient safety, emotional well-being, and continuity of care. We also offer services such as companion care professionals and <a href=\"https://ytchealthcare.com/service/personal-care/\" ><u>affordable in-home staffing</u></a>, ensuring families receive meaningful support. Transparent hiring standards and performance monitoring ensure ongoing collaboration between families and care teams."
         },
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M220,160a12,12,0,1,1-12-12A12,12,0,0,1,220,160Zm-4.55,39.29A48.08,48.08,0,0,1,168,240H144a48.05,48.05,0,0,1-48-48V151.49A64,64,0,0,1,40,88V40a8,8,0,0,1,8-8H72a8,8,0,0,1,0,16H56V88a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V48H136a8,8,0,0,1,0-16h24a8,8,0,0,1,8,8V87.17c0,32.84-24.53,60.29-56,64.31V192a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM232,160a24,24,0,1,0-24,24A24,24,0,0,0,232,160Z"></path></svg>,
             "title": "Working Together for a Healthy Life",
             "bg": "bg-[#fcd884]",
-            "text": "Families trust us to support their most personal care moments. Our commitment to homecare staffing services has helped underserved communities, seniors, and families receive consistent, skilled care where they need it most. With a 99% satisfaction rate, we take pride in being a PSW staffing agency that delivers stability, compassion, and results without compromise."
+            "text": "Families trust us to support their most personal care moments. Our commitment to <a href=\"https://ytchealthcare.com/service/senior-care-staffing/\" ><u>senior care staffing services</u></a> has helped underserved communities and families receive consistent, skilled care where they need it most. With a 99% satisfaction rate, we take pride in being a PSW staffing agency that delivers stability, compassion, and results without compromise."
         }
     ]
 
@@ -140,18 +140,18 @@ const HomecareStaffing = () => {
                             <div className="text-[#68747A] lg:w-[30%]">
                                 <p className="text-sm sm:text-base mb-4 sm:mb-6">
                                     Hospital discharge is not the end of care—it is the beginning of a new chapter that demands trusted support at home. YTC Healthcare provides home healthcare staffing designed to ensure comfort, safety, and stability for individuals who require continued attention. From <a href="https://ytchealthcare.com/service/developmental-support-workers/" ><u>emotional support and medication</u></a> oversight to mobility help and recovery-focused care, our nurses and personal support workers are trained to handle both medical and non-medical responsibilities. As a private homecare staffing agency, we match every household with professionals equipped to adapt to their unique needs.
-                            </p>
-                            <button
-                                className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
-                                onClick={() => window.location.href = "/contact"}
-                            >
-                                <span>Get Your Medical Expert Now</span>
-                                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
-                            </button>
+                                </p>
+                                <button
+                                    className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
+                                    onClick={() => window.location.href = "/contact"}
+                                >
+                                    <span>Get Your Medical Expert Now</span>
+                                    <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-        </div>
             </section >
 
             <div className="px-6 md:px-0 pb-10 max-w-7xl mx-auto my-10">
@@ -179,15 +179,15 @@ const HomecareStaffing = () => {
                     </div>
 
                     <p className="text-sm md:text-base text-gray-500 mb-3">
-                    Dedicated Home Care Specialists You Can Count On
+                        Dedicated Home Care Specialists You Can Count On
                     </p>
 
                     <h2 className="text-2xl md:text-4xl font-extrabold text-[#0B2338] leading-tight mb-4">
-                    Our Home Care Services
+                        Our Home Care Services
                     </h2>
 
                     <p className="text-sm md:text-base text-gray-500 max-w-3xl mx-auto">
-                    YTC Healthcare delivers specialized home care designed for real-life needs—whether it is managing recovery after surgery, providing emotional support in palliative moments, or offering continuous help for seniors and families. We offer 24-hour homecare staffing, home nursing care from registered professionals, and compassionate assistance from respite care workers. Every service is coordinated to reduce stress, improve outcomes, and provide dependable care in the place that matters most—your home. Our goal is to ensure that every client experiences dignity, safety, and professional support through qualified, in-home caregiver staffing.
+                        YTC Healthcare delivers specialized home care designed for real-life needs—whether it is managing recovery after surgery, providing emotional support in palliative moments, or offering continuous help for seniors and families. We offer <a href='https://ytchealthcare.com/service/24-hour-home-care/'><u>24-hour homecare staffing</u></a>, home nursing care from registered professionals, and compassionate assistance from respite care workers. Every service is coordinated to reduce stress, improve outcomes, and provide dependable care in the place that matters most—your home. Our goal is to ensure that every client experiences dignity, safety, and professional support through qualified, in-home caregiver staffing.
                     </p>
                 </div>
                 <div className="bg-gradient-to-br py-10 px-4 sm:px-8">
@@ -207,7 +207,7 @@ const HomecareStaffing = () => {
                                         />
                                     </div>
                                     <div className="py-6 px-5">
-                                        <h3 className="text-xl font-semibold mb-2 text-[#051b2e]">{card.title}</h3>
+                                        <h2 className="text-xl font-semibold mb-2 text-[#051b2e]">{card.title}</h2>
                                         <p className="text-[#68747a] text-[15px]">{card.description}</p>
                                     </div>
                                 </div>
@@ -268,9 +268,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                {text}
-            </p>
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed" dangerouslySetInnerHTML={{ __html: text }} />
         </div>
     );
 }
