@@ -29,7 +29,11 @@ export default function FaqAccordion({ data }) {
           >
             <button
               onClick={() => toggle(index)}
+<<<<<<< Updated upstream
               className="flex cursor-pointer justify-between items-center w-full px-6 py-5 text-left text-lg font-semibold"
+=======
+              className="flex justify-between items-center w-full px-6 py-5 text-left md:text-lg font-semibold"
+>>>>>>> Stashed changes
             >
               {faq.question}
               {openIndex === index ? (
