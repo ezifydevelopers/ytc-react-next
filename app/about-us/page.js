@@ -213,9 +213,9 @@ const AboutUs = () => {
 
                 {/* Second Section - Vision Card */}
                 <div className="bg-[#08243c] text-white p-10 rounded-2xl relative overflow-hidden flex flex-col gap-[23px] transition-opacity duration-300 ease-in-out text-center">
-                    <p className="text-lg font-semibold text-[#4EA89D]">
+                    <h2 className="text-lg font-semibold text-[#4EA89D]">
                         {sectionTitle[current]}
-                    </p>
+                    </h2>
                     <p className="leading-9 font-[600] text-lg min-h-[252px]">
                         {paragraphs[current]}
                     </p>
@@ -297,7 +297,7 @@ const AboutUs = () => {
                                     {feature.icon}
                                 </div>
                                 <div>
-                                    <h4 className="text-xl text-lg mb-1 text-[#051B2E]">{feature.title}</h4>
+                                    <h3 className="text-xl text-lg mb-1 text-[#051B2E]">{feature.title}</h3>
                                     <p className="text-[15px] text-[#68747A]">{feature.description}</p>
                                 </div>
                             </div>
@@ -376,7 +376,7 @@ const AboutUs = () => {
                                 </svg>
                             </div>
                             <div className="text-center">
-                                <p className="text-md text-[#051B2E] mb-5">Virtual Consultation</p>
+                                <h2 className="text-md text-[#051B2E] mb-5">Virtual Consultation</h2>
                                 <h3 className="text-4xl font-semibold text-[#051B2E] mb-5">
                                     Medical Assistance at Your Finger-Tips
                                 </h3>
@@ -402,7 +402,7 @@ const AboutUs = () => {
                                 <svg className="w-17 h-17 " fill='white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Layer_2" data-name="Layer 2"><path d="m20.38 4.9a5.52 5.52 0 0 0 -6.85-.77l2.22 2.26a1 1 0 0 1 -.08 1.42 1 1 0 0 1 -.67.25 1 1 0 0 1 -.75-.33l-2.82-2.83a5.42 5.42 0 0 0 -1.38-1 5.54 5.54 0 0 0 -6.43 1 6.66 6.66 0 0 0 0 8.68c1.86 2 6.38 6.63 8.41 6.63 1.58 0 4.68-2.81 6.83-5 .54-.54 1-1 1.4-1.45l.15-.16a6.66 6.66 0 0 0 -.03-8.7zm-6.38 8.6h-1v1a1 1 0 0 1 -2 0v-1h-1a1 1 0 0 1 0-2h1v-1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 0 2z"></path></g></svg>
                             </div>
                             <div className="text-center">
-                                <p className="text-md text-white mb-5">Become a Part of YTC Healthcare</p>
+                                <h2 className="text-md text-white mb-5">Become a Part of YTC Healthcare</h2>
                                 <h3 className="text-4xl font-semibold text-white mb-5">
                                     Start Your Journey with YTC Healthcare
                                 </h3>

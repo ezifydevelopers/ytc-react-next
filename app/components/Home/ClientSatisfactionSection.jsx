@@ -27,7 +27,7 @@ export default function ClientSatisfactionSection() {
             icon: '/icons/sat-4.svg',
             title: 'Impact-Driven Care',
             description:
-                'YTC Healthcare goes beyond just filling up the staffing shortages, we ensure that every healthcare professional deployed is satisfied with their employers and vice versa. This is to empower healthcare networks and facilities to deliver quality healthcare where it matters the most.',
+                'YTC Healthcare goes beyond just <a href=\"https://ytchealthcare.com/service/staff-for-dental-facilities/\" ><u>filling up the staffing shortages</u></a>, we ensure that every healthcare professional deployed is satisfied with their employers and vice versa. This is to empower healthcare networks and facilities to deliver quality healthcare where it matters the most.',
         }
     ];
 
@@ -45,7 +45,7 @@ export default function ClientSatisfactionSection() {
                     </h2>
                     <p className="text-gray-600 leading-relaxed">
                         YTC Healthcare understands your need for highly skilled and certified healthcare professionals.
-                        We work side by side with the management to deliver the best healthcare professionals to enhance patient care and improve facility efficiency.
+                        We work side by side with the management to deliver the <a href=" https://ytchealthcare.com/service/expert-staff-for-als-care/"><u>best healthcare professionals</u></a> to enhance patient care and improve facility efficiency.
                         Last but not least, we fill critical healthcare staffing gaps that no one does.
                         Our support team is always here to provide you with the best staffing solutions that make a difference.
                     </p>

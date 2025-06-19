@@ -213,12 +213,12 @@ const Header = () => {
                                 </div>
 
                                 <Link href="/about-us" className="hover:text-teal-600 transition-colors">About Us</Link>
+                                <Link href="/blog" className="hover:text-teal-600 transition-colors">Blogs</Link>
 
                                 {/* Resources Dropdown */}
-                                <div className="relative group">
+                                {/* <div className="relative group">
                                     <button className="flex items-center py-[26px] cursor-pointor hover:text-teal-600 transition-colors">
                                         Resources
-                                        <ChevronDown className="h-4 w-4 ml-1" />
                                     </button>
                                     <div className="absolute left-0 flex w-[300px] mt-[-10px] ml-[-80px] py-5 px-10 origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
                                         <div className="py-1 w-full">
@@ -227,7 +227,7 @@ const Header = () => {
                                             </svg>Blogs</Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* Careers Dropdown */}
                                 <div className="relative group cursor-pointor">
@@ -308,7 +308,7 @@ const Header = () => {
                         <div className="py-3 border-b border-gray-100">
                             <MobileAccordion title="Services">
                                 <div className="pl-4 py-2">
-                                    <a href={'/healthcare-staffing/'}><h3 className="font-semibold text-gray-700 mb-2">Healthcare Workers</h3></a>
+                                    <a href={'/healthcare-staffing/'}><p className="font-semibold text-gray-700 mb-2">Healthcare Workers</p></a>
                                     {['Nurses', 'Physicians', 'Social Service Workers', 'Personal Support Workers (PSWs)', 'Development Support Workers (DSWs)', 'Child Care Workers'].map((item) => (
                                         <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                             {item}
@@ -316,7 +316,7 @@ const Header = () => {
                                     ))}
                                 </div>
                                 <div className="pl-4 py-2">
-                                    <a href={'/homecare-staffing-services/'}><h3 className="font-semibold text-gray-700 mb-2">Homecare Services</h3></a>
+                                    <a href={'/homecare-staffing-services/'}><p className="font-semibold text-gray-700 mb-2">Homecare Services</p></a>
                                     {['24 hours home care', 'In-Home Nursing Care', 'Personal Care', 'Senior Care'].map((item) => (
                                         <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                             {item}
@@ -324,7 +324,7 @@ const Header = () => {
                                     ))}
                                 </div>
                                 <div className="pl-4 py-2">
-                                    <a href={'/special-care-staffing-services/'}> <h3 className="font-semibold text-gray-700 mb-2">Special Care Services</h3></a>
+                                    <a href={'/special-care-staffing-services/'}> <p className="font-semibold text-gray-700 mb-2">Special Care Services</p></a>
                                     {['Alzheimer\'s Care Services', 'Dementia Care Services', 'Acquired Brain Injury Care', 'ALS Patient'].map((item) => (
                                         <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                             {item}
@@ -332,7 +332,7 @@ const Header = () => {
                                     ))}
                                 </div>
                                 <div className="pl-4 py-2">
-                                    <a href={'/healthcare-facilities/'}><h3 className="font-semibold text-gray-700 mb-2">Healthcare Facilities</h3></a>
+                                    <a href={'/healthcare-facilities/'}><p className="font-semibold text-gray-700 mb-2">Healthcare Facilities</p></a>
                                     {['Hospitals', 'Clinics', 'Child Care Centers', 'Dental Facilities'].map((item) => (
                                         <Link href={linkMap[item] || '/'} key={item} className="block py-2 text-gray-700">
                                             {item}
@@ -474,7 +474,23 @@ const Header = () => {
 
                                 <Link href="/about-us" className="hover:text-teal-600 transition-colors">About Us</Link>
                                 <Link href="/blog" className="hover:text-teal-600 transition-colors">Blogs</Link>
-                                <Link href="/healthcare-careers" className="hover:text-teal-600 transition-colors">Career</Link>
+                                {/* <Link href="/healthcare-careers" className="hover:text-teal-600 transition-colors">Career</Link> */}
+                                <div className="relative group cursor-pointor">
+                                    <button className="flex items-center py-[26px] hover:cursor-pointor hover:text-teal-600 transition-colors">
+                                        Careers
+                                        <ChevronDown className="h-4 w-4 ml-1" />
+                                    </button>
+                                    <div className="absolute left-0 flex w-[400px] mt-[-10px] ml-[-80px] py-5 px-10 origin-top-right bg-white shadow-lg ring-1 ring-[#DADEE2] ring-opacity-5 focus:outline-none hidden group-hover:flex transition-opacity duration-300 z-50">
+                                        <div className="py-1">
+                                            <Link href="/job-openings/" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                            </svg>Jobs Openings</Link>
+                                            <Link href="/healthcare-careers" className="flex items-center gap-4 px-4 py-2 text-[15px] lg:text-[17px] text-gray-700 hover:bg-gray-100 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-4 h-4" fill="#1F8E7F">
+                                                <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                                            </svg>Apply Now</Link>
+                                        </div>
+                                    </div>
+                                </div>
                                 <Link href="/contact-us/" className="hover:text-teal-600 transition-colors">Contact Us</Link>
                             </nav>
 

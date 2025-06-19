@@ -75,11 +75,11 @@ export default function HeroSection() {
                             <p className="text-xs sm:text-sm font-semibold uppercase mb-3 sm:mb-4 tracking-wide text-teal-100">
                                 Better Jobs,<br /> Better Work-Life. Better You.
                             </p>
-                            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 sm:mb-6">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-4 sm:mb-6">
                                 <span className="block mt-2">Connecting HeathCare</span>
                                 <span className="text-white">Professionals with the </span><br/>
                                 <span>Right Opportunity</span>
-                            </h1>
+                            </h2>
                             <p className="text-sm sm:text-base md:text-lg text-teal-50/90 mb-6 sm:mb-8 max-w-prose">YTC Healthcare is a healthcare staffing agency that helps certified professionals — including every health care support worker — find roles that align with their skills, goals, and well-being. We do not just fill shifts. We match people with work that fits.</p>
                             <button className="bg-[#071b2f] cursor-pointer mt-6 sm:mt-8 md:mt-[55px] text-white font-bold py-3 px-6 sm:px-8 rounded-md hover:bg-[#0b223c] transition-colors duration-200 transform hover:scale-105 active:scale-95" 
                             onClick={openModal}

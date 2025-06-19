@@ -22,13 +22,13 @@ const HealthcareFacilities = () => {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M216,88H168V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V88H40a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16H88v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V168h48a16,16,0,0,0,16-16V104A16,16,0,0,0,216,88Zm0,64H160a8,8,0,0,0-8,8v56H104V160a8,8,0,0,0-8-8H40V104H96a8,8,0,0,0,8-8V40h48V96a8,8,0,0,0,8,8h56Z"></path></svg>,
             "title": "Why Choose Us?",
             "bg": "bg-[#cfe6ef]",
-            "text": "We value both competence and compassion. Every professional placed through our healthcare staffing support services is aligned not just with your staffing needs but with the values of your care environment. Through open communication and performance monitoring, we foster partnerships that elevate care delivery."
+            "text": "We value both competence and compassion. Every professional placed through our <a href=\"https://ytchealthcare.com/service/staff-for-clinics/\" ><u>healthcare staffing support services</u></a> is aligned not just with your staffing needs but with the values of your care environment. Through open communication and performance monitoring, we foster partnerships that elevate care delivery."
         },
         {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M220,160a12,12,0,1,1-12-12A12,12,0,0,1,220,160Zm-4.55,39.29A48.08,48.08,0,0,1,168,240H144a48.05,48.05,0,0,1-48-48V151.49A64,64,0,0,1,40,88V40a8,8,0,0,1,8-8H72a8,8,0,0,1,0,16H56V88a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V48H136a8,8,0,0,1,0-16h24a8,8,0,0,1,8,8V87.17c0,32.84-24.53,60.29-56,64.31V192a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM232,160a24,24,0,1,0-24,24A24,24,0,0,0,232,160Z"></path></svg>,
             "title": "Working Together for a Healthy Life",
             "bg": "bg-[#fcd884]",
-            "text": "We believe healthcare should be accessible and dependable, regardless of geography. From small clinics to large institutions, our Canada healthcare staffing agency is committed to helping every facility reach its full potential. With a 99% satisfaction rate, our work continues to support care outcomes that matter."
+            "text": "We believe healthcare should be accessible and dependable, regardless of geography. From small clinics to large institutions, our <a href=\"https://ytchealthcare.com/service/staff-for-dental-facilities/\" ><u>Canada healthcare staffing agency</u></a> is committed to helping every facility reach its full potential. With a 99% satisfaction rate, our work continues to support care outcomes that matter."
         }
     ]
 
@@ -84,7 +84,7 @@ const HealthcareFacilities = () => {
         {
             id: 4,
             title: "Low Turnover Rates",
-            desc: `YTC Healthcare prioritizes retention by placing professionals who are aligned with your care culture. With our nursing staff placement solutions, your team benefits from consistency, capability, and commitment.`,
+            desc: `YTC Healthcare prioritizes retention by placing professionals who are aligned with your care culture. With our <a href=\"https://ytchealthcare.com/service/staff-for-childcare-centers/\" ><u>nursing staff placement</u></a>, your team benefits from consistency, capability, and commitment.`,
             image: "/images/sv16.webp",
         },
     ];
@@ -99,7 +99,7 @@ const HealthcareFacilities = () => {
                 <PageHeader
                     img={'/images/01-Staffing-Services-For-Healthcare-Facilities.jpg'}
                     title={'Staffing Services For Healthcare Facilities'}
-                    description={'Your Talent Consultancy Healthcare delivers skilled professionals equipped to meet the exact demands of your facility. We recognize the operational and staffing challenges healthcare organizations face, especially when continuity and patient safety are on the line. Our team provides certified healthcare professionals who have passed rigorous evaluations through our advanced clinical staff recruitment framework. With access to a wide-reaching network across Canada and the United States, we ensure your team is supported through dependable healthcare facility staffing services. Whether you need short-term support or permanent placements, our focus is on eliminating disruptions and reinforcing your ability to deliver consistent, high-quality care. That is what makes us a trusted name among Philadelphia medical staffing services.'}
+                    description={'Your Talent Consultancy Healthcare delivers skilled professionals equipped to meet the exact demands of your facility. We recognize the operational and staffing challenges healthcare organizations face, especially when continuity and patient safety are on the line. Our team provides certified healthcare professionals who have passed rigorous evaluations through our advanced clinical staff recruitment framework. With access to a wide-reaching network across Canada and the United States, we ensure your team is supported through our <a href=\"https://ytchealthcare.com/service/healthcare-staff-for-hospitals/\" ><u>dependable healthcare staffing services</u></a>. Whether you need short-term support or permanent placements, our focus is on eliminating disruptions and reinforcing your ability to deliver consistent, high-quality care. That is what makes us a trusted name among Philadelphia medical staffing services.'}
                 />
             </div>
             <section className="staffing-solution my-5 mx-3 sm:mx-4 md:mx-6 bg-white text-gray-900 rounded-tr-[20px] sm:rounded-tr-[25px] md:rounded-tr-[30px] rounded-br-[20px] sm:rounded-br-[25px] md:rounded-br-[30px]">
@@ -246,8 +246,9 @@ const HealthcareFacilities = () => {
                             </div>
 
                             <h2 className=" font-semibold mb-2 text-lg mt-8">{step.title}</h2>
+                            <p dangerouslySetInnerHTML={{__html:step.desc}}/>
                             <p className="text-md text-[#B3C0CE]">
-                                {step.desc}{" "}
+                                
                                 {step.linkText && (
                                     <a href={step.linkHref} className="text-[#4BA08D] underline">
                                         {step.linkText}
@@ -274,9 +275,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                {text}
-            </p>
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed" dangerouslySetInnerHTML={{ __html: text }} />
         </div>
     );
 }

@@ -23,7 +23,7 @@ export default function JobDetailCard() {
 
   return (
     <div className=''>
-      {
+      { 
         data.map((item, index) => {
           return (
             <div key={index} className="max-w-[1320px] healthcarebox mx-auto my-15 p-10 bg-white rounded-2xl border border-gray-200 shadow-sm">
@@ -32,7 +32,7 @@ export default function JobDetailCard() {
                 <p>Job Posted, Due Date: {item.dueDate}</p>
               </div>
 
-              <h1 className="text-[37px] font-bold text-teal-700 mb-4">{item.title}</h1>
+              <h2 className="text-[37px] font-bold text-teal-700 mb-4">{item.title}</h2>
 
               <p className="text-gray-700 mb-6 leading-relaxed">{item.description}</p>
 

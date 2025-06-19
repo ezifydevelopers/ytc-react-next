@@ -109,7 +109,7 @@ const Contact = () => {
                     <div className="grid md:grid-cols-2 gap-10">
                         {/* Left Column */}
                         <div>
-                            <h1 className="text-4xl font-bold text-[#1b1b3a] mb-2">Send Us Your Query!</h1>
+                            <h2 className="text-4xl font-bold text-[#1b1b3a] mb-2">Send Us Your Query!</h2>
                             <p className="text-md font-semibold text-[#68747a] mb-4">
                                 We are always ready to help, lets solve staffing shortages together.
                             </p>
@@ -126,7 +126,7 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 className="font-semibold text-lg mb-1 ">Business Address</h4>
+                                        <h3 className="font-semibold text-lg mb-1 ">Business Address</h3>
                                         <p className='text-[#68747a]'>2960 Drew Rd #156, Mississauga, ON L4T 0A5, Canada</p>
                                         <p className='text-[#68747a]'>744 South St, Philadelphia, PA 19147</p>
                                     </div>
@@ -140,7 +140,7 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 className="font-semibold text-lg mb-1">Contact Us</h4>
+                                        <h3 className="font-semibold text-lg mb-1">Contact Us</h3>
                                         <p className='text-[#68747a]'>Call Us: +1 365 737 4000</p>
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 className="font-semibold text-lg mb-1">Email Address</h4>
+                                        <h3 className="font-semibold text-lg mb-1">Email Address</h3>
                                         <p className='text-[#68747a]'>info@ytchealthcare.com</p>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@ const Contact = () => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h4 className="font-semibold text-lg mb-1">Office Hours</h4>
+                                        <h3 className="font-semibold text-lg mb-1">Office Hours</h3>
                                         <p className='text-[#68747a]'>9.00 am – 5.30 pm</p>
                                     </div>
                                 </div>
@@ -262,7 +262,7 @@ const Contact = () => {
 
 
                         </div>
-                        <h3 className="text-2xl mb-2 font-semibold text-[#051B2E]">Get in Touch With Us</h3>
+                        <h2 className="text-2xl mb-2 font-semibold text-[#051B2E]">Get in Touch With Us</h2>
                         <p className="text-md text-[#051B2E]">
                             You can call us Monday to Friday, 9am to 5:30pm and our support team will help you find the best healthcare staffing solution that suits you.
                         </p>
@@ -285,7 +285,7 @@ const Contact = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-2xl mb-2 font-semibold text-[#051B2E]">HealthCare Workers</h3>
+                        <h2 className="text-2xl mb-2 font-semibold text-[#051B2E]">HealthCare Workers</h2>
                         <p className="text-md text-[#051B2E]">
                             Your Talent Consultancy Healthcare bridges the gap between healthcare facilities and medical professionals.
                         </p>
@@ -309,7 +309,7 @@ const Contact = () => {
                             </svg>
 
                         </div>
-                        <h3 className="text-2xl mb-2 font-semibold text-[#051B2E]">About YTC Healthcare</h3>
+                        <h2 className="text-2xl mb-2 font-semibold text-[#051B2E]">About YTC Healthcare</h2>
                         <p className="text-md text-[#051B2E]">
                             Your Talent Consultancy Healthcare has been proudly providing healthcare staffing solutions in the healthcare industry.
                         </p>

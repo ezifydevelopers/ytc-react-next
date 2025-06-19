@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className=" mx-auto lg:flex lg:gap-5 lg:justify-between">
                         <div className='lg:w-[30%]'>
                             <Image src="/images/footer-logo.png" alt="Logo" width={220} height={60} />
-                            <h3 className="text-lg font-semibold md:my-[40px] my-[20px]">Contact With Us!</h3>
+                            <p className="text-lg font-semibold md:my-[40px] my-[20px]">Contact With Us!</p>
                             <a href="mailto:info@ytchealthcare.com" className="flex items-start gap-3 mb-5 text-white hover:underline">
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="white" className="w-[27px] h-[24px]" viewBox="0 0 576 512">
@@ -51,7 +51,7 @@ const Footer = () => {
                         </div>
 
                         <div className='lg:w-[15%]'>
-                            <h3 className="text-lg font-semibold md:mt-[0px] mt-[25px] md:mb-[40px] mb-[10px]">Services</h3>
+                            <p className="text-lg font-semibold md:mt-[0px] mt-[25px] md:mb-[40px] mb-[10px]">Services</p>
                             <ul className="space-y-3 text-gray-300">
                                 <li><Link href="/healthcare-staffing/">Healthcare Workers</Link></li>
                                 <li><Link href="/homecare-staffing-services/">Home Care Services</Link></li>
@@ -61,7 +61,7 @@ const Footer = () => {
                         </div>
 
                         <div className='lg:w-[15%]'>
-                            <h3 className="text-lg font-semibold md:mt-[0px] mt-[25px] md:mb-[40px] mb-[10px]">Quick Links</h3>
+                            <p className="text-lg font-semibold md:mt-[0px] mt-[25px] md:mb-[40px] mb-[10px]">Quick Links</p>
                             <ul className="space-y-3 text-gray-300">
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="/about-us/">About Us</Link></li>

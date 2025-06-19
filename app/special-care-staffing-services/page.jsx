@@ -28,7 +28,7 @@ const SpecialcareStaffing = () => {
             "icon": <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M220,160a12,12,0,1,1-12-12A12,12,0,0,1,220,160Zm-4.55,39.29A48.08,48.08,0,0,1,168,240H144a48.05,48.05,0,0,1-48-48V151.49A64,64,0,0,1,40,88V40a8,8,0,0,1,8-8H72a8,8,0,0,1,0,16H56V88a48,48,0,0,0,48.64,48c26.11-.34,47.36-22.25,47.36-48.83V48H136a8,8,0,0,1,0-16h24a8,8,0,0,1,8,8V87.17c0,32.84-24.53,60.29-56,64.31V192a32,32,0,0,0,32,32h24a32.06,32.06,0,0,0,31.22-25,40,40,0,1,1,16.23.27ZM232,160a24,24,0,1,0-24,24A24,24,0,0,0,232,160Z"></path></svg>,
             "title": "Working Together for a Healthy Life",
             "bg": "bg-[#fcd884]",
-            "text": "We serve individuals, families, and care teams through our complex care staffing services—delivering meaningful impact where support is often limited. With a 99% client satisfaction rate, we offer trusted solutions for clinics, homes, and underserved communities across Philadelphia and Canada. From respite care staffing to chronic illness care professionals, our network is built to ensure no one is left behind."
+            "text": "We serve individuals, families, and care teams through our <a href=\"https://ytchealthcare.com/service/expert-staff-for-als-care/\" ><u>complex care staffing services</u></a>—delivering meaningful impact where support is often limited. With a 99% client satisfaction rate, we offer trusted solutions for clinics, homes, and underserved communities across Philadelphia and Canada. From respite care staffing to chronic illness care professionals, our network is built to ensure no one is left behind."
         }
     ]
 
@@ -63,7 +63,7 @@ const SpecialcareStaffing = () => {
         {
             id: 1,
             title: "Start with Your Care Priorities, We Handle the Rest",
-            desc: `We connect you with certified professionals experienced in delivering specialized care services, ranging from Alzheimer&apos;s to ALS support. Our targeted recruitment ensures your facility or home receives the right talent, without delay. `,
+            desc: `We connect you with certified professionals experienced in delivering <a href=\"https://ytchealthcare.com/service/dementia-care/\" ><u>specialized care services</u></a>, ranging from Alzheimer&apos;s to ALS support. Our targeted recruitment ensures your facility or home receives the right talent, without delay. `,
             linkText: "",
             linkHref: "",
             suffix: "",
@@ -102,7 +102,7 @@ const SpecialcareStaffing = () => {
                 <PageHeader
                     img={'/images/01-Certified-Staff-For-Special-Care-Services.jpg'}
                     title={'Certified Staff For Special Care Services'}
-                    description={'YTC Healthcare delivers professional staffing solutions for individuals living with complex medical conditions. Every placement is guided by clinical experience, emotional intelligence, and a deep understanding of specialized care. Facilities and families receive dependable support that adapts to the needs of patients facing long-term or progressive health challenges. We provide focused assistance for Alzheimer&apos;s disease, dementia, acquired brain injuries (ABI), ALS, Parkinson&apos;s disease, and other neurological or cognitive conditions. Our caregivers are trained in mobility support, symptom monitoring, and emotional care, ensuring that each patient receives meaningful attention. Through our special care staffing services, we help individuals live with dignity while easing the demands on families and healthcare teams.'}
+                    description={'YTC Healthcare delivers professional staffing solutions for individuals living with complex medical conditions. Every placement is guided by clinical experience, emotional intelligence, and a deep understanding of specialized care. Facilities and families receive dependable support that adapts to the needs of patients facing long-term or progressive health challenges. We provide focused <a href=\"https://ytchealthcare.com/service/alzheimers-care-staffing/\" ><u>assistance for Alzheimer&apos;s disease</u></a>, dementia, acquired brain injuries (ABI), ALS, Parkinson&apos;s disease, and other neurological or cognitive conditions. Our caregivers are trained in mobility support, symptom monitoring, and emotional care, ensuring that each patient receives meaningful attention. Through our special care staffing services, we help individuals live with dignity while easing the demands on families and healthcare teams.'}
                 />
             </div>
             <section className="staffing-solution my-5 mx-3 sm:mx-4 md:mx-6 bg-white text-gray-900 rounded-tr-[20px] sm:rounded-tr-[25px] md:rounded-tr-[30px] rounded-br-[20px] sm:rounded-br-[25px] md:rounded-br-[30px]">
@@ -145,7 +145,7 @@ const SpecialcareStaffing = () => {
                             {/* Description and CTA */}
                             <div className="text-[#68747A] lg:w-[30%]">
                                 <p className="text-sm sm:text-base mb-4 sm:mb-6">
-                                    Each day, YTC Healthcare connects patients and providers through dedicated, specialized care. Our team delivers expert support for individuals facing Alzheimer&apos;s, dementia, Parkinson&apos;s disease, and acquired brain injuries—conditions that demand both clinical skill and human connection. We serve in both home environments and clinical premises with the same objective: providing specialized healthcare staffing solutions that enhance comfort and continuity. Families and facilities can depend on our team to deliver consistent, respectful care while building trust where it matters most.
+                                    Each day, YTC Healthcare connects patients and providers through dedicated, specialized care. Our team delivers expert support for individuals facing Alzheimer&apos;s, dementia, Parkinson&apos;s disease, and <a href="https://ytchealthcare.com/service/acquired-brain-injury-care/" ><u>acquired brain injuries</u></a>—conditions that demand both clinical skill and human connection. We serve in both home environments and clinical premises with the same objective: providing specialized healthcare staffing solutions that enhance comfort and continuity. Families and facilities can depend on our team to deliver consistent, respectful care while building trust where it matters most.
                                 </p>
                                 <button
                                     className="w-full sm:w-auto mt-4 bg-[#2ea79c] text-white font-semibold px-4 sm:px-6 py-3 rounded-lg hover:bg-[#249486] flex items-center justify-center sm:justify-start gap-2 transition-colors duration-200"
@@ -185,17 +185,17 @@ const SpecialcareStaffing = () => {
                     </div>
 
                     <p className="text-sm md:text-base text-gray-500 mb-3">
-                    Our Vetted Special Care Professionals are ready to Serve
+                        Our Vetted Special Care Professionals are ready to Serve
                     </p>
 
                     <h2 className="text-2xl md:text-4xl font-extrabold text-[#0B2338] leading-tight mb-4">
-                    Special Care Services We Offer for
-                    <br className="hidden sm:block" />
-                    Complex Needs
+                        Special Care Services We Offer for
+                        <br className="hidden sm:block" />
+                        Complex Needs
                     </h2>
 
                     <p className="text-sm md:text-base text-gray-500 max-w-3xl mx-auto">
-                    Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer&apos;s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson&apos;s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive <a href='https://ytchealthcare.com/service/physician/'><u>experienced medical professionals</u></a> who provide continuity, respect, and meaningful care outcomes.
+                        Your Talent Consultancy Healthcare stands as a beacon of healthcare support in specialized care for families and healthcare facilities. Our special care staffing services include expert Alzheimer&apos;s care staffing, thoughtful dementia support, dedicated professionals for acquired brain injury care, and compassionate staffing solutions for ALS and Parkinson&apos;s patients. Each healthcare placement is carefully matched to meet the unique clinical and emotional needs of individuals. Our transparent recruitment process ensures that both families and facilities receive <a href='https://ytchealthcare.com/service/physician/'><u>experienced medical professionals</u></a> who provide continuity, respect, and meaningful care outcomes.
                     </p>
                 </div>
                 <div className="bg-gradient-to-br py-10 px-4 sm:px-8">
@@ -216,7 +216,7 @@ const SpecialcareStaffing = () => {
                                     </div>
                                     <div className="py-6 px-5">
                                         <h3 className="text-xl font-semibold mb-2 text-[#051b2e]">{card.title}</h3>
-                                        <p className="text-[#68747a] text-[15px]">{card.description}</p>
+                                        <p className="text-[#68747a] text-[15px]" dangerouslySetInnerHTML={{ __html: card.description }} />
                                     </div>
                                 </div>
                             </Link>
@@ -248,8 +248,8 @@ const SpecialcareStaffing = () => {
                             </div>
 
                             <h2 className=" font-semibold mb-2 text-lg mt-8">{step.title}</h2>
+                            <p dangerouslySetInnerHTML={{ __html: step.desc }} />
                             <p className="text-md text-[#B3C0CE]">
-                                {step.desc}{" "}
                                 {step.linkText && (
                                     <a href={step.linkHref} className="text-[#4BA08D] underline">
                                         {step.linkText}
@@ -276,9 +276,7 @@ function Card({ icon, title, bg, iconBg, text, highlight, tail }) {
                 {icon}
             </div>
             <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{title}</h3>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-                {text}
-            </p>
+            <p className="text-gray-700 text-sm md:text-base leading-relaxed" dangerouslySetInnerHTML={{ __html: text }} />
         </div>
     );
 }
