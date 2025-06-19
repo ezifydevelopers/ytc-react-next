@@ -15,9 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
 export const metadata = {
   title: "YTC HealthCare",
   description: "YTC HealthCare: Your Healthcare Staffing Provider",
+  alternates: {
+    canonical: 'https://ytchealthcare.com',
+  },
   icons: {
     icon: "/favicon.ico", 
   },

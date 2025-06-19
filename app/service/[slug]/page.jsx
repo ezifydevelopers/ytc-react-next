@@ -1,4 +1,3 @@
-
 import React from 'react'
 import PageHeader from '../../components/pageHeader'
 import ServiceAvalibality from '../../components/Services/serviceAvalibality'
@@ -10,12 +9,21 @@ import Faqs from '../../components/Services/servicesFaqs'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import data from '@/app/components/Services/services.json'
-import Head from 'next/head';
 
 export async function generateStaticParams() {
     const slugs = Object.keys(data);
 
     return slugs.map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  return {
+    alternates: {
+      canonical: `https://ytchealthcare.com/service/${slug}`,
+    },
+    // Optionally add title, description, etc.
+  };
 }
 
 export default function Service({ params }) {
@@ -30,9 +38,6 @@ export default function Service({ params }) {
 
     return (
         <div>
-            <Head>
-                <link rel="canonical" href={`https://ytchealthcare.com/service/${slug}`} />
-            </Head>
             <Header />
             <div className='mx-3 sm:mx-4 md:mx-5'>
                 <PageHeader img={content.pageimage} title={content.pagetitle} description={content.pagedescription} />
