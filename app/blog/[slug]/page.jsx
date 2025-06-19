@@ -5,7 +5,6 @@ import BlogPageHeader from "@/app/components/blogs/BlogPageHeader";
 import RelativePosts from "@/app/components/blogs/RelativePosts";
 import Image from "next/image";
 import Link from "next/link";
-import Head from 'next/head';
 import Faqs from "@/app/components/Services/servicesFaqs";
 
 export async function generateStaticParams() {
@@ -13,11 +12,19 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  return {
+    alternates: {
+      canonical: `https://ytchealthcare.com/blog/${slug}`,
+    },
+  };
+}
+
 const PostComponent = ({ params }) => {
   const slug = params.slug;
   const content = blogs[slug];
 
-  // Handle case where content is not found
   if (!content) {
     return (
       <div className="single-post">
@@ -30,7 +37,6 @@ const PostComponent = ({ params }) => {
     );
   }
 
-  // Special handling for tags route
   if (slug === 'tags') {
     return (
       <div className="single-post">
@@ -57,7 +63,6 @@ const PostComponent = ({ params }) => {
     );
   }
 
-  // Handle regular blog posts
   const renderContent = (content) => {
     if (!content) return '';
     if (typeof content === 'string') return content;
@@ -68,9 +73,6 @@ const PostComponent = ({ params }) => {
 
   return (
     <div className="single-post">
-      <Head>
-        <link rel="canonical" href={`https://ytchealthcare.com/blog/${slug}`} />
-      </Head>
       <Header />
       <div className="mx-auto px-1 py-8">
         <div className="mt-[0px]">

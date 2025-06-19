@@ -12,19 +12,9 @@ import ContactSection from './components/Home/ContactSection';
 import CustomerTestimonial from './components/Home/CustomerTestimonial';
 import Head from 'next/head';
 
-export const metadata = {
-  title: 'YTC Healthcare',
-  alternates: {
-    canonical: 'https://ytchealthcare.com/',
-  },
-};
-
 export default function Home() {
   return (
     <div>
-      <Head>
-        <link rel="canonical" href="https://ytchealthcare.com/" />
-      </Head>
       <Header />
       <HeroSection />
       <StaffingSolutions />
