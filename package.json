@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "next-sitemap && cp ./sitemap*.xml ./public && cp ./robots.txt ./public"
+    "prebuild": "next-sitemap",
+    "build": "next build && next export && cp ./sitemap*.xml ./out/"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
