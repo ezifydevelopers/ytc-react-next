@@ -46,8 +46,16 @@ const QUESTIONS = [
     options: ["ASAP (within 24–72 hrs)", "Within a week", "Planning ahead"],
   },
   {
-    key: "contactInfo",
-    q: "To speed things up, could you share:\n1. Your name (or company/facility name)\n2. E-mail Address \n3. Phone number",
+    key: "name",
+    q: "Great, let's speed things up! What’s your name (or company/facility name)?",
+  },
+  {
+    key: "email",
+    q: "What’s the best email address to reach you?",
+  },
+  {
+    key: "phone",
+    q: "And lastly, what’s your phone number?",
   },
   {
     key: "additional",
@@ -55,9 +63,10 @@ const QUESTIONS = [
   },
   {
     key: "confirmation",
-    q: "Thank you! 🙏 We will review your info and reach out within 24 hours to discuss next steps.\n\nMeanwhile, you can:\n– Browse our [Healthcare Salary Guide]\n– Check out roles on our Careers page\n–",
+    q: "Thank you! 🙏 We will review your info and reach out within 24 hours to discuss next steps.",
   },
 ];
+
 
 const ENDPOINT = "https://ytchealthcare.com/chatbot.php";
 
@@ -142,7 +151,7 @@ export default function Chatbot() {
           from: "bot",
           text:
             data.status === "success"
-              ? "Thank you! Your information has been sent. We will contact you soon."
+              ? "Thank you!"
               : "Sorry, there was a problem. Please try again later.",
         },
       ]);
