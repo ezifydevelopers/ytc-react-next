@@ -82,6 +82,12 @@ header.w-full.flex.items-center.justify-between.px-4.sm\:px-6.lg\:px-6.py-4.bg-w
   background: url('/images/mobile-hero-op.png') no-repeat;
 }
 
+/* Tailwind already covers this if you use classes directly */
+.btn {
+  @apply bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded w-full text-left;
+}
+
+
 @media only screen and (min-width: 640px) {
   .hero-section {
     background: url('/images/hero-section-bg.webp') no-repeat;

@@ -10,6 +10,7 @@ import FAQCard from './components/Home/FaqCard';
 import NewsSection from './components/Home/NewsSection';
 import ContactSection from './components/Home/ContactSection';
 import CustomerTestimonial from './components/Home/CustomerTestimonial';
+import Chatbot from './components/Chatbot';
 import Head from 'next/head';
 
 export default function Home() {

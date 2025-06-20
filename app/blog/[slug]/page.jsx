@@ -21,8 +21,9 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const PostComponent = ({ params }) => {
-  const slug = params.slug;
+const PostComponent = async ({ params }) => {
+  const awaitedParams = await params;
+  const slug = awaitedParams.slug;
   const content = blogs[slug];
 
   if (!content) {
